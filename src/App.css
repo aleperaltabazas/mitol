@@ -54,6 +54,7 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  margin-top: 20px;
   margin-bottom: 32px;
 }
 
@@ -66,7 +67,7 @@
 }
 
 .laurel {
-  width: 72px;
+  width: 48px;
   height: auto;
 }
 
@@ -83,4 +84,18 @@
   color: var(--ink-soft);
   font-style: italic;
   margin-top: 40px;
+}
+
+@media (max-width: 480px) {
+  .temple {
+    max-width: 200px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .laurel {
+    width: 24px;
+  }
 }

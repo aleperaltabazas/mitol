@@ -15,7 +15,7 @@ export function Column({ className }: { className?: string }) {
     >
       <g
         transform="translate(2.0625,-138.90625)"
-        style={{ fill: 'var(--marble)', stroke: 'var(--gold)', strokeWidth: 2.4, strokeLinejoin: 'round' }}
+        style={{ fill: 'var(--marble)', stroke: 'var(--gold)', strokeWidth: 3.6, strokeLinejoin: 'round' }}
       >
         <path d="m 29.17581,372.36671 49.826505,0 c 0,0 3.977527,124.14952 3.772002,155.15954 -0.30474,45.97965 0.514638,128.4226 0.514638,128.4226 l -59.611987,0 c 0,0 -0.599043,-82.85774 0.530318,-127.68529 0.775817,-30.79435 4.968524,-155.89685 4.968524,-155.89685 z" />
         <rect x="6.2168694" y="334.89636" width="94.373444" height="22.100552" />

@@ -1,0 +1,53 @@
+.header {
+  text-align: center;
+  padding-top: 32px;
+}
+
+.temple-graphic {
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  filter: drop-shadow(0 3px 6px var(--shadow));
+}
+
+.title {
+  margin: 8px 0 4px;
+  font-size: 38px;
+  text-transform: uppercase;
+}
+
+.flourish {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 32px;
+}
+
+.flourish::before,
+.flourish::after {
+  content: '';
+  height: 1px;
+  width: 48px;
+  background: var(--border);
+}
+
+.laurel {
+  width: 72px;
+  height: auto;
+}
+
+.subtitle {
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.empty-state {
+  text-align: center;
+  color: var(--ink-soft);
+  font-style: italic;
+  margin-top: 40px;
+}

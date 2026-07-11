@@ -1,0 +1,65 @@
+@import '@fontsource/cinzel/latin-600.css';
+@import '@fontsource/eb-garamond/latin-400.css';
+@import '@fontsource/eb-garamond/latin-400-italic.css';
+@import '@fontsource/eb-garamond/latin-600.css';
+
+:root {
+  --parchment: #f3ead9;
+  --parchment-dark: #e7dabf;
+  --marble: #fbf7ee;
+  --ink: #2c2620;
+  --ink-soft: #5a5044;
+  --terracotta: #a8542f;
+  --terracotta-dark: #8a4325;
+  --gold: #b8923f;
+  --border: #cbb98c;
+  --shadow: rgba(44, 38, 32, 0.18);
+
+  --serif: 'EB Garamond', 'Iowan Old Style', Georgia, serif;
+  --display: 'Cinzel', 'Trajan Pro', var(--serif);
+
+  color-scheme: light;
+  color: var(--ink);
+  background: var(--parchment);
+  font: 19px/1.6 var(--serif);
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+  background:
+    radial-gradient(circle at top, rgba(184, 146, 63, 0.08), transparent 60%),
+    var(--parchment);
+}
+
+#root {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 20px 64px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--display);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  font-family: var(--serif);
+}
+
+input {
+  font-family: var(--serif);
+}

@@ -6,6 +6,7 @@ const puzzle: Puzzle = {
   id: 'atenea',
   answer: 'Atenea',
   hints: ['h1', 'h2', 'h3', 'h4', 'h5'],
+  description: 'Una descripción de prueba.',
 }
 
 describe('unlimited mode', () => {

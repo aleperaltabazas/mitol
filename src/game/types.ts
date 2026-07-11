@@ -2,6 +2,8 @@ export interface Puzzle {
   id: string
   answer: string
   hints: [string, string, string, string, string]
+  description: string
+  imageUrl?: string
 }
 
 export type GameMode = 'progressive' | 'unlimited'

@@ -1,5 +1,5 @@
 import { fireEvent, render, screen } from '@testing-library/react'
-import { describe, expect, it } from 'vitest'
+import { beforeEach, describe, expect, it, vi } from 'vitest'
 import type { Puzzle } from '../game/types'
 import { Game } from './Game'
 
@@ -7,20 +7,18 @@ const puzzle: Puzzle = {
   id: 'atenea',
   answer: 'Atenea',
   hints: ['h1', 'h2', 'h3', 'h4', 'h5'],
+  description: 'Una descripción de prueba.',
 }
 
 describe('Game', () => {
+  beforeEach(() => {
+    Object.assign(navigator, { clipboard: { writeText: vi.fn().mockResolvedValue(undefined) } })
+  })
+
   it('renders hint 1 initially', () => {
     render(<Game puzzle={puzzle} mode="progressive" isoDate="2026-07-10" />)
     expect(screen.getByText('h1')).toBeInTheDocument()
     expect(screen.queryByText('h2')).not.toBeInTheDocument()
-  })
-
-  it('reaches the share result on a correct guess', () => {
-    render(<Game puzzle={puzzle} mode="progressive" isoDate="2026-07-10" />)
-    fireEvent.change(screen.getByRole('textbox'), { target: { value: 'Atenea' } })
-    fireEvent.click(screen.getByRole('button', { name: /adivinar/i }))
-    expect(screen.getByText('Atenea', { selector: 'strong' })).toBeInTheDocument()
   })
 
   it('shows the skip button in progressive mode and reveal-hint in unlimited mode', () => {
@@ -29,5 +27,42 @@ describe('Game', () => {
 
     rerender(<Game puzzle={puzzle} mode="unlimited" isoDate="2026-07-10" />)
     expect(screen.getByRole('button', { name: /pista siguiente/i })).toBeInTheDocument()
+  })
+
+  it('opens a result modal on a correct guess, revealing every hint underneath', () => {
+    render(<Game puzzle={puzzle} mode="progressive" isoDate="2026-07-10" />)
+    fireEvent.change(screen.getByRole('textbox'), { target: { value: 'Atenea' } })
+    fireEvent.click(screen.getByRole('button', { name: /adivinar/i }))
+
+    expect(screen.getByRole('dialog')).toBeInTheDocument()
+    expect(screen.getByText('¡Lo lograste!')).toBeInTheDocument()
+    expect(screen.getByText('h1')).toBeInTheDocument()
+    expect(screen.getByText('h2')).toBeInTheDocument()
+    expect(screen.getByText('h5')).toBeInTheDocument()
+  })
+
+  it('opens a result modal after exhausting all guesses, revealing every hint', () => {
+    render(<Game puzzle={puzzle} mode="progressive" isoDate="2026-07-10" />)
+    for (let i = 0; i < 5; i++) {
+      fireEvent.change(screen.getByRole('textbox'), { target: { value: 'zeus' } })
+      fireEvent.click(screen.getByRole('button', { name: /adivinar/i }))
+    }
+
+    expect(screen.getByRole('dialog')).toBeInTheDocument()
+    expect(screen.getByText('No lo lograste')).toBeInTheDocument()
+    expect(screen.getByText('h5')).toBeInTheDocument()
+  })
+
+  it('moves the result to the main screen only after the modal is closed', () => {
+    render(<Game puzzle={puzzle} mode="progressive" isoDate="2026-07-10" />)
+    fireEvent.change(screen.getByRole('textbox'), { target: { value: 'Atenea' } })
+    fireEvent.click(screen.getByRole('button', { name: /adivinar/i }))
+
+    expect(screen.getByRole('dialog')).toBeInTheDocument()
+
+    fireEvent.click(screen.getByRole('button', { name: /cerrar/i }))
+
+    expect(screen.queryByRole('dialog')).not.toBeInTheDocument()
+    expect(screen.getByText('Atenea', { selector: 'strong' })).toBeInTheDocument()
   })
 })

@@ -5,6 +5,7 @@ import { progressiveShareText, unlimitedShareText } from '../game/share'
 import type { GameMode, GameState, Puzzle } from '../game/types'
 import { GuessInput } from './GuessInput'
 import { HintList } from './HintList'
+import { ResultModal } from './ResultModal'
 import { ShareResult } from './ShareResult'
 
 interface GameProps {
@@ -20,39 +21,52 @@ function initState(puzzle: Puzzle, mode: GameMode): GameState {
 }
 
 function revealedCount(state: GameState): number {
+  if (state.status !== 'playing') {
+    return 5
+  }
   return state.mode === 'progressive' ? Math.min(state.outcomes.length + 1, 5) : state.revealedHints
 }
 
 export function Game({ puzzle, mode, isoDate }: GameProps) {
   const [state, setState] = useState<GameState>(() => initState(puzzle, mode))
+  const [modalOpen, setModalOpen] = useState(false)
+
+  function applyState(next: GameState) {
+    if (state.status === 'playing' && next.status !== 'playing') {
+      setModalOpen(true)
+    }
+    setState(next)
+  }
 
   function handleGuess(rawGuess: string) {
     if (state.mode === 'progressive') {
-      setState(getEngine('progressive').guess(state, puzzle, rawGuess))
+      applyState(getEngine('progressive').guess(state, puzzle, rawGuess))
     } else {
-      setState(getEngine('unlimited').guess(state, puzzle, rawGuess))
+      applyState(getEngine('unlimited').guess(state, puzzle, rawGuess))
     }
   }
 
   function handleSkip() {
     if (state.mode === 'progressive') {
-      setState(getEngine('progressive').skip(state, puzzle))
+      applyState(getEngine('progressive').skip(state, puzzle))
     }
   }
 
   function handleRevealHint() {
     if (state.mode === 'unlimited') {
-      setState(getEngine('unlimited').revealNextHint(state))
+      applyState(getEngine('unlimited').revealNextHint(state))
     }
   }
 
   function handleGiveUp() {
     if (state.mode === 'unlimited') {
-      setState(getEngine('unlimited').giveUp(state))
+      applyState(getEngine('unlimited').giveUp(state))
     }
   }
 
   const gameOver = state.status !== 'playing'
+  const shareText =
+    state.mode === 'progressive' ? progressiveShareText(state, isoDate) : unlimitedShareText(state, isoDate)
 
   return (
     <div className="game">
@@ -67,14 +81,22 @@ export function Game({ puzzle, mode, isoDate }: GameProps) {
           hintsExhausted={state.mode === 'unlimited' && state.revealedHints >= 5}
         />
       )}
-      {gameOver && (
-        <ShareResult
-          shareText={
-            state.mode === 'progressive'
-              ? progressiveShareText(state, isoDate)
-              : unlimitedShareText(state, isoDate)
-          }
+      {gameOver && modalOpen && (
+        <ResultModal
+          shareText={shareText}
           answer={puzzle.answer}
+          description={puzzle.description}
+          imageUrl={puzzle.imageUrl}
+          status={state.status as Exclude<typeof state.status, 'playing'>}
+          onClose={() => setModalOpen(false)}
+        />
+      )}
+      {gameOver && !modalOpen && (
+        <ShareResult
+          shareText={shareText}
+          answer={puzzle.answer}
+          description={puzzle.description}
+          imageUrl={puzzle.imageUrl}
         />
       )}
     </div>

@@ -136,8 +136,19 @@
   font-size: 18px;
 }
 
-.share-result button {
-  padding: 10px 20px;
+.actions-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.copy-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 22px;
   border: 1px solid var(--gold);
   border-radius: 2px;
   background: var(--marble);
@@ -147,8 +158,104 @@
   letter-spacing: 0.08em;
   text-transform: uppercase;
   cursor: pointer;
+  box-shadow: 0 1px 3px var(--shadow);
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease,
+    transform 0.1s ease,
+    box-shadow 0.15s ease;
 }
 
-.share-result button:hover {
+.copy-button svg {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+}
+
+.copy-button:hover {
   background: var(--parchment-dark);
+  box-shadow: 0 2px 6px var(--shadow);
+}
+
+.copy-button:active {
+  transform: translateY(1px);
+  box-shadow: 0 1px 2px var(--shadow);
+}
+
+.copy-button[data-copied='true'] {
+  background: var(--terracotta);
+  border-color: var(--terracotta);
+  color: var(--marble);
+}
+
+.result-image {
+  display: block;
+  max-width: 100%;
+  max-height: 280px;
+  margin: 0 auto 16px;
+  border-radius: 2px;
+  border: 1px solid var(--border);
+  object-fit: cover;
+}
+
+.result-description {
+  text-align: left;
+  font-family: var(--serif);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  margin: 16px 0;
+}
+
+.result-description :first-child {
+  margin-top: 0;
+}
+
+.result-description :last-child {
+  margin-bottom: 0;
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  z-index: 100;
+}
+
+.modal {
+  background: var(--marble);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 32px;
+  max-width: 480px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  text-align: center;
+  box-shadow: 0 8px 32px var(--shadow);
+}
+
+.modal h2 {
+  margin-top: 0;
+}
+
+.modal-close {
+  padding: 10px 20px;
+  border: 1px solid var(--terracotta);
+  border-radius: 2px;
+  background: var(--terracotta);
+  color: var(--marble);
+  font-family: var(--display);
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.modal-close:hover {
+  background: var(--terracotta-dark);
 }

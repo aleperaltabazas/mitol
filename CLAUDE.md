@@ -52,3 +52,7 @@ the author's own A/B testing — not yet user-facing:
 - No fuzzy/typo-tolerant matching — normalization only (diacritics/case/whitespace).
 - Third-party visual assets (the temple/laurel SVGs) are tracked with license info in
   `ATTRIBUTION.md` — check it before adding or modifying those.
+- The header temple is deliberately split into `Pediment`/`Column`/`Staircase` (one shared
+  source coordinate space, sliced at the seams) instead of one image, so the title can sit
+  inscribed between two columns. Placement here is still being iterated — don't assume the
+  current layout is final without asking.

@@ -3,16 +3,49 @@
   padding-top: 32px;
 }
 
-.temple-graphic {
+.temple {
   width: 100%;
   max-width: 340px;
-  height: auto;
+  margin: 0 auto;
   filter: drop-shadow(0 3px 6px var(--shadow));
 }
 
+.temple-pediment,
+.temple-staircase {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.temple-columns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6px;
+  margin-top: -1px;
+}
+
+.temple-staircase {
+  margin-top: -1px;
+}
+
+.temple-column {
+  display: block;
+  width: 9.5%;
+  aspect-ratio: 98 / 250;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.temple-column--right {
+  transform: scaleX(-1);
+}
+
 .title {
-  margin: 8px 0 4px;
-  font-size: 38px;
+  margin: 0;
+  padding: 0 4px;
+  font-size: 28px;
+  line-height: 1;
   text-transform: uppercase;
 }
 

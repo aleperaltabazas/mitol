@@ -2,15 +2,24 @@ import './App.css'
 import { getGameMode } from './config/mode'
 import { Game } from './components/Game'
 import { LaurelSprig } from './components/LaurelSprig'
-import { TempleGraphic } from './components/TempleGraphic'
+import { Pediment } from './components/Pediment'
+import { Column } from './components/Column'
+import { Staircase } from './components/Staircase'
 import { argentinaTodayISO } from './game/schedule'
 import { loadTodaysPuzzle } from './game/loadPuzzle'
 
 function Header() {
   return (
     <header className="header">
-      <TempleGraphic className="temple-graphic" />
-      <h1 className="title">Mitol</h1>
+      <div className="temple">
+        <Pediment className="temple-pediment" />
+        <div className="temple-columns">
+          <Column className="temple-column" />
+          <h1 className="title">Mitol</h1>
+          <Column className="temple-column temple-column--right" />
+        </div>
+        <Staircase className="temple-staircase" />
+      </div>
       <div className="flourish">
         <LaurelSprig className="laurel" flip />
         <LaurelSprig className="laurel" />

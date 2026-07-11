@@ -5,7 +5,7 @@
 
 .temple {
   width: 100%;
-  max-width: 340px;
+  max-width: 400px;
   margin: 0 auto;
   filter: drop-shadow(0 3px 6px var(--shadow));
 }
@@ -21,7 +21,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 6px;
+  padding: 0 10px;
   margin-top: -1px;
 }
 
@@ -44,7 +44,7 @@
 .title {
   margin: 0;
   padding: 0 4px;
-  font-size: 28px;
+  font-size: 32px;
   line-height: 1;
   text-transform: uppercase;
 }

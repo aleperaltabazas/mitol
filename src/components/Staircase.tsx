@@ -1,13 +1,13 @@
 // Derived from "Greek temple.svg" by Raymond1922A (Wikimedia Commons),
 // licensed CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:Greek_temple.svg
 // Simplified and recolored to use the site's theme variables. Bottom slice
-// of the temple facade (steps + plinth) — top edge touches Column's shaft
-// base.
+// of the temple facade (steps + a slim plinth) — top edge touches Column's
+// shaft base.
 export function Staircase({ className }: { className?: string }) {
   return (
     <svg
       className={className}
-      viewBox="0 516.3 748.46875 100.7"
+      viewBox="0 516.3 748.46875 72"
       xmlns="http://www.w3.org/2000/svg"
       aria-hidden="true"
     >
@@ -24,8 +24,8 @@ export function Staircase({ className }: { className?: string }) {
           <rect x="-5.9611864" y="663.36096" width="669.60321" height="7.0017328" />
           <rect x="-2.0772591" y="656.42053" width="662.06732" height="6.9300261" />
         </g>
-        <rect x="-1.4395416" y="705.8114" width="373.61234" height="48.800392" />
-        <rect x="372.17688" y="705.8114" width="373.60715" height="48.8004" />
+        <rect x="-1.4395416" y="705.8114" width="373.61234" height="20" />
+        <rect x="372.17688" y="705.8114" width="373.60715" height="20" />
       </g>
     </svg>
   )

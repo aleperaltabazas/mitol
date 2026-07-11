@@ -1,0 +1,11 @@
+{
+  id: "atenea",
+  answer: "Atenea",
+  hints: [
+    "Nací completamente armada de la cabeza de mi padre.",
+    "Soy diosa de la sabiduría y la guerra estratégica.",
+    "Una ciudad griega lleva mi nombre.",
+    "Mi símbolo es la lechuza.",
+    "Compito con Poseidón por el patronazgo de Atenas y gano con un olivo.",
+  ],
+}

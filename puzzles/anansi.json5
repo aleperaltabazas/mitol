@@ -1,0 +1,11 @@
+{
+  id: "anansi",
+  answer: "Anansi",
+  hints: [
+    "Soy un personaje de la tradición akan de África Occidental.",
+    "Suelo tomar la forma de un animal artrópodo.",
+    "Soy conocido por mi astucia y mis engaños.",
+    "Mis historias viajaron al Caribe con la diáspora africana.",
+    "Tejo telarañas y soy, literalmente, una araña.",
+  ],
+}

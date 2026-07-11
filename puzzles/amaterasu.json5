@@ -1,0 +1,11 @@
+{
+  id: "amaterasu",
+  answer: "Amaterasu",
+  hints: [
+    "Soy una deidad solar del panteón sintoísta.",
+    "Me escondí en una cueva y sumí al mundo en oscuridad.",
+    "Otros dioses usaron un espejo para hacerme salir.",
+    "Soy hija de Izanagi.",
+    "Se dice que la familia imperial japonesa desciende de mí.",
+  ],
+}

@@ -21,4 +21,16 @@ describe('HintList', () => {
     expect(items[2]).toHaveAttribute('data-revealed', 'false')
     expect(items[0]).toHaveAttribute('data-revealed', 'true')
   })
+
+  it('renders markdown italics and bold in revealed hints', () => {
+    render(
+      <HintList
+        hints={['*italic* and **bold**', 'h2', 'h3', 'h4', 'h5']}
+        revealedCount={1}
+      />,
+    )
+    const item = screen.getAllByRole('listitem')[0]
+    expect(item.querySelector('em')).toHaveTextContent('italic')
+    expect(item.querySelector('strong')).toHaveTextContent('bold')
+  })
 })

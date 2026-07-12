@@ -52,7 +52,7 @@ describe('PuzzlePicker', () => {
       <PuzzlePicker todayISO="2026-07-12" selectedIsoDate="2026-07-12" mode="progressive" onSelect={() => {}} />,
     )
     fireEvent.click(screen.getByRole('button', { name: /días anteriores/i }))
-    const preview = screen.getByText('"Soy una deidad solar del panteón sintoísta."')
+    const preview = screen.getByText('"Diosa del sol"')
     expect(preview).toBeInTheDocument()
     expect(preview).toHaveAttribute('data-variant', 'hint')
   })
@@ -70,7 +70,7 @@ describe('PuzzlePicker', () => {
     )
     fireEvent.click(screen.getByRole('button', { name: /días anteriores/i }))
     expect(
-      screen.getByText('"Otros dioses usaron un espejo para hacerme salir."'),
+      screen.getByText('"Según la leyenda, se encerró en una cueva, sumiendo al mundo en oscuridad"'),
     ).toBeInTheDocument()
   })
 

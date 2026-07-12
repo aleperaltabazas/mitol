@@ -1,3 +1,5 @@
+import { marked } from 'marked'
+
 interface HintListProps {
   hints: readonly string[]
   revealedCount: number
@@ -9,9 +11,13 @@ export function HintList({ hints, revealedCount }: HintListProps) {
       {hints.map((hint, index) => {
         const revealed = index < revealedCount
         return (
-          <li key={index} data-revealed={revealed}>
-            {revealed ? hint : '· · ·'}
-          </li>
+          <li
+            key={index}
+            data-revealed={revealed}
+            {...(revealed
+              ? { dangerouslySetInnerHTML: { __html: marked.parseInline(hint, { async: false }) } }
+              : { children: '· · ·' })}
+          />
         )
       })}
     </ol>

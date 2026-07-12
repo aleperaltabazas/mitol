@@ -11,7 +11,7 @@ import { ShareResult } from './ShareResult'
 interface GameProps {
   puzzle: Puzzle
   mode: GameMode
-  isoDate: string
+  puzzleNumber: number
 }
 
 function initState(puzzle: Puzzle, mode: GameMode): GameState {
@@ -27,7 +27,7 @@ function revealedCount(state: GameState): number {
   return state.mode === 'progressive' ? Math.min(state.outcomes.length + 1, 5) : state.revealedHints
 }
 
-export function Game({ puzzle, mode, isoDate }: GameProps) {
+export function Game({ puzzle, mode, puzzleNumber }: GameProps) {
   const [state, setState] = useState<GameState>(() => initState(puzzle, mode))
   const [modalOpen, setModalOpen] = useState(false)
 
@@ -66,7 +66,9 @@ export function Game({ puzzle, mode, isoDate }: GameProps) {
 
   const gameOver = state.status !== 'playing'
   const shareText =
-    state.mode === 'progressive' ? progressiveShareText(state, isoDate) : unlimitedShareText(state, isoDate)
+    state.mode === 'progressive'
+      ? progressiveShareText(state, puzzleNumber, puzzle.hints[0], window.location.href)
+      : unlimitedShareText(state, puzzleNumber, puzzle.hints[0], window.location.href)
 
   return (
     <div className="game">

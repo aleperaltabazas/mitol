@@ -1,6 +1,6 @@
 import JSON5 from 'json5'
 import scheduleRaw from '../../schedule.json5?raw'
-import { argentinaTodayISO, resolvePuzzleId } from './schedule'
+import { argentinaTodayISO, resolvePuzzleId, resolvePuzzleNumber } from './schedule'
 import type { Puzzle } from './types'
 
 const puzzleModules = import.meta.glob('../../puzzles/*.json5', {
@@ -19,6 +19,8 @@ const schedule = JSON5.parse(scheduleRaw) as Record<string, string>
 
 export interface LoadPuzzleResult {
   puzzle?: Puzzle
+  puzzleNumber?: number
+  isoDate?: string
   error?: 'no-puzzle-scheduled'
 }
 
@@ -29,5 +31,5 @@ export function loadTodaysPuzzle(now: Date = new Date()): LoadPuzzleResult {
   if (!puzzle) {
     return { error: 'no-puzzle-scheduled' }
   }
-  return { puzzle }
+  return { puzzle, puzzleNumber: resolvePuzzleNumber(schedule, isoDate), isoDate }
 }

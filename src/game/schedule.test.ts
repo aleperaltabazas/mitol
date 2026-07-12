@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { argentinaTodayISO, resolvePuzzleId } from './schedule'
+import { argentinaTodayISO, formatLongDate, resolvePuzzleId, resolvePuzzleNumber } from './schedule'
 
 describe('argentinaTodayISO', () => {
   it('resolves a UTC midday timestamp to the same calendar day in Argentina (UTC-3)', () => {
@@ -27,5 +27,26 @@ describe('resolvePuzzleId', () => {
   it('returns undefined when no puzzle is scheduled for that date', () => {
     const schedule = { '2026-07-10': 'athena' }
     expect(resolvePuzzleId(schedule, '2026-07-12')).toBeUndefined()
+  })
+})
+
+describe('resolvePuzzleNumber', () => {
+  it('returns the 1-based position of the date among the sorted schedule keys', () => {
+    const schedule = { '2026-07-10': 'athena', '2026-07-11': 'amaterasu', '2026-07-12': 'anansi' }
+    expect(resolvePuzzleNumber(schedule, '2026-07-10')).toBe(1)
+    expect(resolvePuzzleNumber(schedule, '2026-07-11')).toBe(2)
+    expect(resolvePuzzleNumber(schedule, '2026-07-12')).toBe(3)
+  })
+
+  it('is unaffected by key insertion order, since it sorts the dates', () => {
+    const schedule = { '2026-07-12': 'anansi', '2026-07-10': 'athena' }
+    expect(resolvePuzzleNumber(schedule, '2026-07-10')).toBe(1)
+    expect(resolvePuzzleNumber(schedule, '2026-07-12')).toBe(2)
+  })
+})
+
+describe('formatLongDate', () => {
+  it('formats an ISO date as a long Spanish date', () => {
+    expect(formatLongDate('2026-07-12')).toBe('12 de julio de 2026')
   })
 })

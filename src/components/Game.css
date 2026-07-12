@@ -120,17 +120,6 @@
   text-align: center;
 }
 
-.share-result pre {
-  font-family: var(--serif);
-  font-size: 20px;
-  line-height: 1.5;
-  background: var(--parchment);
-  border: 1px solid var(--border);
-  border-radius: 2px;
-  padding: 20px;
-  white-space: pre-wrap;
-}
-
 .share-result p {
   margin: 16px 0;
   font-size: 18px;

@@ -11,9 +11,25 @@ export function argentinaTodayISO(now: Date = new Date()): string {
   return argentinaDateFormatter.format(now)
 }
 
+const longDateFormatter = new Intl.DateTimeFormat('es-AR', {
+  timeZone: 'UTC',
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+})
+
+export function formatLongDate(isoDate: string): string {
+  return longDateFormatter.format(new Date(`${isoDate}T00:00:00Z`))
+}
+
 export function resolvePuzzleId(
   schedule: Record<string, string>,
   isoDate: string,
 ): string | undefined {
   return schedule[isoDate]
+}
+
+export function resolvePuzzleNumber(schedule: Record<string, string>, isoDate: string): number {
+  const dates = Object.keys(schedule).sort()
+  return dates.indexOf(isoDate) + 1
 }

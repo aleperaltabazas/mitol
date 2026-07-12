@@ -22,7 +22,7 @@ export function ResultModal({ shareText, answer, description, imageUrl, status, 
     <div className="modal-overlay" role="dialog" aria-modal="true">
       <div className="modal">
         <h2>{TITLE_BY_STATUS[status]}</h2>
-        <ResultDetails shareText={shareText} answer={answer} description={description} imageUrl={imageUrl} />
+        <ResultDetails answer={answer} description={description} imageUrl={imageUrl} />
         <div className="actions-row">
           <CopyButton shareText={shareText} />
           <button type="button" className="modal-close" onClick={onClose}>

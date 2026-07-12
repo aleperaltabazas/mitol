@@ -7,11 +7,13 @@ describe('loadTodaysPuzzle', () => {
     expect(result.puzzle?.id).toBe('atenea')
     expect(result.puzzle?.answer).toBe('Atenea')
     expect(result.puzzle?.hints).toHaveLength(5)
+    expect(result.puzzleNumber).toBe(1)
   })
 
   it('loads a different puzzle for a different scheduled date', () => {
     const result = loadTodaysPuzzle(new Date('2026-07-11T12:00:00Z'))
     expect(result.puzzle?.id).toBe('amaterasu')
+    expect(result.puzzleNumber).toBe(2)
   })
 
   it('returns no puzzle when nothing is scheduled for that date', () => {

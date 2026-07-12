@@ -2,35 +2,34 @@ import { describe, expect, it } from 'vitest'
 import type { ProgressiveState, UnlimitedState } from './types'
 import { progressiveShareText, unlimitedShareText } from './share'
 
+const URL = 'https://mitol.app'
+
 describe('progressiveShareText', () => {
-  it('renders an emoji grid and a win title', () => {
+  it('renders the puzzle number, first hint, ratio and emoji grid', () => {
     const state: ProgressiveState = {
       puzzleId: 'atenea',
       mode: 'progressive',
       status: 'won',
       outcomes: ['skip', 'wrong', 'correct'],
     }
-    const text = progressiveShareText(state, '2026-07-10')
-    expect(text).toContain('⬜❌✅')
-    expect(text).toContain('2026-07-10')
-    expect(text).toContain('Resuelto')
+    const text = progressiveShareText(state, 5, 'Nací completamente armada.', URL)
+    expect(text).toBe('Mitol #5: "Nací completamente armada."\n3/5 ⬜❌✅\nhttps://mitol.app')
   })
 
-  it('renders a loss title when the game was lost', () => {
+  it('renders a full grid on a loss', () => {
     const state: ProgressiveState = {
       puzzleId: 'atenea',
       mode: 'progressive',
       status: 'lost',
       outcomes: ['wrong', 'wrong', 'wrong', 'wrong', 'wrong'],
     }
-    const text = progressiveShareText(state, '2026-07-10')
-    expect(text).toContain('❌❌❌❌❌')
-    expect(text).not.toContain('Resuelto')
+    const text = progressiveShareText(state, 5, 'Nací completamente armada.', URL)
+    expect(text).toContain('5/5 ❌❌❌❌❌')
   })
 })
 
 describe('unlimitedShareText', () => {
-  it('reports hints and guesses used on a win', () => {
+  it('renders a hint-reveal grid capped by a win emoji', () => {
     const state: UnlimitedState = {
       puzzleId: 'atenea',
       mode: 'unlimited',
@@ -38,12 +37,11 @@ describe('unlimitedShareText', () => {
       revealedHints: 3,
       wrongGuesses: 2,
     }
-    const text = unlimitedShareText(state, '2026-07-10')
-    expect(text).toContain('3 pistas')
-    expect(text).toContain('2 intentos')
+    const text = unlimitedShareText(state, 5, 'Nací completamente armada.', URL)
+    expect(text).toBe('Mitol #5: "Nací completamente armada."\n3/5 🟨🟨🟨✅\nhttps://mitol.app')
   })
 
-  it('reports a give-up state', () => {
+  it('renders a give-up flag instead of the win check', () => {
     const state: UnlimitedState = {
       puzzleId: 'atenea',
       mode: 'unlimited',
@@ -51,7 +49,7 @@ describe('unlimitedShareText', () => {
       revealedHints: 5,
       wrongGuesses: 4,
     }
-    const text = unlimitedShareText(state, '2026-07-10')
-    expect(text).toContain('Me rendí')
+    const text = unlimitedShareText(state, 5, 'Nací completamente armada.', URL)
+    expect(text).toContain('5/5 🟨🟨🟨🟨🟨🏳️')
   })
 })

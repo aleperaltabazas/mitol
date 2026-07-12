@@ -1,8 +1,11 @@
+export type Difficulty = 1 | 2 | 3 | 4 | 5
+
 export interface Puzzle {
   id: string
   answer: string
   hints: [string, string, string, string, string]
   description: string
+  difficulty: Difficulty
   imageUrl?: string
 }
 

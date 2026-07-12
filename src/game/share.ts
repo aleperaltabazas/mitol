@@ -6,15 +6,22 @@ const OUTCOME_EMOJI: Record<GuessOutcome, string> = {
   skip: '⬜',
 }
 
-export function progressiveShareText(state: ProgressiveState, isoDate: string): string {
+export function progressiveShareText(
+  state: ProgressiveState,
+  puzzleNumber: number,
+  firstHint: string,
+  url: string,
+): string {
   const grid = state.outcomes.map((outcome) => OUTCOME_EMOJI[outcome]).join('')
-  const title = state.status === 'won' ? '¡Resuelto!' : 'No lo logré'
-  return `Mitol ${isoDate} — ${title}\n${grid}`
+  return `Mitol #${puzzleNumber}: "${firstHint}"\n${state.outcomes.length}/5 ${grid}\n${url}`
 }
 
-export function unlimitedShareText(state: UnlimitedState, isoDate: string): string {
-  if (state.status === 'gaveup') {
-    return `Mitol ${isoDate} — Me rendí (${state.revealedHints} pistas, ${state.wrongGuesses} intentos)`
-  }
-  return `Mitol ${isoDate} — Resuelto con ${state.revealedHints} pistas y ${state.wrongGuesses} intentos`
+export function unlimitedShareText(
+  state: UnlimitedState,
+  puzzleNumber: number,
+  firstHint: string,
+  url: string,
+): string {
+  const grid = '🟨'.repeat(state.revealedHints) + (state.status === 'won' ? '✅' : '🏳️')
+  return `Mitol #${puzzleNumber}: "${firstHint}"\n${state.revealedHints}/5 ${grid}\n${url}`
 }

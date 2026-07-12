@@ -38,6 +38,14 @@ function validatePuzzleShape(id: string, data: unknown): string[] {
   if (typeof puzzle.description !== 'string' || puzzle.description.trim().length === 0) {
     errors.push(`${id}: falta el campo "description" o está vacío`)
   }
+  if (
+    typeof puzzle.difficulty !== 'number' ||
+    !Number.isInteger(puzzle.difficulty) ||
+    puzzle.difficulty < 1 ||
+    puzzle.difficulty > 5
+  ) {
+    errors.push(`${id}: "difficulty" debe ser un entero entre 1 y 5`)
+  }
   if (puzzle.imageUrl !== undefined && (typeof puzzle.imageUrl !== 'string' || puzzle.imageUrl.trim().length === 0)) {
     errors.push(`${id}: "imageUrl", si está presente, debe ser un string no vacío`)
   }
@@ -57,7 +65,7 @@ function cmdNew(id: string): void {
     console.error(`Ya existe puzzles/${id}.json5`)
     process.exit(1)
   }
-  const stub: Puzzle = { id, answer: '', hints: ['', '', '', '', ''], description: '' }
+  const stub: Puzzle = { id, answer: '', hints: ['', '', '', '', ''], description: '', difficulty: 3 }
   writeFileSync(path, JSON5.stringify(stub, null, 2) + '\n')
   console.log(`Creado puzzles/${id}.json5`)
   console.log(`Recordá agregar "${id}" a schedule.json5`)

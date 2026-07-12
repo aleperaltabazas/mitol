@@ -7,6 +7,7 @@ const puzzle: Puzzle = {
   answer: 'Atenea',
   hints: ['h1', 'h2', 'h3', 'h4', 'h5'],
   description: 'Una descripción de prueba.',
+  difficulty: 3,
 }
 
 describe('progressive mode', () => {

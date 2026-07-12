@@ -9,4 +9,5 @@
     "Compito con Poseidón por el patronazgo de Atenas y gano con un olivo.",
   ],
   description: "**Atenea** es la diosa griega de la sabiduría, la estrategia militar y la artesanía. Nació ya adulta y armada de la cabeza de Zeus, tras haber sido tragada por él siendo su madre Metis. Su símbolo es la lechuza y su árbol el olivo, con el que ganó el patronazgo de Atenas frente a Poseidón.",
+  difficulty: 2,
 }

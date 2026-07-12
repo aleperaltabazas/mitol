@@ -27,7 +27,8 @@ JSON5 for content files. UI language is Spanish.
 ## Data model
 
 - `schedule.json5` (repo root): ISO date → puzzle id. "Today" is resolved in Argentina time.
-- `puzzles/<id>.json5`: one file per puzzle, exactly 5 fixed hints + a canonical `answer`.
+- `puzzles/<id>.json5`: one file per puzzle, exactly 5 fixed hints + a canonical `answer`, plus
+  a `difficulty` rating (1–5, see `game/difficulty.ts` for the Spanish labels).
 - Answer matching is case/whitespace/diacritic-insensitive (see `game/normalize.ts`), but has
   no fuzzy typo tolerance.
 - Greek and Roman names for the same figure (e.g. Zeus/Jupiter) are treated as **distinct**

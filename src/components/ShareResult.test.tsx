@@ -7,7 +7,7 @@ describe('ShareResult', () => {
     Object.assign(navigator, { clipboard: { writeText: vi.fn().mockResolvedValue(undefined) } })
   })
 
-  it('renders the share text and the answer', () => {
+  it('renders the answer but not the raw share text', () => {
     render(
       <ShareResult
         shareText={'Mitol 2026-07-10 — ¡Resuelto!\n✅'}
@@ -15,8 +15,8 @@ describe('ShareResult', () => {
         description="Diosa de la sabiduría."
       />,
     )
-    expect(screen.getByText(/¡Resuelto!/)).toBeInTheDocument()
     expect(screen.getByText('Atenea')).toBeInTheDocument()
+    expect(screen.queryByText(/¡Resuelto!/)).not.toBeInTheDocument()
   })
 
   it('renders the description as markdown', () => {

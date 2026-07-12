@@ -5,10 +5,17 @@ import { LaurelSprig } from './components/LaurelSprig'
 import { Pediment } from './components/Pediment'
 import { Column } from './components/Column'
 import { Staircase } from './components/Staircase'
-import { argentinaTodayISO } from './game/schedule'
+import { difficultyLabel } from './game/difficulty'
 import { loadTodaysPuzzle } from './game/loadPuzzle'
+import { formatLongDate } from './game/schedule'
+import type { Difficulty } from './game/types'
 
-function Header() {
+interface HeaderProps {
+  isoDate?: string
+  difficulty?: Difficulty
+}
+
+function Header({ isoDate, difficulty }: HeaderProps) {
   return (
     <header className="header">
       <div className="temple">
@@ -20,6 +27,12 @@ function Header() {
         </div>
         <Staircase className="temple-staircase" />
       </div>
+      <p className="subtitle">Adiviná la figura mitológica según las pistas</p>
+      {isoDate && difficulty && (
+        <p className="meta">
+          {formatLongDate(isoDate)} | Dificultad: {difficultyLabel(difficulty)}
+        </p>
+      )}
       <div className="flourish">
         <LaurelSprig className="laurel" flip />
         <LaurelSprig className="laurel" />
@@ -29,7 +42,7 @@ function Header() {
 }
 
 function App() {
-  const { puzzle } = loadTodaysPuzzle()
+  const { puzzle, puzzleNumber, isoDate } = loadTodaysPuzzle()
 
   if (!puzzle) {
     return (
@@ -42,8 +55,8 @@ function App() {
 
   return (
     <main>
-      <Header />
-      <Game puzzle={puzzle} mode={getGameMode()} isoDate={argentinaTodayISO()} />
+      <Header isoDate={isoDate} difficulty={puzzle.difficulty} />
+      <Game puzzle={puzzle} mode={getGameMode()} puzzleNumber={puzzleNumber ?? 0} />
     </main>
   )
 }

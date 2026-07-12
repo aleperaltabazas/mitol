@@ -8,6 +8,7 @@ const puzzle: Puzzle = {
   answer: 'Atenea',
   hints: ['h1', 'h2', 'h3', 'h4', 'h5'],
   description: 'Una descripción de prueba.',
+  difficulty: 3,
 }
 
 describe('Game', () => {
@@ -16,21 +17,21 @@ describe('Game', () => {
   })
 
   it('renders hint 1 initially', () => {
-    render(<Game puzzle={puzzle} mode="progressive" isoDate="2026-07-10" />)
+    render(<Game puzzle={puzzle} mode="progressive" puzzleNumber={1} />)
     expect(screen.getByText('h1')).toBeInTheDocument()
     expect(screen.queryByText('h2')).not.toBeInTheDocument()
   })
 
   it('shows the skip button in progressive mode and reveal-hint in unlimited mode', () => {
-    const { rerender } = render(<Game puzzle={puzzle} mode="progressive" isoDate="2026-07-10" />)
+    const { rerender } = render(<Game puzzle={puzzle} mode="progressive" puzzleNumber={1} />)
     expect(screen.getByRole('button', { name: /saltear/i })).toBeInTheDocument()
 
-    rerender(<Game puzzle={puzzle} mode="unlimited" isoDate="2026-07-10" />)
+    rerender(<Game puzzle={puzzle} mode="unlimited" puzzleNumber={1} />)
     expect(screen.getByRole('button', { name: /pista siguiente/i })).toBeInTheDocument()
   })
 
   it('opens a result modal on a correct guess, revealing every hint underneath', () => {
-    render(<Game puzzle={puzzle} mode="progressive" isoDate="2026-07-10" />)
+    render(<Game puzzle={puzzle} mode="progressive" puzzleNumber={1} />)
     fireEvent.change(screen.getByRole('textbox'), { target: { value: 'Atenea' } })
     fireEvent.click(screen.getByRole('button', { name: /adivinar/i }))
 
@@ -42,7 +43,7 @@ describe('Game', () => {
   })
 
   it('opens a result modal after exhausting all guesses, revealing every hint', () => {
-    render(<Game puzzle={puzzle} mode="progressive" isoDate="2026-07-10" />)
+    render(<Game puzzle={puzzle} mode="progressive" puzzleNumber={1} />)
     for (let i = 0; i < 5; i++) {
       fireEvent.change(screen.getByRole('textbox'), { target: { value: 'zeus' } })
       fireEvent.click(screen.getByRole('button', { name: /adivinar/i }))
@@ -54,7 +55,7 @@ describe('Game', () => {
   })
 
   it('moves the result to the main screen only after the modal is closed', () => {
-    render(<Game puzzle={puzzle} mode="progressive" isoDate="2026-07-10" />)
+    render(<Game puzzle={puzzle} mode="progressive" puzzleNumber={1} />)
     fireEvent.change(screen.getByRole('textbox'), { target: { value: 'Atenea' } })
     fireEvent.click(screen.getByRole('button', { name: /adivinar/i }))
 

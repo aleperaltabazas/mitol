@@ -11,7 +11,7 @@ interface ShareResultProps {
 export function ShareResult({ shareText, answer, description, imageUrl }: ShareResultProps) {
   return (
     <div className="share-result">
-      <ResultDetails shareText={shareText} answer={answer} description={description} imageUrl={imageUrl} />
+      <ResultDetails answer={answer} description={description} imageUrl={imageUrl} />
       <div className="actions-row">
         <CopyButton shareText={shareText} />
       </div>

@@ -14,6 +14,7 @@ const puzzle: Puzzle = {
 describe('Game', () => {
   beforeEach(() => {
     Object.assign(navigator, { clipboard: { writeText: vi.fn().mockResolvedValue(undefined) } })
+    localStorage.clear()
   })
 
   it('renders hint 1 initially', () => {

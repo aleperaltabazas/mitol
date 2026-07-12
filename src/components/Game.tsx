@@ -2,6 +2,7 @@ import { Fragment, useState } from 'react'
 import './Game.css'
 import { getEngine } from '../game/modes/engine'
 import { progressiveShareText, unlimitedShareText } from '../game/share'
+import { loadGameState, saveGameState } from '../game/storage'
 import type { GameMode, GameState, Puzzle } from '../game/types'
 import { GuessHistory } from './GuessHistory'
 import { GuessInput } from './GuessInput'
@@ -16,6 +17,10 @@ interface GameProps {
 }
 
 function initState(puzzle: Puzzle, mode: GameMode): GameState {
+  const saved = loadGameState(puzzle.id, mode)
+  if (saved) {
+    return saved
+  }
   return mode === 'progressive'
     ? getEngine('progressive').init(puzzle)
     : getEngine('unlimited').init(puzzle)
@@ -37,6 +42,7 @@ export function Game({ puzzle, mode, puzzleNumber }: GameProps) {
       setModalOpen(true)
     }
     setState(next)
+    saveGameState(next)
   }
 
   function handleGuess(rawGuess: string) {

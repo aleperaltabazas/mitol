@@ -3,15 +3,15 @@ import { loadTodaysPuzzle } from './loadPuzzle'
 
 describe('loadTodaysPuzzle', () => {
   it('loads the puzzle scheduled for the given Argentina date', () => {
-    const result = loadTodaysPuzzle(new Date('2026-07-10T12:00:00Z'))
-    expect(result.puzzle?.id).toBe('atenea')
+    const result = loadTodaysPuzzle(new Date('2026-07-12T12:00:00Z'))
+    expect(result.puzzle?.id).toBe('athena')
     expect(result.puzzle?.answer).toBe('Atenea')
     expect(result.puzzle?.hints).toHaveLength(5)
     expect(result.puzzleNumber).toBe(1)
   })
 
   it('loads a different puzzle for a different scheduled date', () => {
-    const result = loadTodaysPuzzle(new Date('2026-07-11T12:00:00Z'))
+    const result = loadTodaysPuzzle(new Date('2026-07-13T12:00:00Z'))
     expect(result.puzzle?.id).toBe('amaterasu')
     expect(result.puzzleNumber).toBe(2)
   })

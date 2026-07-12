@@ -29,7 +29,7 @@ function applyOutcome(
 }
 
 export function guess(state: ProgressiveState, puzzle: Puzzle, rawGuess: string): ProgressiveState {
-  return applyOutcome(state, isCorrectGuess(rawGuess, puzzle.answer) ? 'correct' : 'wrong', rawGuess)
+  return applyOutcome(state, isCorrectGuess(rawGuess, puzzle.answers) ? 'correct' : 'wrong', rawGuess)
 }
 
 export function skip(state: ProgressiveState, _puzzle: Puzzle): ProgressiveState {

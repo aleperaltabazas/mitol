@@ -5,7 +5,7 @@ import { Game } from './Game'
 
 const puzzle: Puzzle = {
   id: 'atenea',
-  answer: 'Atenea',
+  answers: ['Atenea'],
   hints: ['h1', 'h2', 'h3', 'h4', 'h5'],
   description: 'Una descripción de prueba.',
   difficulty: 3,

@@ -4,7 +4,7 @@ import { init, guess, revealNextHint, giveUp } from './unlimited'
 
 const puzzle: Puzzle = {
   id: 'atenea',
-  answer: 'Atenea',
+  answers: ['Atenea'],
   hints: ['h1', 'h2', 'h3', 'h4', 'h5'],
   description: 'Una descripción de prueba.',
   difficulty: 3,
@@ -23,6 +23,13 @@ describe('unlimited mode', () => {
     state = guess(state, puzzle, 'atenea')
     expect(state.status).toBe('won')
     expect(state.wrongGuesses).toBe(0)
+  })
+
+  it('accepts any of several accepted answers', () => {
+    const multiAnswerPuzzle: Puzzle = { ...puzzle, answers: ['Susanoo', 'Susano'] }
+    let state = init(multiAnswerPuzzle)
+    state = guess(state, multiAnswerPuzzle, 'Susanoo')
+    expect(state.status).toBe('won')
   })
 
   it('a wrong guess increments the counter but does not reveal a hint', () => {

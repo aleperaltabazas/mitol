@@ -1,7 +1,47 @@
 import { fireEvent, render, screen } from '@testing-library/react'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { saveGameState } from '../game/storage'
+import type { Puzzle } from '../game/types'
 import { PuzzlePicker } from './PuzzlePicker'
+
+const puzzleA: Puzzle = {
+  id: 'puzzle-a',
+  answers: ['Answer A'],
+  hints: ['hint a1', 'hint a2', 'hint a3', 'hint a4', 'hint a5'],
+  description: 'description a',
+  difficulty: 1,
+}
+
+const puzzleB: Puzzle = {
+  id: 'puzzle-b',
+  answers: ['Answer B'],
+  hints: ['hint b1', 'hint b2', 'hint b3', 'hint b4', 'hint b5'],
+  description: 'description b',
+  difficulty: 1,
+}
+
+const puzzleC: Puzzle = {
+  id: 'puzzle-c',
+  answers: ['Answer C'],
+  hints: ['hint c1', 'hint c2', 'hint c3', 'hint c4', 'hint c5'],
+  description: 'description c',
+  difficulty: 1,
+}
+
+const puzzlesByDate: Record<string, Puzzle> = {
+  '2026-07-12': puzzleA,
+  '2026-07-11': puzzleB,
+  '2026-07-10': puzzleC,
+}
+
+vi.mock('../game/loadPuzzle', () => ({
+  loadPuzzleForDate: (isoDate: string) => ({ puzzle: puzzlesByDate[isoDate] }),
+  pastPuzzleOptions: (todayISO: string) =>
+    Object.entries(puzzlesByDate)
+      .filter(([isoDate]) => isoDate < todayISO)
+      .sort(([a], [b]) => (a < b ? 1 : -1))
+      .map(([isoDate, puzzle]) => ({ isoDate, puzzle })),
+}))
 
 describe('PuzzlePicker', () => {
   beforeEach(() => {
@@ -44,7 +84,7 @@ describe('PuzzlePicker', () => {
       <PuzzlePicker todayISO="2026-07-12" selectedIsoDate="2026-07-12" mode="progressive" onSelect={() => {}} />,
     )
     fireEvent.click(screen.getByRole('button', { name: /días anteriores/i }))
-    expect(screen.getByText('"Nació de la cabeza de su padre"')).toBeInTheDocument()
+    expect(screen.getByText('"hint a1"')).toBeInTheDocument()
   })
 
   it('shows the first hint, quoted, for an unplayed puzzle', () => {
@@ -52,14 +92,14 @@ describe('PuzzlePicker', () => {
       <PuzzlePicker todayISO="2026-07-12" selectedIsoDate="2026-07-12" mode="progressive" onSelect={() => {}} />,
     )
     fireEvent.click(screen.getByRole('button', { name: /días anteriores/i }))
-    const preview = screen.getByText('"Diosa del sol"')
+    const preview = screen.getByText('"hint c1"')
     expect(preview).toBeInTheDocument()
     expect(preview).toHaveAttribute('data-variant', 'hint')
   })
 
   it('shows the last hint reached, quoted, for a puzzle still in progress', () => {
     saveGameState({
-      puzzleId: 'amaterasu',
+      puzzleId: 'puzzle-b',
       mode: 'progressive',
       status: 'playing',
       outcomes: ['wrong', 'wrong'],
@@ -69,30 +109,28 @@ describe('PuzzlePicker', () => {
       <PuzzlePicker todayISO="2026-07-12" selectedIsoDate="2026-07-12" mode="progressive" onSelect={() => {}} />,
     )
     fireEvent.click(screen.getByRole('button', { name: /días anteriores/i }))
-    expect(
-      screen.getByText('"Según la leyenda, se encerró en una cueva, sumiendo al mundo en oscuridad"'),
-    ).toBeInTheDocument()
+    expect(screen.getByText('"hint b3"')).toBeInTheDocument()
   })
 
   it('shows the answer in green for a puzzle the player won', () => {
     saveGameState({
-      puzzleId: 'amaterasu',
+      puzzleId: 'puzzle-b',
       mode: 'progressive',
       status: 'won',
       outcomes: ['correct'],
-      guesses: ['Amaterasu'],
+      guesses: ['Answer B'],
     })
     render(
       <PuzzlePicker todayISO="2026-07-12" selectedIsoDate="2026-07-12" mode="progressive" onSelect={() => {}} />,
     )
     fireEvent.click(screen.getByRole('button', { name: /días anteriores/i }))
-    const preview = screen.getByText('Amaterasu')
+    const preview = screen.getByText('Answer B')
     expect(preview).toHaveAttribute('data-variant', 'won')
   })
 
   it('shows the answer in red for a puzzle the player lost', () => {
     saveGameState({
-      puzzleId: 'amaterasu',
+      puzzleId: 'puzzle-b',
       mode: 'progressive',
       status: 'lost',
       outcomes: ['wrong', 'wrong', 'wrong', 'wrong', 'wrong'],
@@ -102,7 +140,7 @@ describe('PuzzlePicker', () => {
       <PuzzlePicker todayISO="2026-07-12" selectedIsoDate="2026-07-12" mode="progressive" onSelect={() => {}} />,
     )
     fireEvent.click(screen.getByRole('button', { name: /días anteriores/i }))
-    const preview = screen.getByText('Amaterasu')
+    const preview = screen.getByText('Answer B')
     expect(preview).toHaveAttribute('data-variant', 'lost')
   })
 })

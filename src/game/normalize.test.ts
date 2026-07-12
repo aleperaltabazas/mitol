@@ -21,10 +21,19 @@ describe('normalizeAnswer', () => {
 
 describe('isCorrectGuess', () => {
   it('matches case/diacritic-insensitively', () => {
-    expect(isCorrectGuess('odinn', 'Óðinn')).toBe(true)
+    expect(isCorrectGuess('odinn', ['Óðinn'])).toBe(true)
   })
 
   it('rejects a genuinely different answer', () => {
-    expect(isCorrectGuess('Jupiter', 'Zeus')).toBe(false)
+    expect(isCorrectGuess('Jupiter', ['Zeus'])).toBe(false)
+  })
+
+  it('matches any of several accepted answers', () => {
+    expect(isCorrectGuess('susano', ['Susanoo', 'Susano'])).toBe(true)
+    expect(isCorrectGuess('susanoo', ['Susanoo', 'Susano'])).toBe(true)
+  })
+
+  it('rejects a guess that matches none of several accepted answers', () => {
+    expect(isCorrectGuess('amaterasu', ['Susanoo', 'Susano'])).toBe(false)
   })
 })

@@ -16,7 +16,7 @@ function capitalize(text: string): string {
 const puzzlesById: Record<string, Puzzle> = {}
 for (const path in puzzleModules) {
   const puzzle = JSON5.parse(puzzleModules[path]) as Puzzle
-  puzzlesById[puzzle.id] = { ...puzzle, answer: capitalize(puzzle.answer) }
+  puzzlesById[puzzle.id] = { ...puzzle, answers: puzzle.answers.map(capitalize) as [string, ...string[]] }
 }
 
 const schedule = JSON5.parse(scheduleRaw) as Record<string, string>

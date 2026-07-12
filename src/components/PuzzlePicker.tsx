@@ -25,10 +25,10 @@ function lastRevealedHintCount(state: GameState | undefined): number {
 function entryPreview(puzzle: Puzzle, mode: GameMode): EntryPreview {
   const state = loadGameState(puzzle.id, mode)
   if (state?.status === 'won') {
-    return { text: puzzle.answer, variant: 'won' }
+    return { text: puzzle.answers[0], variant: 'won' }
   }
   if (state?.status === 'lost' || state?.status === 'gaveup') {
-    return { text: puzzle.answer, variant: 'lost' }
+    return { text: puzzle.answers[0], variant: 'lost' }
   }
   return { text: puzzle.hints[lastRevealedHintCount(state) - 1], variant: 'hint' }
 }

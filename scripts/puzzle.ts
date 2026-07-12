@@ -27,8 +27,10 @@ function validatePuzzleShape(id: string, data: unknown): string[] {
   } else if (puzzle.id !== id) {
     errors.push(`${id}: el campo "id" ("${puzzle.id}") no coincide con el nombre de archivo`)
   }
-  if (typeof puzzle.answer !== 'string' || puzzle.answer.trim().length === 0) {
-    errors.push(`${id}: falta el campo "answer" o está vacío`)
+  if (!Array.isArray(puzzle.answers) || puzzle.answers.length === 0) {
+    errors.push(`${id}: "answers" debe ser un array con al menos un elemento`)
+  } else if (puzzle.answers.some((a) => typeof a !== 'string' || a.trim().length === 0)) {
+    errors.push(`${id}: todas las "answers" deben ser strings no vacíos`)
   }
   if (!Array.isArray(puzzle.hints) || puzzle.hints.length !== 5) {
     errors.push(`${id}: "hints" debe ser un array de exactamente 5 elementos`)
@@ -65,7 +67,7 @@ function cmdNew(id: string): void {
     console.error(`Ya existe puzzles/${id}.json5`)
     process.exit(1)
   }
-  const stub: Puzzle = { id, answer: '', hints: ['', '', '', '', ''], description: '', difficulty: 3 }
+  const stub: Puzzle = { id, answers: [''], hints: ['', '', '', '', ''], description: '', difficulty: 3 }
   writeFileSync(path, JSON5.stringify(stub, null, 2) + '\n')
   console.log(`Creado puzzles/${id}.json5`)
   console.log(`Recordá agregar "${id}" a schedule.json5`)

@@ -17,6 +17,7 @@ export function normalizeAnswer(s: string): string {
     .replace(/\s+/g, ' ')
 }
 
-export function isCorrectGuess(guess: string, answer: string): boolean {
-  return normalizeAnswer(guess) === normalizeAnswer(answer)
+export function isCorrectGuess(guess: string, answers: readonly string[]): boolean {
+  const normalizedGuess = normalizeAnswer(guess)
+  return answers.some((answer) => normalizeAnswer(answer) === normalizedGuess)
 }

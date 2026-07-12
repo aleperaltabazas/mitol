@@ -1,6 +1,6 @@
 {
   id: 'achilles',
-  answer: 'aquiles',
+  answers: ['aquiles'],
   hints: [
     '*Canta, oh musa, la cólera del pélida...*',
     'Combatió en la guerra de Troya en el bando aqueo',
@@ -9,5 +9,5 @@
     'Un músculo lleva su nombre',
   ],
   description: '**Aquiles** o **Aquileo** es uno de los protagonistas de la *Ilíada* de Homero y el principal héroe del bando griego en la guerra de Troya. Sumergido por su madre en el río Estigio al nacer, el guerrero era prácticamente inmortal, salvo por su talón por el que su madre lo sujetaba. Un flechazo de Paris de Troya, guiado por Apolo, encuentra su punto débil para ponerle fin al pélida.',
-  difficulty: 2,
+  difficulty: 1,
 }

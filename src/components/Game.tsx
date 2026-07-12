@@ -97,7 +97,7 @@ export function Game({ puzzle, mode, puzzleNumber }: GameProps) {
         {gameOver && modalOpen && (
           <ResultModal
             shareText={shareText}
-            answer={puzzle.answer}
+            answer={puzzle.answers[0]}
             description={puzzle.description}
             imageUrl={puzzle.imageUrl}
             status={state.status as Exclude<typeof state.status, 'playing'>}
@@ -107,7 +107,7 @@ export function Game({ puzzle, mode, puzzleNumber }: GameProps) {
         {gameOver && !modalOpen && (
           <ShareResult
             shareText={shareText}
-            answer={puzzle.answer}
+            answer={puzzle.answers[0]}
             description={puzzle.description}
             imageUrl={puzzle.imageUrl}
           />

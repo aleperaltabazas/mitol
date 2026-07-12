@@ -1,6 +1,6 @@
 {
   id: "amaterasu",
-  answer: "Amaterasu",
+  answers: ["Amaterasu"],
   hints: [
     "Diosa del sol",
     "Figura central del panteón *sintoista*",
@@ -9,5 +9,5 @@
     "También se la llama con el nombre *Ohirume*",
   ],
   description: "**Amaterasu Oo-Mikami** es la diosa del sol y el universo en el sintoísmo japonés. Según el mito, se encerró en la cueva *Ama-no-Iwato* tras las ofensas de su hermano Susanoo, dios de los mares y las tormentas. El mundo se sumergió en la oscuridad hasta que los demás dioses la hicieron salir con un espejo, cantos y risas. Se la considera ancestra de la familia imperial japonesa.",
-  difficulty: 3,
+  difficulty: 4,
 }

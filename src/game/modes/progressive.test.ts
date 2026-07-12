@@ -4,7 +4,7 @@ import { init, guess, skip } from './progressive'
 
 const puzzle: Puzzle = {
   id: 'atenea',
-  answer: 'Atenea',
+  answers: ['Atenea'],
   hints: ['h1', 'h2', 'h3', 'h4', 'h5'],
   description: 'Una descripción de prueba.',
   difficulty: 3,
@@ -58,5 +58,12 @@ describe('progressive mode', () => {
     const afterWin = state
     state = guess(state, puzzle, 'zeus')
     expect(state).toEqual(afterWin)
+  })
+
+  it('accepts any of several accepted answers', () => {
+    const multiAnswerPuzzle: Puzzle = { ...puzzle, answers: ['Susanoo', 'Susano'] }
+    let state = init(multiAnswerPuzzle)
+    state = guess(state, multiAnswerPuzzle, 'susano')
+    expect(state.status).toBe('won')
   })
 })

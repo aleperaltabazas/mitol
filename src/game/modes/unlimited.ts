@@ -17,7 +17,7 @@ export function guess(state: UnlimitedState, puzzle: Puzzle, rawGuess: string): 
   if (state.status !== 'playing') {
     return state
   }
-  if (isCorrectGuess(rawGuess, puzzle.answer)) {
+  if (isCorrectGuess(rawGuess, puzzle.answers)) {
     return { ...state, status: 'won' }
   }
   return { ...state, wrongGuesses: state.wrongGuesses + 1 }

@@ -1,0 +1,16 @@
+{
+  id: "odysseus",
+  answers: [
+    "odiseo",
+    "ulises"
+  ],
+  hints: [
+    "Rey de *Ítaca*",
+    "Pícaro y astuto, este guerrero fue clave para la victoria aquea en Troya",
+    "Esposo de *Penélope* y padre de *Telemaco*",
+    "Tardó diez años en regresar a su casa finalizada la guerra",
+    "Un poema lleva su nombre",
+  ],
+  difficulty: 2,
+  description: "**Odiseo**, o **Ulises**, fue uno de los legendarios héroes de la mitología griega por sus hazañas en la *Odisea* de Homero. Este poema narra su largo viaje de diez años para regresar a su casa en Ítaca tras haber luchado en la guerra de Troya. La característica más destacada de Ulises es su astucia e inteligencia: según la leyenda fue su idea la maniobra del *Caballo de Troya* para lograr entrar en la ciudad de Troya.",
+}

@@ -1,6 +1,9 @@
 {
   id: 'achilles',
-  answers: ['aquiles'],
+  answers: [
+    'aquiles',
+    'aquileo'
+  ],
   hints: [
     '*Canta, oh musa, la cólera del pélida...*',
     'Combatió en la guerra de Troya en el bando aqueo',

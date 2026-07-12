@@ -1,58 +1,94 @@
 import { describe, expect, it } from 'vitest'
-import { loadPuzzleForDate, loadTodaysPuzzle, pastPuzzleOptions } from './loadPuzzle'
+import {
+  loadPuzzleForDate,
+  loadTodaysPuzzle,
+  pastPuzzleOptions,
+  resolvePastPuzzleOptions,
+  resolvePuzzleForDate,
+} from './loadPuzzle'
+import type { Puzzle } from './types'
 
-describe('loadTodaysPuzzle', () => {
-  it('loads the puzzle scheduled for the given Argentina date', () => {
-    const result = loadTodaysPuzzle(new Date('2026-07-12T12:00:00Z'))
-    expect(result.puzzle?.id).toBe('athena')
-    expect(result.puzzle?.answers).toEqual(['Atenea'])
-    expect(result.puzzle?.hints).toHaveLength(5)
-    expect(result.puzzleNumber).toBe(1)
+const puzzleA: Puzzle = {
+  id: 'puzzle-a',
+  answers: ['Answer A'],
+  hints: ['a1', 'a2', 'a3', 'a4', 'a5'],
+  description: 'description a',
+  difficulty: 1,
+}
+
+const puzzleB: Puzzle = {
+  id: 'puzzle-b',
+  answers: ['Answer B'],
+  hints: ['b1', 'b2', 'b3', 'b4', 'b5'],
+  description: 'description b',
+  difficulty: 1,
+}
+
+const puzzlesById: Record<string, Puzzle> = {
+  'puzzle-a': puzzleA,
+  'puzzle-b': puzzleB,
+}
+
+const schedule: Record<string, string> = {
+  '2026-07-10': 'puzzle-a',
+  '2026-07-11': 'puzzle-b',
+}
+
+describe('resolvePuzzleForDate', () => {
+  it('resolves the puzzle and puzzle number scheduled for a given date', () => {
+    const result = resolvePuzzleForDate(schedule, puzzlesById, '2026-07-11')
+    expect(result.puzzle?.id).toBe('puzzle-b')
+    expect(result.puzzleNumber).toBe(2)
+    expect(result.isoDate).toBe('2026-07-11')
   })
 
-  it('loads a different puzzle for a different scheduled date', () => {
-    const result = loadTodaysPuzzle(new Date('2026-07-14T12:00:00Z'))
-    expect(result.puzzle?.id).toBe('achilles')
-    expect(result.puzzleNumber).toBe(3)
-  })
-
-  it('capitalizes all accepted answers even when authored in lowercase', () => {
-    const result = loadTodaysPuzzle(new Date('2026-07-14T12:00:00Z'))
-    expect(result.puzzle?.answers).toEqual(['Aquiles'])
-  })
-
-  it('returns no puzzle when nothing is scheduled for that date', () => {
-    const result = loadTodaysPuzzle(new Date('2099-01-01T12:00:00Z'))
+  it('returns a no-puzzle-scheduled error when nothing is scheduled for that date', () => {
+    const result = resolvePuzzleForDate(schedule, puzzlesById, '2099-01-01')
     expect(result.puzzle).toBeUndefined()
     expect(result.error).toBe('no-puzzle-scheduled')
   })
 })
 
-describe('loadPuzzleForDate', () => {
-  it('loads the puzzle scheduled for an arbitrary past date', () => {
-    const result = loadPuzzleForDate('2026-07-12')
-    expect(result.puzzle?.id).toBe('athena')
-    expect(result.puzzleNumber).toBe(1)
-  })
-
-  it('returns no puzzle for an unscheduled date', () => {
-    const result = loadPuzzleForDate('2099-01-01')
-    expect(result.puzzle).toBeUndefined()
-    expect(result.error).toBe('no-puzzle-scheduled')
-  })
-})
-
-describe('pastPuzzleOptions', () => {
-  it('lists scheduled dates before the given date with their puzzles', () => {
-    const result = pastPuzzleOptions('2026-07-14')
+describe('resolvePastPuzzleOptions', () => {
+  it('lists scheduled dates before the given date with their puzzles, most recent first', () => {
+    const result = resolvePastPuzzleOptions(schedule, puzzlesById, '2026-07-12')
     expect(result.map((option) => [option.isoDate, option.puzzle.id])).toEqual([
-      ['2026-07-13', 'amaterasu'],
-      ['2026-07-12', 'athena'],
+      ['2026-07-11', 'puzzle-b'],
+      ['2026-07-10', 'puzzle-a'],
     ])
   })
 
   it('excludes the given date itself', () => {
-    const result = pastPuzzleOptions('2026-07-14')
-    expect(result.find((option) => option.isoDate === '2026-07-14')).toBeUndefined()
+    const result = resolvePastPuzzleOptions(schedule, puzzlesById, '2026-07-11')
+    expect(result.find((option) => option.isoDate === '2026-07-11')).toBeUndefined()
+  })
+})
+
+// Thin smoke tests over the real schedule.json5 / puzzles/*.json5 data — deliberately don't
+// assert on specific ids, dates or answer text, since those change as puzzles are authored.
+describe('real puzzle data wiring', () => {
+  it('resolves a puzzle for today with 5 hints and at least one capitalized answer', () => {
+    const result = loadTodaysPuzzle()
+    if (result.error) {
+      expect(result.error).toBe('no-puzzle-scheduled')
+      return
+    }
+    expect(result.puzzle?.hints).toHaveLength(5)
+    expect(result.puzzle?.answers.length).toBeGreaterThan(0)
+    for (const answer of result.puzzle?.answers ?? []) {
+      expect(answer[0]).toBe(answer[0].toUpperCase())
+    }
+  })
+
+  it('returns no puzzle for a date far in the future', () => {
+    const result = loadPuzzleForDate('2099-01-01')
+    expect(result.puzzle).toBeUndefined()
+    expect(result.error).toBe('no-puzzle-scheduled')
+  })
+
+  it('never includes today in its own past options', () => {
+    const todayISO = new Date().toISOString().slice(0, 10)
+    const result = pastPuzzleOptions(todayISO)
+    expect(result.find((option) => option.isoDate === todayISO)).toBeUndefined()
   })
 })

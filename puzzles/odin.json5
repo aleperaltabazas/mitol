@@ -1,0 +1,16 @@
+{
+  id: "odin",
+  answers: [
+    "odin",
+    "wotan",
+  ],
+  hints: [
+    "Dios de la guerra, sabiduría y la muerte, y protector de los viajeros",
+    "Le falta el ojo izquierdo",
+    "Reside en el último de 9 mundos del árbol de la vida",
+    "Usa la lanza *Gungnir* en combate",
+    "Uno de sus hijos es el dios del trueno",
+  ],
+  difficulty: 4,
+  description: "**Odín**, también conocido como **Wotan** es el dios principal de la mitología nórdica. Según las nornas está destinado a liderar a los dioses en batalla y morir ante Fenrir durante el fin del mundo, el *Ragnarök*. Su representación más común es la de un viejo vagabundo con un abrigo oscuro y un bastón."
+}

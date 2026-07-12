@@ -28,13 +28,21 @@ export interface LoadPuzzleResult {
   error?: 'no-puzzle-scheduled'
 }
 
-export function loadPuzzleForDate(isoDate: string): LoadPuzzleResult {
+export function resolvePuzzleForDate(
+  schedule: Record<string, string>,
+  puzzlesById: Record<string, Puzzle>,
+  isoDate: string,
+): LoadPuzzleResult {
   const puzzleId = resolvePuzzleId(schedule, isoDate)
   const puzzle = puzzleId ? puzzlesById[puzzleId] : undefined
   if (!puzzle) {
     return { error: 'no-puzzle-scheduled' }
   }
   return { puzzle, puzzleNumber: resolvePuzzleNumber(schedule, isoDate), isoDate }
+}
+
+export function loadPuzzleForDate(isoDate: string): LoadPuzzleResult {
+  return resolvePuzzleForDate(schedule, puzzlesById, isoDate)
 }
 
 export function loadTodaysPuzzle(now: Date = new Date()): LoadPuzzleResult {
@@ -46,11 +54,20 @@ export interface PastPuzzleOption {
   puzzle: Puzzle
 }
 
-export function pastPuzzleOptions(todayISO: string, limit = 6): PastPuzzleOption[] {
+export function resolvePastPuzzleOptions(
+  schedule: Record<string, string>,
+  puzzlesById: Record<string, Puzzle>,
+  todayISO: string,
+  limit = 6,
+): PastPuzzleOption[] {
   return pastScheduledDates(schedule, todayISO, limit)
     .map((isoDate) => {
       const puzzle = puzzlesById[schedule[isoDate]]
       return puzzle ? { isoDate, puzzle } : undefined
     })
     .filter((option): option is PastPuzzleOption => option !== undefined)
+}
+
+export function pastPuzzleOptions(todayISO: string, limit = 6): PastPuzzleOption[] {
+  return resolvePastPuzzleOptions(schedule, puzzlesById, todayISO, limit)
 }

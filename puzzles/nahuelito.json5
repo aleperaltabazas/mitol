@@ -1,0 +1,15 @@
+{
+  id: "nahuelito",
+  answers: [
+    "nahuelito"
+  ],
+  hints: [
+    "Criatura acuática que habita un lago austral",
+    "Tiene la apariencia de un **plesiosaurio**",
+    "El lago que habita comparte su nombre",
+    "El jugador de la selección con el número 26 comparte el nombre con la bestia",
+    "Su nombre es un diminutivo de la palabra mapuche para **yaguareté**",
+  ],
+  difficulty: 2,
+  description: "**El Nahuelito** es una enorme criatura con forma de dinosaurio que supuestamente habita el lago **Nahuel Huapí** en Río Negro. Tanto el lago como la criatura comparten el nombre *nahuel* que en mapuche significa **jaguar**; el lago *Nahuel Huapi* se traduce como **isla del jaguar**, haciendo alusión a la isla Victoria en el corazón del lago."
+}

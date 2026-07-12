@@ -1,6 +1,8 @@
 {
   id: "amaterasu",
-  answers: ["Amaterasu"],
+  answers: [
+    "Amaterasu"
+  ],
   hints: [
     "Diosa del sol",
     "Figura central del panteón *sintoista*",

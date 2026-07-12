@@ -1,6 +1,8 @@
 {
   id: "anansi",
-  answers: ["Anansi"],
+  answers: [
+    "Anansi"
+  ],
   hints: [
     "Soy un personaje de la tradición akan de África Occidental.",
     "Suelo tomar la forma de un animal artrópodo.",

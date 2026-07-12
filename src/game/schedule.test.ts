@@ -1,5 +1,11 @@
 import { describe, expect, it } from 'vitest'
-import { argentinaTodayISO, formatLongDate, resolvePuzzleId, resolvePuzzleNumber } from './schedule'
+import {
+  argentinaTodayISO,
+  formatLongDate,
+  pastScheduledDates,
+  resolvePuzzleId,
+  resolvePuzzleNumber,
+} from './schedule'
 
 describe('argentinaTodayISO', () => {
   it('resolves a UTC midday timestamp to the same calendar day in Argentina (UTC-3)', () => {
@@ -48,5 +54,44 @@ describe('resolvePuzzleNumber', () => {
 describe('formatLongDate', () => {
   it('formats an ISO date as a long Spanish date', () => {
     expect(formatLongDate('2026-07-12')).toBe('12 de julio de 2026')
+  })
+})
+
+describe('pastScheduledDates', () => {
+  const schedule = {
+    '2026-07-08': 'zeus',
+    '2026-07-09': 'hera',
+    '2026-07-10': 'athena',
+    '2026-07-11': 'amaterasu',
+    '2026-07-12': 'anansi',
+    '2026-07-13': 'thor',
+  }
+
+  it('returns scheduled dates before today, most recent first', () => {
+    expect(pastScheduledDates(schedule, '2026-07-12')).toEqual([
+      '2026-07-11',
+      '2026-07-10',
+      '2026-07-09',
+      '2026-07-08',
+    ])
+  })
+
+  it('excludes today and future dates', () => {
+    const result = pastScheduledDates(schedule, '2026-07-12')
+    expect(result).not.toContain('2026-07-12')
+    expect(result).not.toContain('2026-07-13')
+  })
+
+  it('caps the result at the given limit', () => {
+    expect(pastScheduledDates(schedule, '2026-07-13', 2)).toEqual(['2026-07-12', '2026-07-11'])
+  })
+
+  it('returns fewer entries when the schedule has less history than the limit', () => {
+    const shortSchedule = { '2026-07-09': 'hera', '2026-07-10': 'athena' }
+    expect(pastScheduledDates(shortSchedule, '2026-07-10')).toEqual(['2026-07-09'])
+  })
+
+  it('returns an empty array when there is no past schedule history', () => {
+    expect(pastScheduledDates(schedule, '2026-07-08')).toEqual([])
   })
 })

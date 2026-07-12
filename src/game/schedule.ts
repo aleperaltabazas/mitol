@@ -33,3 +33,15 @@ export function resolvePuzzleNumber(schedule: Record<string, string>, isoDate: s
   const dates = Object.keys(schedule).sort()
   return dates.indexOf(isoDate) + 1
 }
+
+export function pastScheduledDates(
+  schedule: Record<string, string>,
+  todayISO: string,
+  limit = 6,
+): string[] {
+  return Object.keys(schedule)
+    .filter((date) => date < todayISO)
+    .sort()
+    .reverse()
+    .slice(0, limit)
+}

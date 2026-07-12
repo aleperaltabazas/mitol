@@ -1,6 +1,6 @@
 import JSON5 from 'json5'
 import scheduleRaw from '../../schedule.json5?raw'
-import { argentinaTodayISO, resolvePuzzleId, resolvePuzzleNumber } from './schedule'
+import { argentinaTodayISO, pastScheduledDates, resolvePuzzleId, resolvePuzzleNumber } from './schedule'
 import type { Puzzle } from './types'
 
 const puzzleModules = import.meta.glob('../../puzzles/*.json5', {
@@ -9,10 +9,14 @@ const puzzleModules = import.meta.glob('../../puzzles/*.json5', {
   eager: true,
 }) as Record<string, string>
 
+function capitalize(text: string): string {
+  return text.charAt(0).toUpperCase() + text.slice(1)
+}
+
 const puzzlesById: Record<string, Puzzle> = {}
 for (const path in puzzleModules) {
   const puzzle = JSON5.parse(puzzleModules[path]) as Puzzle
-  puzzlesById[puzzle.id] = puzzle
+  puzzlesById[puzzle.id] = { ...puzzle, answer: capitalize(puzzle.answer) }
 }
 
 const schedule = JSON5.parse(scheduleRaw) as Record<string, string>
@@ -24,12 +28,29 @@ export interface LoadPuzzleResult {
   error?: 'no-puzzle-scheduled'
 }
 
-export function loadTodaysPuzzle(now: Date = new Date()): LoadPuzzleResult {
-  const isoDate = argentinaTodayISO(now)
+export function loadPuzzleForDate(isoDate: string): LoadPuzzleResult {
   const puzzleId = resolvePuzzleId(schedule, isoDate)
   const puzzle = puzzleId ? puzzlesById[puzzleId] : undefined
   if (!puzzle) {
     return { error: 'no-puzzle-scheduled' }
   }
   return { puzzle, puzzleNumber: resolvePuzzleNumber(schedule, isoDate), isoDate }
+}
+
+export function loadTodaysPuzzle(now: Date = new Date()): LoadPuzzleResult {
+  return loadPuzzleForDate(argentinaTodayISO(now))
+}
+
+export interface PastPuzzleOption {
+  isoDate: string
+  puzzle: Puzzle
+}
+
+export function pastPuzzleOptions(todayISO: string, limit = 6): PastPuzzleOption[] {
+  return pastScheduledDates(schedule, todayISO, limit)
+    .map((isoDate) => {
+      const puzzle = puzzlesById[schedule[isoDate]]
+      return puzzle ? { isoDate, puzzle } : undefined
+    })
+    .filter((option): option is PastPuzzleOption => option !== undefined)
 }

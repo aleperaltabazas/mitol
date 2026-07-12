@@ -88,6 +88,30 @@
   margin: 8px 0 0;
 }
 
+.past-puzzle-banner {
+  font-family: var(--display);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+  text-align: center;
+  margin: 16px 0 0;
+}
+
+.past-puzzle-banner-link {
+  border: none;
+  background: none;
+  padding: 0;
+  color: var(--terracotta);
+  font: inherit;
+  letter-spacing: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.past-puzzle-banner-link:hover {
+  color: var(--terracotta-dark);
+}
+
 .empty-state {
   text-align: center;
   color: var(--ink-soft);

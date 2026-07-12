@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: process.env.GH_PAGES ? '/mitol/' : '/',
   plugins: [react()],
   test: {
     environment: 'jsdom',

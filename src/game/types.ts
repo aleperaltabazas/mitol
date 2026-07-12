@@ -23,6 +23,7 @@ interface BaseGameState {
 export interface ProgressiveState extends BaseGameState {
   mode: 'progressive'
   outcomes: GuessOutcome[]
+  guesses: string[]
 }
 
 export interface UnlimitedState extends BaseGameState {

@@ -1,8 +1,9 @@
-import { useState } from 'react'
+import { Fragment, useState } from 'react'
 import './Game.css'
 import { getEngine } from '../game/modes/engine'
 import { progressiveShareText, unlimitedShareText } from '../game/share'
 import type { GameMode, GameState, Puzzle } from '../game/types'
+import { GuessHistory } from './GuessHistory'
 import { GuessInput } from './GuessInput'
 import { HintList } from './HintList'
 import { ResultModal } from './ResultModal'
@@ -71,36 +72,41 @@ export function Game({ puzzle, mode, puzzleNumber }: GameProps) {
       : unlimitedShareText(state, puzzleNumber, puzzle.hints[0], window.location.href)
 
   return (
-    <div className="game">
-      <HintList hints={puzzle.hints} revealedCount={revealedCount(state)} />
-      {!gameOver && (
-        <GuessInput
-          mode={mode}
-          onGuess={handleGuess}
-          onSkip={handleSkip}
-          onRevealHint={handleRevealHint}
-          onGiveUp={handleGiveUp}
-          hintsExhausted={state.mode === 'unlimited' && state.revealedHints >= 5}
-        />
+    <Fragment>
+      {state.mode === 'progressive' && (
+        <GuessHistory outcomes={state.outcomes} guesses={state.guesses} />
       )}
-      {gameOver && modalOpen && (
-        <ResultModal
-          shareText={shareText}
-          answer={puzzle.answer}
-          description={puzzle.description}
-          imageUrl={puzzle.imageUrl}
-          status={state.status as Exclude<typeof state.status, 'playing'>}
-          onClose={() => setModalOpen(false)}
-        />
-      )}
-      {gameOver && !modalOpen && (
-        <ShareResult
-          shareText={shareText}
-          answer={puzzle.answer}
-          description={puzzle.description}
-          imageUrl={puzzle.imageUrl}
-        />
-      )}
-    </div>
+      <div className="game">
+        <HintList hints={puzzle.hints} revealedCount={revealedCount(state)} />
+        {!gameOver && (
+          <GuessInput
+            mode={mode}
+            onGuess={handleGuess}
+            onSkip={handleSkip}
+            onRevealHint={handleRevealHint}
+            onGiveUp={handleGiveUp}
+            hintsExhausted={state.mode === 'unlimited' && state.revealedHints >= 5}
+          />
+        )}
+        {gameOver && modalOpen && (
+          <ResultModal
+            shareText={shareText}
+            answer={puzzle.answer}
+            description={puzzle.description}
+            imageUrl={puzzle.imageUrl}
+            status={state.status as Exclude<typeof state.status, 'playing'>}
+            onClose={() => setModalOpen(false)}
+          />
+        )}
+        {gameOver && !modalOpen && (
+          <ShareResult
+            shareText={shareText}
+            answer={puzzle.answer}
+            description={puzzle.description}
+            imageUrl={puzzle.imageUrl}
+          />
+        )}
+      </div>
+    </Fragment>
   )
 }

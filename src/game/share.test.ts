@@ -11,6 +11,7 @@ describe('progressiveShareText', () => {
       mode: 'progressive',
       status: 'won',
       outcomes: ['skip', 'wrong', 'correct'],
+      guesses: ['', 'zeus', 'atenea'],
     }
     const text = progressiveShareText(state, 5, 'Nací completamente armada.', URL)
     expect(text).toBe('Mitol #5: "Nací completamente armada."\n3/5 ⬜❌✅\nhttps://mitol.app')
@@ -22,6 +23,7 @@ describe('progressiveShareText', () => {
       mode: 'progressive',
       status: 'lost',
       outcomes: ['wrong', 'wrong', 'wrong', 'wrong', 'wrong'],
+      guesses: ['zeus', 'zeus', 'zeus', 'zeus', 'zeus'],
     }
     const text = progressiveShareText(state, 5, 'Nací completamente armada.', URL)
     expect(text).toContain('5/5 ❌❌❌❌❌')

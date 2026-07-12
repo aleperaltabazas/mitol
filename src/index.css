@@ -14,6 +14,8 @@
   --gold: #b8923f;
   --border: #cbb98c;
   --shadow: rgba(44, 38, 32, 0.18);
+  --success: #4b7a3f;
+  --error: #a83232;
 
   --serif: 'EB Garamond', 'Iowan Old Style', Georgia, serif;
   --display: 'Cinzel', 'Trajan Pro', var(--serif);

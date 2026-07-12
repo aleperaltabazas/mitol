@@ -15,6 +15,7 @@ describe('progressive mode', () => {
     const state = init(puzzle)
     expect(state.status).toBe('playing')
     expect(state.outcomes).toEqual([])
+    expect(state.guesses).toEqual([])
   })
 
   it('a correct guess wins immediately', () => {
@@ -22,6 +23,7 @@ describe('progressive mode', () => {
     state = guess(state, puzzle, 'atenea')
     expect(state.status).toBe('won')
     expect(state.outcomes).toEqual(['correct'])
+    expect(state.guesses).toEqual(['atenea'])
   })
 
   it('a wrong guess records "wrong" and does not end the game before 5 outcomes', () => {
@@ -29,6 +31,7 @@ describe('progressive mode', () => {
     state = guess(state, puzzle, 'zeus')
     expect(state.status).toBe('playing')
     expect(state.outcomes).toEqual(['wrong'])
+    expect(state.guesses).toEqual(['zeus'])
   })
 
   it('skip records "skip" and does not end the game before 5 outcomes', () => {
@@ -36,6 +39,7 @@ describe('progressive mode', () => {
     state = skip(state, puzzle)
     expect(state.status).toBe('playing')
     expect(state.outcomes).toEqual(['skip'])
+    expect(state.guesses).toEqual([''])
   })
 
   it('loses after 5 outcomes without a correct guess', () => {
@@ -45,6 +49,7 @@ describe('progressive mode', () => {
     }
     expect(state.status).toBe('lost')
     expect(state.outcomes).toEqual(['wrong', 'wrong', 'wrong', 'wrong', 'wrong'])
+    expect(state.guesses).toEqual(['zeus', 'zeus', 'zeus', 'zeus', 'zeus'])
   })
 
   it('does not accept further guesses once the game has ended', () => {

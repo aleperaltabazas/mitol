@@ -1,0 +1,18 @@
+{
+  id: 'wukong',
+  answers: [
+    'wukong',
+    'sun wukong',
+    'goku',
+    'son goku',
+  ],
+  hints: [
+    'Un mono nacido de piedra que adquirió poderes sobrenaturales que desafió a las deidades celestiales',
+    'Uno de los discípulos de *Sanzang* en la novela china *Viaje al Oeste*',
+    'También se lo conoce con el título de **Rey Mono**',
+    'Usa un bastón que puede cambiar de tamaño y viaja en una nube',
+    'Comparte nombre con el protagonista de la franquicia *Dragon Ball*',
+  ],
+  description: '',
+  difficulty: 3,
+}

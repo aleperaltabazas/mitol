@@ -71,3 +71,21 @@ export function resolvePastPuzzleOptions(
 export function pastPuzzleOptions(todayISO: string, limit = 6): PastPuzzleOption[] {
   return resolvePastPuzzleOptions(schedule, puzzlesById, todayISO, limit)
 }
+
+export interface MissingScheduledPuzzle {
+  isoDate: string
+  puzzleId: string
+}
+
+export function findMissingScheduledPuzzles(
+  schedule: Record<string, string>,
+  puzzlesById: Record<string, Puzzle>,
+): MissingScheduledPuzzle[] {
+  return Object.entries(schedule)
+    .filter(([, puzzleId]) => !puzzlesById[puzzleId])
+    .map(([isoDate, puzzleId]) => ({ isoDate, puzzleId }))
+}
+
+export function scheduleIntegrityErrors(): MissingScheduledPuzzle[] {
+  return findMissingScheduledPuzzles(schedule, puzzlesById)
+}

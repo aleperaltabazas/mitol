@@ -4,12 +4,12 @@
     "Atenea"
   ],
   hints: [
-    "Comúnmente se le asocia una lechuza",
+    "Simbolizada por una lechuza",
     "Nació de la cabeza de su padre",
     "El templo más famoso de la Acrópolis es dedicado a ella",
     "Diosa de la sabiduría y la guerra",
     "Una ciudad griega lleva su nombre",
   ],
-  description: "**Atenea** es la diosa griega de la sabiduría, la estrategia militar y la artesanía. Nació ya adulta de la frente de Zeus tras haberse tragado a su madre Metis. Es la diosa protectora de la ciudad de Atenas, ciudad por la que compitió con Poseidón por su patronazgo (y ganó).",
+  description: "**Atenea** (del griego *Αθήνα*) es la diosa griega de la sabiduría, la estrategia militar y la artesanía. Luego de haberse tragado a Metis, Zeus necesitó que Hefesto le abriera la cabeza con su martillo por el dolor de cabeza que sufría; de allí nació Atenea, ya adulta.",
   difficulty: 2,
 }

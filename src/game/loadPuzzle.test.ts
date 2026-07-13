@@ -1,10 +1,12 @@
 import { describe, expect, it } from 'vitest'
 import {
+  findMissingScheduledPuzzles,
   loadPuzzleForDate,
   loadTodaysPuzzle,
   pastPuzzleOptions,
   resolvePastPuzzleOptions,
   resolvePuzzleForDate,
+  scheduleIntegrityErrors,
 } from './loadPuzzle'
 import type { Puzzle } from './types'
 
@@ -49,6 +51,19 @@ describe('resolvePuzzleForDate', () => {
   })
 })
 
+describe('findMissingScheduledPuzzles', () => {
+  it('returns an empty array when every scheduled id has a matching puzzle', () => {
+    expect(findMissingScheduledPuzzles(schedule, puzzlesById)).toEqual([])
+  })
+
+  it('reports scheduled ids that have no matching puzzle', () => {
+    const brokenSchedule = { ...schedule, '2026-07-12': 'puzzle-typo' }
+    expect(findMissingScheduledPuzzles(brokenSchedule, puzzlesById)).toEqual([
+      { isoDate: '2026-07-12', puzzleId: 'puzzle-typo' },
+    ])
+  })
+})
+
 describe('resolvePastPuzzleOptions', () => {
   it('lists scheduled dates before the given date with their puzzles, most recent first', () => {
     const result = resolvePastPuzzleOptions(schedule, puzzlesById, '2026-07-12')
@@ -90,5 +105,9 @@ describe('real puzzle data wiring', () => {
     const todayISO = new Date().toISOString().slice(0, 10)
     const result = pastPuzzleOptions(todayISO)
     expect(result.find((option) => option.isoDate === todayISO)).toBeUndefined()
+  })
+
+  it('every puzzle id referenced in schedule.json5 has a matching puzzles/*.json5 file', () => {
+    expect(scheduleIntegrityErrors()).toEqual([])
   })
 })

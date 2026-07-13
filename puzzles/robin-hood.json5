@@ -1,0 +1,15 @@
+{
+    id: "robin-hood",
+    answers: [
+        "robin hood"
+    ],
+    hints: [
+        "Inspirado en la figura de *Hereward el Proscrito*",
+        "Residente del *Bosque de Sherwood*",
+        "Empuña un arco con el que robaba a los ricos para repartir a los pobres",
+        "Líder de su banda de *Merry Men*, lo acompañan el *Fraile Tuck* y el *Pequeño Juan*",
+        "Su nombre erróneamente es traducido al español como capucha",
+    ],
+    difficulty: 2,
+    description: "**Robin Hood**",
+}

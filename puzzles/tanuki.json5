@@ -1,0 +1,15 @@
+{
+  id: 'tanku',
+  answers: [
+    '',
+  ],
+  hints: [
+    '',
+    '',
+    '',
+    '',
+    '',
+  ],
+  description: '',
+  difficulty: 3,
+}

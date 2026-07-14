@@ -1,10 +1,11 @@
 {
   id: "nahuelito",
   answers: [
-    "nahuelito"
+    "nahuelito",
+    "nahuel"
   ],
   hints: [
-    "Criatura acuática que habita un lago austral",
+    "Criatura acuática que habita un lago",
     "Tiene la apariencia de un **plesiosaurio**",
     "El lago que habita comparte su nombre",
     "El jugador de la selección con el número 26 comparte el nombre con la bestia",

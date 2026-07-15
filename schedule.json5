@@ -2,10 +2,10 @@
   // keys are dates (Argentina time), values are puzzle ids
   "2026-07-13": "odysseus",
   "2026-07-14": "nahuelito",
-  "2026-07-15": "wukong",
-  "2026-07-16": "amaterasu",
-  "2026-07-17": "achilles",
-  "2026-07-18": "athena",
-  "2026-07-19": "odin",
+  "2026-07-15": "achilles",
+  "2026-07-16": "odin",
+  "2026-07-17": "athena",
+  "2026-07-18": "wukong",
+  "2026-07-19": "amaterasu",
   "2026-07-20": "robin-hood",
 }

@@ -1,15 +1,18 @@
 {
   id: 'chaos',
   answers: [
-    '',
+    'chaos',
+    'caos',
+    'kaos',
+    'khaos',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'Entidad primordial que dio lugar a todo aquello que existe en el cosmos',
+    'Perteneciente al **panteón griego**',
+    'Su nombre originalmente se interpretaba como "hendidura", "abismo" o "espacio que se abre"',
+    'Engendró a la **noche** y a la **oscuridad**',
+    'Su nombre actualmente es sinónimo con "desorden" o "entropía"',
   ],
-  description: '',
-  difficulty: 3,
+  description: '**Caos** (del griego *Χάος*) es la fuerza primordial en la mitología griega que representa a aquello que existe antes que todo el resto de las fuerzas del cosmos. Se le refiere con género neutro en griego generalmente, pero dependiendo del contexto tanto pronombres masculinos como femeninos se pueden emplear. De Caos nacieron **Nix**, la encarnación de la noche, y **Erebo**, la encarnación de la oscuridad.',
+  difficulty: 5,
 }

@@ -1,0 +1,18 @@
+{
+  id: 'nike',
+  answers: [
+    'nike',
+    'nikke',
+    'niki',
+    'victoria',
+  ],
+  hints: [
+    'Diosa y encarnación del triunfo y victoria',
+    'En el anverso de las medallas olímpicas aparece su figura con una **corona de laurel**',
+    'Usualmente asociada o sincretizada con Atenea',
+    'Representada con la escultura de la **"Victoria "Alada"**',
+    'Una marca de ropa deportiva lleva su nombre',
+  ],
+  description: '**Niké** (del griego *Νίκη*). o **Victoria** para los romanos,, es la diosa y personificación de la victoria. Se la suele representar como una pequeña escultura alada acompañando a otro dios, generalmente Atenea con quien comparte el **Templo de Atenea Niké** en la acrópolis de Atenas.',
+  difficulty: 3,
+}

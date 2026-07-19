@@ -1,0 +1,18 @@
+{
+  id: 'cassandra',
+  answers: [
+    'cassandra',
+    'casandra',
+    'kasandra',
+    'kassandra',
+  ],
+  hints: [
+    'Una sacerdotisa de Apolo con el don de la profecía, pero maldita a que nadie jamás creyera sus vaticinios',
+    'Hija de Príamo y Hécuba, hermana de Paris y Héctor',
+    'Advirtió a los troyanos de la trampa del caballo',
+    'Taylor Swift incluye una canción con su nombre en el álbum *The Tortured Poets Department*',
+    'Una base de datos comparte su nombre',
+  ],
+  description: '**Casandra** (del griego *Κασσάνδρα*) era una oráculo troyana con la maldición de que nadie creyera sus pronósticos. Las causas de esta maldición varían: algunas versiones afirman que el don de la profecía le fue otorgado por el dios Apolo a cambio de un encuentro carnal el cual ella incumplió y Apolo entonces maldijo; otras afirman que Casandra rechazó sus insinuaciones lo cual desató su ira. Al finalizar la guerra fue tomada como concubina por Agamenón y, a pesar de sus súplicas en vano, fueron asesinados por Clitemnestra (la esposa de Agamenón) al regresar a Micenas en venganza por haber asesinado a su hija, Ifigenia.',
+  difficulty: 3,
+}

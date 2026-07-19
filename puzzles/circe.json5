@@ -1,0 +1,16 @@
+{
+  id: 'circe',
+  answers: [
+    'circe',
+    'kirke',
+  ],
+  hints: [
+    'La más terrible bruja de la mitología griega',
+    'Vivía sola en una isla, únicamente acompañada por animales',
+    'Realmente, los animales de la isla eran personas que le ofendieran transformadas por su magia',
+    'Aparece en la *Odisea* donde transforma a parte de la tripulación de Odiseo en cerdos',
+    'Su nombre es parecido a la palabra "circo"',
+  ],
+  description: '**Circe** (del griego *Κίρκη*) es una hechicera habitante de la isla de Eea. Mediante el empleo de pociones, Circe transformaba a sus enemigos en animales. En su viaje de regreso a Ítaca, Odiseo llega a la isla y parte de su tripulación es convertida en cerdos. Con la ayuda de Hermes, Odiseo es capaz de derrotar a Circe y le obliga a devolverles su forma humana. Impresionada por el rey, decide ayudarlo en su viaje de regreso si él y sus hombres pasan un año con ella en su isla.',
+  difficulty: 4,
+}

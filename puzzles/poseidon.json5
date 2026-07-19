@@ -1,0 +1,16 @@
+{
+  id: 'poseidon',
+  answers: [
+    'poseidon',
+    'posidon',
+  ],
+  hints: [
+    'Dios y padre de los caballos',
+    'Compitió, y perdió, con Atenea por la actual capital griega',
+    'Sus hermanos gobiernan los cielos y el inframundo',
+    'Se lo suele representar con un tridente y un carruaje tirado por hipocampos',
+    'Es también el dios de los océanos',
+  ],
+  description: '**Poseidón** o **Posidón** (del griego *Ποσειδῶν*) es el dios de los mares en el panteón olímpico. Durante el período micénico fue considerado un dios *ctónico* (deidades asociadas con la tierra y el inframundo) asociado a los terremotos.',
+  difficulty: 3,
+}

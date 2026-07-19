@@ -1,0 +1,19 @@
+{
+  id: 'cid',
+  answers: [
+    'cid',
+    'campeador',
+    'cid campeador',
+    'rodrigo diaz',
+    'ruy diaz',
+  ],
+  hints: [
+    'Legendario guerrero del *Levante*, a veces Cruzado y a veces a guerrero de la Reconquista',
+    'La canción *El Dragón Furente* de Ricardo Soulé cuenta su historia',
+    '',
+    '',
+    '',
+  ],
+  description: '',
+  difficulty: 3,
+}

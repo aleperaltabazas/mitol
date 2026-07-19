@@ -1,0 +1,15 @@
+{
+  id: 'narcissus',
+  answers: [
+    'narciso',
+  ],
+  hints: [
+    'El joven más apuesto de la antigua Grecia',
+    'Castigado por Némesis tras su maltrato de Eco',
+    'Una flor lleva su nombre',
+    'Todos quienes los miran se enamoran de él, incluyendo él mismo',
+    'Un desorden psicológico asociado al exceso de amor propio deriva su nombre de la figura',
+  ],
+  description: 'Según la leyenda, **Narciso** (del griego *Νάρκισσος*) era un joven apuesto del cual todos se enamoraban, hombres y mujeres, pero este los rechazaba. La ninfa **Eco**, maldita por Hera a repetir siempre sus últimas palabras, fue rechazada cruelmente por Narciso. Como venganza, Némesis hizo que Narciso se enamorara de su propia imagen y murió ahogado por tirarse a un lago tras ver su reflejo en el agua. Allí creció una flor: la flor de Narciso.',
+  difficulty: 3,
+}

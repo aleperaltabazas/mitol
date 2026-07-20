@@ -1,0 +1,16 @@
+{
+  id: 'gemini',
+  answers: [
+    'gemini',
+    'geminis',
+  ],
+  hints: [
+    'Hijos de **Zeus** y **Leda**',
+    'Dos hermanos inseparables',
+    'Sus nombres eran **Cástor** y **Polux**',
+    'Zeus inmortalizó su amor fraterno en una constelación nocturno',
+    'Su constelación corresponde al tercer singo del zodíaco',
+  ],
+  description: '',
+  difficulty: 2,
+}

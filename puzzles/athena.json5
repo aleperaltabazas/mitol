@@ -1,14 +1,14 @@
 {
   id: "athena",
   answers: [
-    "Atenea"
+    "Atenea",
   ],
   hints: [
-    "Simbolizada por una lechuza",
+    "Su símbolo es la **lechuza**",
     "Nació de la cabeza de su padre",
     "El templo más famoso de la Acrópolis es dedicado a ella",
     "Diosa de la sabiduría y la guerra",
-    "Una ciudad griega lleva su nombre",
+    "La capital griega lleva su nombre",
   ],
   description: "**Atenea** (del griego *Αθήνα*) es la diosa griega de la sabiduría, la estrategia militar y la artesanía. Luego de haberse tragado a Metis, Zeus necesitó que Hefesto le abriera la cabeza con su martillo por el dolor de cabeza que sufría; de allí nació Atenea, ya adulta.",
   difficulty: 2,

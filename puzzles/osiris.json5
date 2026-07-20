@@ -1,0 +1,15 @@
+{
+  id: 'osiris',
+  answers: [
+    'osiris',
+  ],
+  hints: [
+    '',
+    '',
+    '',
+    '',
+    '',
+  ],
+  description: '**Osiris** (del egipcio *𓊨𓁹*) era el dios de la la agricultura, la muerte y el inframundo. Asesinado por su hermano menor, *Seth*, fue devuelto a la vida por magia de su esposa, *Isis*.',
+  difficulty: 3,
+}

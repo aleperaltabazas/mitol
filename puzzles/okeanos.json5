@@ -1,0 +1,18 @@
+{
+  id: 'okeanos',
+  answers: [
+    'okeanos',
+    'okeano',
+    'oceanos',
+    'oceano',
+  ],
+  hints: [
+    '',
+    '',
+    '',
+    '',
+    '',
+  ],
+  description: '',
+  difficulty: 3,
+}

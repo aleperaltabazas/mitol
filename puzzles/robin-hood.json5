@@ -1,7 +1,7 @@
 {
     id: "robin-hood",
     answers: [
-        "robin hood"
+        "robin hood",
     ],
     hints: [
         "Inspirado en la figura de *Hereward el Proscrito*",

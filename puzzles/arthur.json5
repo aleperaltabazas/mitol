@@ -1,12 +1,14 @@
 {
   id: 'arthur',
   answers: [
-    'arturio',
+    'arturo',
+    'artur',
     'arthur',
+    'arturio',
     'rey arturo',
+    'rey artur',
     'rey arthur',
     'king arthur',
-    'arturo',
   ],
   hints: [
     'Probablemente el rey más conocido de todas las leyendas',

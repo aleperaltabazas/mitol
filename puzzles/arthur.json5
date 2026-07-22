@@ -1,0 +1,19 @@
+{
+  id: 'arthur',
+  answers: [
+    'arturio',
+    'arthur',
+    'rey arturo',
+    'rey arthur',
+    'king arthur',
+  ],
+  hints: [
+    'Probablemente el rey más conocido de todas las leyendas',
+    'Se dice que descansa en la isla de *Ávalon*',
+    'Del folclore celta y bretón',
+    'Presidía una mesa circunferencial',
+    'Su hazaña más recordada es haber sacado una espada de una piedra',
+  ],
+  description: 'El **rey Arturo** es la figura central de la **Materia de Bretaña**, las historias y tradicionales celtas de Bretaña. Se convirtió en el rey legítimo tras sacar la espada de la piedra. Estableció la **Mesa Redonda** junto a Lancelot y Perceval (entre varios otros) y entre sus objetivos estaba encontrar el Santo Grial. Según la leyenda, tras caer en batalla contra su hijo (o sobrino, según la versión), Mordred, su cuerpo herido fue llevado a la **isla de Avalón** para sanar sus heridas; dicen que aún descansa y un día volverá a Britania cuando esta más lo necesite.',
+  difficulty: 2,
+}

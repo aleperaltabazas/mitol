@@ -5,11 +5,11 @@
   ],
   hints: [
     'Dios de la **vida** y la **luz** para los aztecas',
-    'Su nombre empieza con *que-*',
+    'Su nombre termina con *-atl*',
     'Se dice que controla los vientos',
     'Generalmente representada como una **serpiente emplumada**',
-    'Su nombre termina con *-atl*',
+    'Su nombre empieza con *que-*',
   ],
-  description: '**Quetzalcóatl** (del nahuatl *quetzal*- «pluma hermosa» y *cōātl* «serpiente») es uno de los dioses principales del panteón mexica. Representa la vida y la luz entre otras cosas, así como el señor que controla los vientos.',
-  difficulty: 4,
+  description: '**Quetzalcóatl** (del nahuatl *quetzal*- «pluma hermosa» y *cōātl* «serpiente») es uno de los dioses principales del panteón mexica. Representa la vida y la luz entre otras cosas, así como el señor que controla los vientos. Junto a su hermano **Tezcatlipoca** vencieron al monstruo marino Cipactli y con su cuerpo crearon la tierra y el cielo.',
+  difficulty: 5,
 }

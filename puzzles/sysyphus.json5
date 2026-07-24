@@ -1,0 +1,15 @@
+{
+  id: 'sysyphus',
+  answers: [
+    '',
+  ],
+  hints: [
+    '',
+    '',
+    '',
+    '',
+    'Debemos imaginarlo feliz',
+  ],
+  description: '',
+  difficulty: 3,
+}

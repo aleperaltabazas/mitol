@@ -4,12 +4,12 @@
         "robin hood",
     ],
     hints: [
-        "Inspirado en la figura de *Hereward el Proscrito*",
-        "Residente del *Bosque de Sherwood*",
-        "Empuña un arco con el que robaba a los ricos para repartir a los pobres",
-        "Líder de su banda de *Merry Men*, lo acompañan el *Fraile Tuck* y el *Pequeño Juan*",
-        "Su nombre erróneamente es traducido al español como capucha",
+        "Inspirado en la figura de **Hereward el Proscrito**",
+        "Su enemigo es el **sheriff de Nottingham**",
+        "Reside en el **Bosque de Sherwood**",
+        "Con un arco roba a los ricos para repartir a los pobres",
+        "El superhéroe de DC **Flecha Verde** se basa en esta leyenda",
     ],
     difficulty: 2,
-    description: "**Robin Hood**",
+    description: "**Robin Hood** es un héroe forajido del folclore inglés. Un arquero sin igual, defensor de los pobres y oprimidos, la leyenda luchaba contra el príncipe **Juan sin Tierra** y sus fuerzas, entre ellas el famoso sheriff de Nottingham, junto a su banda de *Hombres Alegres* integrada por el **fraile Tuck**, **el pequeño Juan** y **Lady Marian** entre muchos otros. En algunas versiones de la leyenda era un noble que se simpatizaba con los pobres; en otras es solamente uno más que decide empuñar el arco para repartir las riquezas justamente.",
 }

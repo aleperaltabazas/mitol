@@ -1,15 +1,18 @@
 {
   id: 'hecate',
   answers: [
-    '',
+    'hecate',
+    'ecate',
+    'ecati',
+    'hecati',
   ],
   hints: [
+    'Diosa de la **magia** y las **encrucijadas**',
     '',
+    'Se dice que tiene **tres caras**',
     '',
-    '',
-    '',
-    '',
+    'Se considera que su nombre viene de la palabra griega para **centenar** (*ἑκατόν*)',
   ],
   description: '',
-  difficulty: 3,
+  difficulty: 5,
 }

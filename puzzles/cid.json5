@@ -16,12 +16,12 @@
     'el mio cid',
   ],
   hints: [
-    'Legendario guerrero del *Levante*, a veces Cruzado y a veces a guerrero de la Reconquista',
+    'Legendario guerrero del *Levante*, heróe Cruzado de la Reconquista',
     'La canción *El Dragón Furente* de Ricardo Soulé cuenta su historia',
     'En un cruce de 5 avenidas en el barrio de Caballito se puede encontrar un monumento en su figura',
     'Su epíteto está en el título de su épica: *"Cantar del mío..."*',
     'El *Potro* comparte su nombre con el guerrero',
   ],
-  description: '',
-  difficulty: 3,
+  description: '**Rodrigo Díaz de Vivar**, más conocido como **Cid Campeador**',
+  difficulty: 4,
 }

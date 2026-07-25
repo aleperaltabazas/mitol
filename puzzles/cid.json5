@@ -16,12 +16,12 @@
     'el mio cid',
   ],
   hints: [
+    'Guerrero de la Reconquista que, según la leyenda, volvió de entre los muertos',
     'Legendario guerrero del *Levante*, heróe Cruzado de la Reconquista',
-    'La canción *El Dragón Furente* de Ricardo Soulé cuenta su historia',
-    'En un cruce de 5 avenidas en el barrio de Caballito se puede encontrar un monumento en su figura',
-    'Su epíteto está en el título de su épica: *"Cantar del mío..."*',
+    'En un cruce de 5 avenidas en el barrio de Caballito se puede encontrar un monumento a su figura',
+    'Su epíteto está en el título de su épica: *"Cantar del mio..."*',
     'El *Potro* comparte su nombre con el guerrero',
   ],
-  description: '**Rodrigo Díaz de Vivar**, más conocido como **Cid Campeador**',
+  description: '**Rodrigo Díaz de Vivar**, más conocido como **Cid Campeador**, fue un guerrero de la Reconquista española. Según la leyenda, después de muerto sus soldados ataron su cadáver a su caballo, Babieca, lo visiteron con su armadura y eso fue suficiente para espantar a sus enemigos que creyeron que el temible Cid había resucitado. Si bien es una figura histórica que existió, sus hazañas han sido exageradas y dramatizadas, siendo la principal fuente que tenemos hoy en día *El Cantar de Mio Cid*, un clásico cantar de gesta de la literatura castellana.',
   difficulty: 4,
 }

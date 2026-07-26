@@ -1,15 +1,17 @@
 {
   id: 'sysyphus',
   answers: [
-    '',
+    'sisifo',
+    'sisifos',
+    'sysyphus',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
+    'Astuto rey de Éfira, con el mal hábito de asesinar viajeros',
+    'Engañó y apresó a Tánatos por un mes',
+    'Su astucia en vida la llevó a un eterno castigo en la muerte',
     'Debemos imaginarlo feliz',
+    'Su castigo consiste de empujar una piedra por la ladera de una montaña',
   ],
-  description: '',
-  difficulty: 3,
+  description: '**Sísifo** (del griego *Σίσυφος*) fue un rey de la mitología griega. Los recuentos de su historia varían en el crimen que cometió, pero en todos termina con el astuto Sísifo siendo castigado por intentar engañar a los dioses y evadir a la muerte. Su castigo consiste en empujar una enorme piedra por la ladera de una montaña, pero que justo antes de llegar a la cima la roca rueda para abajo. Hay diversas interpretaciones del significado de esta historia, entre ellas *Albert Camus* interpreta este mito como el absurdo de la vida humana. En su obra, *El mito de Sísifo*, describe la filosofía absurda con la famosa frase "La lucha misma hacia la cima basta para llenar el corazón de un hombre. Uno debe imaginar a Sísifo feliz".',
+  difficulty: 4,
 }

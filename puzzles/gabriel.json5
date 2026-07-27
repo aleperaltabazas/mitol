@@ -1,0 +1,15 @@
+{
+  id: 'gabriel',
+  answers: [
+    'gabriel',
+  ],
+  hints: [
+    'Su nombre significa "Dios es mi fuerza" o "fuerza de Dios"',
+    'Hace sonar la trompeta para indicar el fin de los tiempos',
+    'Es quien anuncia a **Maria** que será la madre de **Jesús**',
+    'La forma antigua de su nombre es *Yibril*',
+    'El autor de *Cien años de soledad* comparte su nombre',
+  ],
+  description: 'El arcángel **Gabriel** (del hebreo *גַּבְרִיאֵל‎*) es uno de los mensajeros de Dios en las religiones abrahámicas. Se le apareció al profeta Daniel, a Zacarias, a la virgen María y al profeta Mahoma para anunciarles revelaciones sobre su futuro. Para el cristianismo, Gabriel volverá un día a la Tierra y hará sonar su trompeta para marcar el fin del mundo.',
+  difficulty: 5,
+}

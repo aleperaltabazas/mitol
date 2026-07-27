@@ -8,11 +8,11 @@
   ],
   hints: [
     'Un mono nacido de piedra que adquirió poderes sobrenaturales que desafió a las deidades celestiales',
-    'Uno de los discípulos de *Sanzang* en la novela china *Viaje al Oeste*',
+    'Uno de los discípulos del buda en la novela china *Viaje al Oeste*',
     'También se lo conoce con el título de **Rey Mono**',
     'Usa un bastón que puede cambiar de tamaño y viaja en una nube',
     'Comparte nombre con el protagonista de la franquicia *Dragon Ball*',
   ],
-  description: '',
+  description: '**Sun Wukong** es un personaje de la novela China, *Viaje al Oeste*. Nació de una piedra inmortal formada por las fuerzas del *Wuji*, el estado primordial del universo para la filosofía china. Se unió a un clan de monos y se convirtió en su rey, pero al enfrentarse con su propia mortalidad decide emprender un camino para encontrar la inmortalidad. La característica por la que se destaca es la de ser tramposo. Tiene diversas habilidades, entre ellas la capacidad de cambiar su forma, una enorme fuerza y velocidad y es inmortal.',
   difficulty: 5,
 }

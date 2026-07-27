@@ -1,0 +1,16 @@
+{
+  id: 'eneas',
+  answers: [
+    'eneas',
+    'aeneas',
+  ],
+  hints: [
+    'Hijo de **Afrodita** y **Anquises**',
+    'Héroe de la **guerra de Troya**',
+    'Tras la guerra de Troya termina en **Cartago** y se casa con la reina **Dido**',
+    'Se dice que **Rómulo** y **Remo** son sus descendientes',
+    'El poema más importante de Virgilio narra su historia',
+  ],
+  description: 'La *Eneida* de Virgilio narra la historia de **Eneas** (del griego *Αἰνείας*), una historia de cómo un héroe de la guerra de Troya tras la derrota escapa al Lacio, se casa con la princesa Lavinia, se convierte en rey y, por consecuencia, el creador del **pueblo romano**. Según cuenta la leyenda, Rómulo y Remo, los fundadores de Roma, son descendientes suyos, y su linaje puede trazarse hasta Julio César y su sobrino Octavio, hecho que este último utilizó como parte de su maniobra para convertirs en el **emperador de Roma**.',
+  difficulty: 2,
+}

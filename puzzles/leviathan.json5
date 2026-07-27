@@ -1,0 +1,16 @@
+{
+  id: 'leviathan',
+  answers: [
+    'leviatan',
+    'leviathan',
+  ],
+  hints: [
+    'Posiblemente la más famosa criatura de origen **hebreo**',
+    '*Thomas Hobbes* escribió un libro con el nombre de la criatura',
+    'Es una enorme **serpiente marina**',
+    'Aparece frecuentemente en vídeojuegos',
+    'Hoy en día su nombre se usa como sinónimo para **monstruos marinos**',
+  ],
+  description: 'El **Leviatán** (del hebreo *לִוְיָתָן*) es una enorme bestia marina con origen en la Biblia.',
+  difficulty: 3,
+}

@@ -14,5 +14,5 @@
     'Comparte nombre con el protagonista de la franquicia *Dragon Ball*',
   ],
   description: '',
-  difficulty: 3,
+  difficulty: 5,
 }

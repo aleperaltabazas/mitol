@@ -1,0 +1,16 @@
+{
+  id: 'hestia',
+  answers: [
+    'hestia',
+    'estia',
+  ],
+  hints: [
+    'Simbolizada por el **fuego de la chimenea**',
+    'La primera diosa del Olimpo',
+    'No tiene templos o altares dedicados a ella, pues **el hogar es su templo**',
+    'Rechazó los avances de **Poseidón** y **Apolo** y nunca tomó pareja',
+    'Es la diosa del **hogar**, la **familia** y la **paz**',
+  ],
+  description: '**Hestia** (del griego *Ἑστία*) es la diosa del **hogar**, la **familia** y la **paz** en la mitología griega. No hay mitos o aspectos que destaque de su figura, pero era una deidad ampliamente conocida, pues se rendía culto en los fuegos de los hogares. Según la *Teogonía* de Hesíodo es la primogénita de Cronos y Rea, y por lo tanto la primera en ser devorada. Como Artemisa y Atenea, es una diosa virgen que no tomó parejas.',
+  difficulty: 2,
+}

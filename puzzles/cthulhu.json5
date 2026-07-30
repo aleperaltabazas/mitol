@@ -1,0 +1,19 @@
+{
+  id: 'cthulhu',
+  answers: [
+    'cthulhu',
+    'ctulu',
+    'ctuluh',
+    'cthuluh',
+    'cutulu',
+  ],
+  hints: [
+    'Probablemente la deidad más popular de **la ciencia ficción moderna**',
+    'Se lo describe como un monstruo con forma humana, pero con cabeza de pulpo y alado',
+    'Su primera aparición es en el cuento de 1928 *La llamada de ...*',
+    'Alrededor de esta figura se formó una mitología de horror cósmico',
+    'Es la figura central de la mitología de **H.P. Lovecraft**',
+  ],
+  description: '**Cthulhu** es una entidad cósmica creada por Howard Phillips Lovecraft. Su primera aparición es en el cuento **La llamada de Cthulhu** (*The Call of Cthulhu*) publicado en la revista *Weird Tales* en 1928. De allí nació un universo literario de horror cósmico con esta entidad monstruosa. En la mitología de este universo existen diversas entidades, entre ellas los **dioses primigenios** (Cthulhu), dioses arquetípicos, dioses exteriores y las razas menores. Según la mitología, Cthulhu se encuentra en un sueño profundo bajo un sello en la ciudad subacuática de *R\'lyeh* en el océano pacífico, a la espera de que ser liberado por cultos y sectas para retomar el control de la Tierra.',
+  difficulty: 3,
+}

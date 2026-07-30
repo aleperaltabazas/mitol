@@ -1,8 +1,7 @@
 {
-  id: 'atalanta',
+  id: 'hypnos',
   answers: [
-    'atalanta',
-    'atalante',
+    '',
   ],
   hints: [
     '',

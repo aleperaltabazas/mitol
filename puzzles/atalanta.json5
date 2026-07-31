@@ -5,12 +5,12 @@
     'atalante',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'Una de las cazadoras favoritas de Artemisa',
+    'Abandonada al nacer en el monte Partenio, rescatada y criada por cazadores',
+    'Según algunas versiones, aventuró con **los argonautas**',
+    'Se casó con **Hipómenes** tras que este la venciera en una carrera',
+    'Su hazaña más recordada es la cacería del **jabalí de Calidón**',
   ],
-  description: '',
+  description: '**Atalanta** (del griego *Ἀταλάντη*) es una heroína de la mitología griega reconocida por su habilidad para la cacería. Se dice que la misma Artemisa le enseñó a cazar. Su padre, que deseaba hijos varones, la abandonó en el monte Partenio. Artemisa transformada en una osa la amamantó hasta que un grupo de cazadores la encontró y rescató a la niña. En este ambiente creció y dedicó su vida a Artemisa.',
   difficulty: 3,
 }

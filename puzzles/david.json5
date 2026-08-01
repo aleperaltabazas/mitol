@@ -1,0 +1,15 @@
+{
+  id: 'david',
+  answers: [
+    'david',
+  ],
+  hints: [
+    'Rey de Israel, nacido en **Belén**',
+    'La canción *Las Guerras* de Vox Dei narra su principal historia',
+    'Una de las más famosas esculturas de **Miguel Ángel** es a su figura',
+    'Fue un **gran guerrero**',
+    'Se enfrentó a un **gigante** con una **honda**',
+  ],
+  description: '**David** (en hebreo *דוד*) fue el segundo rey de Israel. Su vida es narrada los Libros de Samuel y Primera de Crónicas. Entre sus hazañas más reconocidas se destaca su enfrentamiento al filisteo **Goliat**, un temible gigante a quien derrotó y mató usando una honda y cinco piedras.',
+  difficulty: 3,
+}

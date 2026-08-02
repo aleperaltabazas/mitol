@@ -1,0 +1,16 @@
+{
+  id: 'hera',
+  answers: [
+    'hera',
+    'juno',
+  ],
+  hints: [
+    'Diosa de las mujeres, el matrimonio y la familia',
+    'Partidaria de los aqueos en la **guerra de Troya**',
+    'Se peleó con **Atenea** y **Afrodita** por la **manzana de la discordia**',
+    'Su esposo le fue infiel diversas veces',
+    'Reina del Olimpo',
+  ],
+  description: 'En la mitología griega **Hera** (del griego *Ἥρα*) es la reina del Olimpo. Diosa del matrimonio y la familia, se considera que era la protectora de las mujeres. No protagoniza muchos mitos por sí sola, la mayoría están asociados a las infidelidades de su esposo, Zeus, con diosas y mortales por igual. En estas historias Hera generalmente cumple un rol antagonístico. Según varias leyendas, la Vía Láctea fue creada cuando Hera amamantó a Heracles y este escupió la leche de su pecho.',
+  difficulty: 1,
+}

@@ -1,15 +1,16 @@
 {
   id: 'persephone',
   answers: [
-    'david',
+    'persefone',
+    'proserpina',
   ],
   hints: [
-    'Segundo rey de Israel, reconocido por ser un **gran guerrero**',
-    '',
-    '',
-    '',
-    '',
+    'Diosa de la **primavera** y los **cultivos**',
+    'Madre de **Zagreo** y **Melinoe**, a veces también de **Dionisio**',
+    'Conocida también con el nombre de **Kore**',
+    'Su ausencia **trae el invierno**',
+    'Es también **reina del inframundo**',
   ],
-  description: '',
-  difficulty: 3,
+  description: '**Perséfone** (del griego *Περσεφόνη*), o **Proserpina** para los romanos, es la diosa de la primavera, la vegetación y los cultivos. En la mitología griega es hija de Zeus y Deméter, raptada por Hades (con quien luego se casó), aunque algunas versiones afirman que el rapto estuvo orquestado por Zeus como un "matrimonio arreglado". Devastada por el rapto de su hija deja, Deméter descuida sus tareas y provoca hambrunas por los suelos infértiles. Hermes logra negociar que Perséfone regrese al Olimpo, pero ella ya se había comido las semillas de granada lo que le obligaban permanecer en el inframundo por unos meses.',
+  difficulty: 4,
 }

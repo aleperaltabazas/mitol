@@ -6,11 +6,11 @@
   ],
   hints: [
     'Posiblemente la más famosa criatura de origen **hebreo**',
-    '*Thomas Hobbes* escribió un libro con el nombre de la criatura',
     'Es una enorme **serpiente marina**',
-    'Aparece frecuentemente en vídeojuegos',
-    'Hoy en día su nombre se usa como sinónimo para **monstruos marinos**',
+    '*Thomas Hobbes* escribió un libro con el nombre de la criatura',
+    'Aparece en la película animada de Disney **Atlantis: El Imperio Perdido**',
+    'Hoy en día su nombre se usa como nombre genérico para **monstruos marinos**',
   ],
-  description: 'El **Leviatán** (del hebreo *לִוְיָתָן*) es una enorme bestia marina con origen en la Biblia.',
+  description: 'El **Leviatán** (del hebreo *לִוְיָתָן*) es una enorme bestia marina con origen en la Biblia. Representa las fuerzas del mal o el desorden primordial antes de la creación del mundo, pero en algunas versiones se lo asocia con el infierno y el pecado de la **envidia**.',
   difficulty: 3,
 }

@@ -1,0 +1,15 @@
+{
+  id: 'tiresias',
+  answers: [
+    'tiresias',
+  ],
+  hints: [
+    'Probablemente el más famoso anciano de la mitología griega',
+    'Encontró a **Atenea bañándose** y esta lo castigó con la ceguera',
+    'Le revela la verdad de su naturaleza a **Edipo**',
+    'Además de ciego era **adivino**',
+    '**Odiseo** acude a su ayuda en el **inframundo**',
+  ],
+  description: 'El viejo **Tiresias** (del griego *Τειρεσίας*) era un oráculo ciego de Tebas. Es una figura central en la mitología de la ciudad de **Tebas**, pero aparece también en otras historias. Entre ellas, en la Odisea, donde guía al rey de Ítaca para que pueda regresar a su esposa. Las causas de su ceguera varían según la versión, en algunas es Atenea y en otras es Hera, pero en ambos casos se le otorga también el don de la profecía.',
+  difficulty: 5,
+}

@@ -1,0 +1,18 @@
+{
+  id: 'pachamama',
+  answers: [
+    'pachamama',
+    'pacha mama',
+    'mamapacha',
+    'mama pacha',
+  ],
+  hints: [
+    'Diosa del **cosmos**, del **espacio** y del **tiempo**',
+    'Es la **diosa madre** de la fertilidad y la naturaleza',
+    'Muy presente en el folclore latinoamericano',
+    'La canción *«Vientos del alma»* de **Mercedes Sosa** la nombra directamente',
+    'En la actualidad, se la suele asociar a la tierra y la naturaleza',
+  ],
+  description: 'La **Pachamama** o **Mama Pacha** es la diosa del espacio-tiempo en la cosmovisión andina. Representa el universo en su totalidad, omnipresente y creadora de la vida. El primer día de agosto de cada año se la conmemora: se le realizan ofrendas abriendo un pozo en la tierra para darle alimentos, bebidas y hojas de coca.',
+  difficulty: 2,
+}

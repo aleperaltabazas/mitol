@@ -1,0 +1,15 @@
+{
+  id: 'medea',
+  answers: [
+    '',
+  ],
+  hints: [
+    '',
+    '',
+    '',
+    '',
+    '',
+  ],
+  description: '',
+  difficulty: 3,
+}

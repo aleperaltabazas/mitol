@@ -1,0 +1,15 @@
+{
+  id: 'charon',
+  answers: [
+    '',
+  ],
+  hints: [
+    '',
+    '',
+    '',
+    '',
+    '',
+  ],
+  description: '',
+  difficulty: 3,
+}

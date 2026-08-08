@@ -1,0 +1,15 @@
+{
+  id: 'hades',
+  answers: [
+    'hades',
+  ],
+  hints: [
+    'Feliz dueño de un perro **bastante particular**',
+    'Tiene un **casco de invisibilidad** y un **bidente**',
+    'El **mayor** de los hermanos del Olimpo',
+    'Comparte su nombre con su dominio: el **inframundo**',
+    'Un jugo de frutas tiene un nombre extremadamente similar',
+  ],
+  description: 'En la mitología griega, **Hades** (del griego *ᾍδης*) es el dios de la muerte, los muertos y el inframundo, principalmente. Esposo de **Perséfone** y dueño del **Cerbero**, un can de tres cabezas. Aunque en algunas interpretaciones modernas se le suelen atribuir rasgos malvados o siniestros, no es el equivalente mitológico del diablo. Se encarga de guiar a las almas de los difuntos al reino correspondiente, desde el Tártaro a los Campos Elíseos.\n\nSegún la leyenda, tras ser librado del estómago de su padre, Cronos, se unió a sus hermanos y combatió a los titanes empuñando un bidente (una lanza con dos puntas) y un casco que vuelve al usuario invisible (más tarde usado por **Perseo**). Tras el triunfo de los dioses se sortearon los reinos, y en Hades recayó el gobierno del más allá.',
+  difficulty: 2,
+}

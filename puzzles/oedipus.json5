@@ -1,15 +1,16 @@
 {
   id: 'oedipus',
   answers: [
-    '',
+    'edipo',
+    'oedipus',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'El oráculo de Delfos vaticinó que **mataría a su padre**',
+    'Se sacó los ojos tras protagonizar una **tragedia**',
+    'Su nombre se traduce a *«pies hinchados»*',
+    'Resolvió correctamente los acertijos de la **Esfinge**',
+    'Freud acuñó un complejo psicológico con su nombre',
   ],
-  description: '',
-  difficulty: 3,
+  description: '**Edipo** (del griego *Οἰδίπους*) fue un rey de Tebas. Hijo de Layo y Yocasta, el oráculo de Delfos anunció a su padre que, si alguna vez tenía un hijo, una vez adulto lo mataría. Atemorizado por la predicción del adivino, Layo atravesó los pies del bebé Edipo con fibulas y se lo entregó a un pastor para que se deshiciera de él. El pastor lo abandonó en el monte Citerión colgado de un árbol, donde fue hayado por pastores corintios. De ahí, la reina Mérope crió al niño y le puso su nombre, Edipo, que se traduce como "el de los pies hinchados" por cómo le quedaron los pies.',
+  difficulty: 1,
 }

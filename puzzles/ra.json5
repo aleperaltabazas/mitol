@@ -1,0 +1,15 @@
+{
+  id: 'ra',
+  answers: [
+    'ra',
+  ],
+  hints: [
+    'Dios del **sol**',
+    'Fue el **primer faraón** de Egipto',
+    'Es el creador de **todos los seres vivos**',
+    'Su verdadero nombre es un **secreto**',
+    'Tenía la cabeza de un **halcón**',
+  ],
+  description: 'En la mitología griega **Ra** (𓇳) es el dios del sol y el origen de la vida. Específicamente, Ra representa el sol del **mediodía**, pues se manifestaba de diferentes formas de acuerdo a la posición del sol: *"Al amanecer me llamo Khepri, al mediodía Ra y al atardecer Atum"*. En realidad, el nombre real de la deidad que representa Ra es secreto, ya que el conocimiento del verdadero nombre obtiene su el poder absoluto ostentado por ella. Según la leyenda, Isis creó una serpiente que picó y envenenó al dios. Desconcertado por la existencia de un ser que pudiera provocarle dolor (dado que la serpiente no era de *su propia* creación), Isis acudió y ofreció su ayuda a cambio de que le revelase su nombre secreto. Ra accedió y le hizo jurar que nunca se lo revelara a nadie. Sanado de su dolor, Ra, en su forma más común de un halcón, dejó de reinar Egipto y encontró un lugar en el cielo donde pasear siguiendo la trayectoria del sol.',
+  difficulty: 2,
+}

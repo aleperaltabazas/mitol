@@ -1,0 +1,16 @@
+{
+  id: 'polyphemus',
+  answers: [
+    'polifemo',
+    'polyphemus',
+  ],
+  hints: [
+    'Nadie lo engañó',
+    'Nadie lo emborrachó',
+    'Nadie le clavó una estaca en **el ojo**',
+    'Nadie se escapó con sus **ovejas**',
+    '**Nadie** reveló su nombre mientras se escapaba de **él**',
+  ],
+  description: '**Polífemo** (del griego *Πολύφημος*) es uno de los cíclopes de la mitología griega. Junto con sus hermanos vivían en una isla remota cerca de la costa de Sicilia. Su historia más relevante se presenta en la *Odisea* de Homero. El héroe de la historia llega a la isla y es atrapado por el cíclope, quien con total facilidad devora a algunos de sus compañeros. El astuto Odiseo idea un ingenioso plan para escapar: ofreciendo vino a Polífemo, le indica que su nombre es **"nadie"**. Una vez borracho, Odiseo y sus tripulantes clavan una estaca en el ojo de la bestia, quien exclama socorro a sus hermanos: *"nadie me está atacando"*. Sus hermanos, creyendo que estaba delirando, ignoran sus súplicas y se van. Cegado, Polífemo quita la roca que sella la cueva donde se encontraba para dejar salir a su ganado; pero Odiseo previó esto y, junto a sus compañeros, se esconden debajo de sus vientres, escpaando así de la isla de los Cíclopes.',
+  difficulty: 2,
+}

@@ -1,0 +1,16 @@
+{
+  id: 'alibaba',
+  answers: [
+    'ali baba',
+    'alibaba',
+  ],
+  hints: [
+    'Un humilde leñador que se encontró con un gran tesoro',
+    'Su historia transcurre en **oriente medio**',
+    'El tesoro se encuentra sellado por una roca que se abre al grito de *"¡Ábrete, sésamo!*',
+    'Su codicioso hermano fue asesinado y descuartizado por los dueños originales del tesoro',
+    'El tesoro pertenece a unos **cuarenta** ladrones',
+  ],
+  description: '**Alí Babá** (en árabe: *علي بابا*) es el protagonista del cuento *Alí Babá y los cuarenta ladrones* de *Las mil y unas noches*, libro de antología de cuentos variados de la tradición árabe. En este cuento, Ali Baba es un humilde leñador que de casualidad encuentra la guarida de unos ladrones justo cuando estos están regresando y revelan el truco para abrir la roca que los sella: el grito de *"¡Ábrete, sésamo!"*. Cuando los ladrones se marchan, Ali Baba entra y, a pesar de a ver una enorme cantidad de riquezas, se roba tan solo una bolsa de oro.',
+  difficulty: 2,
+}

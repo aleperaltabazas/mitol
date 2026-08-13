@@ -1,15 +1,18 @@
 {
   id: 'asterion',
   answers: [
-    '',
+    'asterion',
+    'asterio',
+    'asterius',
+    'minotauro',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'Probablemente el habitante más famoso de **Creta**',
+    'Todos los años recibía **siete hombres** y **siete mujeres** como visitantes en su hogar',
+    'Jorge Luis Borges escribió un cuento sobre su casa (*La casa de...*)',
+    'Reside en un **laberinto**',
+    'Hijastro del rey **Minos**',
   ],
-  description: '',
-  difficulty: 3,
+  description: 'El **minotauro** (del griego *Μινώταυρος*, «el toro de Minos») es un monstruo de la mitología griega con cuerpo de hombre y cabeza de toro. Su nombre de pila habitualmente es **Asterio**, **Asterius** o **Asterión**. Hijo de Pasífae y el toro de Creta (*nota del autor*: no me voy a meter en detalles), el monstruo fue encerrado en un laberinto en la ciudad de Cnosos diseñado por el artesano ateniense, **Dédalo**. Según la leyenda, siete hombres y siete mujeres eran arrojados al laberinto como sacrificio para mantener alimentada la bestia. Fue el héroe ateniense **Teseo**, hijo de **Egeo**, quien finalmente puso fin a la tradición junto a la vida de Asterión.',
+  difficulty: 2,
 }

@@ -1,15 +1,16 @@
 {
   id: 'ariadne',
   answers: [
-    '',
+    'ariadna',
+    'ariadne',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'Probablemente la otra habitante más famosa de la isla de **Creta**',
+    'Se casó con **Dionisio**',
+    'Una de las pocas que pudo **escapar** del laberinto del **minotauro**',
+    'Se la asocia fuertemente a un **hilo**',
+    'Hermanastra del **minotauro**',
   ],
-  description: '',
+  description: '**Ariadna** (del griego *Ἀριάδνη*) era la princesa de Creta, hija del rey Minos y Pasífae. Al llegar Teseo, hijo de Egeo, a Creta se enamora de él y elabora un plan para que Teseo pueda escapar del laberinto: le entrega al ateniense un hilo para que pueda encontrar su camino de vuelta a la salida del laberinto. Una vez muerto el minotauro, se escapa con Teseo a Atenas. Pero para la tristeza de Ariadna, Teseo la abandona en la isla de Naxos mientras dormía. Sin embargo, **Dionisio** la encuentra y la toma como esposa, inmortalizándola en el proceso.',
   difficulty: 3,
 }

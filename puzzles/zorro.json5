@@ -1,0 +1,20 @@
+{
+  id: 'zorro',
+  answers: [
+    'zorro',
+    'el zorro',
+    'diego',
+    'diego de la vega',
+    'don diego',
+    'don diego de la vega',
+  ],
+  hints: [
+    'Un héroe enmascarado que viste **de negro** y lleva una **capa**',
+    'Su historia está ambientada en **México**',
+    '*En su corcel, cuando sale la luna, aparece el bravo...*',
+    'Marca a sus enemigos con la **inicial de su nombre**',
+    'Lleva el nombre de un animal',
+  ],
+  description: 'El **Zorro** es personaje de Johnston McCulley creado en 1919. Es considerado uno de los primeros héroes de la ficción moderna. El Zorro es la identidad secreta de don Diego de la Vega, un aristócrata mexicano. Lo acompañan **Bernardo**, su fiel compañero sordomudo, y su caballo negro Tornado. Las marcas más comunes del zorro son su vestimenta: un traje negro, una capa, una máscara y, generalmente, un sombrero; y por sobre todo el hecho de que marca a sus enemigos con **la "Z" del zorro** con su florete. Es un héroe que lucha por la gente contra un gobierno tiránico.',
+  difficulty: 3,
+}

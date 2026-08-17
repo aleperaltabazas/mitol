@@ -1,0 +1,18 @@
+{
+  id: 'morpheus',
+  answers: [
+    'morfeo',
+    'morfeos',
+    'morfeus',
+    'morpheus',
+  ],
+  hints: [
+    'Dios de **los sueños**',
+    'Hijo de **Hipnos**',
+    'Su nombre deriva de la palabra griega para **"forma"**',
+    'Se lo asocia con **narcóticos** y un poderoso **opioide** deriva su nombre de él',
+    'Un personaje de la saga cinematográfica **Matrix** comparte su nombre',
+  ],
+  description: 'En la mitología griega **Morfeo** (del griego *μορφή*, forma) era el dios de los sueños, hijo **Hinpos**. La diferencia en los dos radica en que Hipnos es el dios y encarnación de *el acto de dormir*, mientras que Morfeo es el dios que *da forma a los sueños*. No es un dios clásico, pues su primera aparición es en *Las Metamorfosis* de Ovidio, aunque Hesíodo describe a **Óniro** (*Ὄνειροι*) como la personificación del ensueño, por lo que se podría considerar a ambas como la misma deidad.',
+  difficulty: 4,
+}

@@ -1,0 +1,19 @@
+{
+  id: 'saint-nick',
+  answers: [
+    'san nicolas',
+    'santa claus',
+    'papa noel',
+    'nicolas',
+    'nicolas de mira',
+  ],
+  hints: [
+    'Santo de la ciudad de **Mira**',
+    'Originalmente se lo representaba como un **marino con un abrigo verde**',
+    'Es dueño de una importante **fábrica** del norte',
+    '',
+    'Se dice que sorprende a los niños con **regalos** todos los años',
+  ],
+  description: '',
+  difficulty: 3,
+}

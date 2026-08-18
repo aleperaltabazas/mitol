@@ -1,0 +1,17 @@
+{
+  id: 'siegfried',
+  answers: [
+    'siegfried',
+    'sigfrido',
+    'sigurd',
+  ],
+  hints: [
+    'Se bañó en la sangre de un **dragón**, lo que lo volvió **inmortal**',
+    'Es una figura de la mitología escandinava',
+    '',
+    '',
+    'Su historia es narrada en el **cantar de los nibelungos**',
+  ],
+  description: '',
+  difficulty: 4,
+}

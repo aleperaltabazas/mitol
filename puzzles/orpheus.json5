@@ -1,15 +1,17 @@
 {
   id: 'orpheus',
   answers: [
-    '',
+    'orfeo',
+    'orfeos',
+    'orpheus',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'Probablemente el más famoso **poeta** de la mitología',
+    'Hijo de la **musa Calíope**',
+    'Es uno de los pocos en haber visitado el inframundo **y vivido para contarlo**',
+    'Su cantar conmovió e hizo **llorar** a las **furias** por primera vez',
+    'Se volteó cuando no debía',
   ],
-  description: '',
-  difficulty: 3,
+  description: '**Orfeo** (en griego *Ὀρφεύς*) es un músico y poeta de la mitología griega. Con su lira era capaz de conmover hasta los dioses, calmar a las bestias salvajes e incluso mover árboles y detener el curso de los ríos. Según la leyenda, Orfeo descendió al inframundo para traer a la vida de vuelta a su esposa, Eurídice. Conmovidos por su cantar, Hades y Perséfone le permiten llevarse a la ninfa, pero con una condición: Orfeo debía mirar siempre para adelante mientras volvía a la superficie y no voltear. Lleno de nervios y ansiedad, inseguro de que Hades no le hubiera jugado un truco, Orfeo voltea y ve a su esposa por última vez, quien es arrastrada una vez más al Tártaro.\n\n*Nota del autor*: [**temazo** de Supergiant](https://www.youtube.com/watch?v=Oll7pr4JVTQ)',
+  difficulty: 1,
 }

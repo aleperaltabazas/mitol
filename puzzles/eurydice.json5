@@ -1,15 +1,16 @@
 {
   id: 'eurydice',
   answers: [
-    '',
+    'euridice',
+    'eurydice',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'Difunta **ninfa** dríade de Tracia',
+    'Según la leyenda, escapaba de **Aristeo** cuando la mordió una **serpiente**',
+    'Tras la **muerte** de su **esposo** pudieron finalmente **reencontrarse** en los Campos Elíseos',
+    'Canta en el videojuego *Hades*',
+    'Su esposo volteó cuando no debía',
   ],
-  description: '',
-  difficulty: 3,
+  description: '**Eurídice** (en griego *Εὐρυδίκη*) es una ninfa de la mitología griega. No se sabe mucho de su vida más allá de que estaba casada con el músico **Orfeo**. Un día, mientras paseaba por el bosque, Aristeo (una deidad menor asociada con lo rural) intenta raptarla y mientras escapa la muerde una serpiente, lo que la lleva a la muerte. Su esposo desconsolado defiende al inframundo y negocia el retorno de Eurídice, con la condición de que mientras la lleva no puede voltear para verla. Pero ya conocemos el fin de esta historia: casi en la superfice voltea y Eurídice es arrastrada nuevamente al inframundo.\n\n*Nota del autor*: [otro **temazo** de Supergiant](https://www.youtube.com/watch?v=aTg6y2l4duk)',
+  difficulty: 1,
 }

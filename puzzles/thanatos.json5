@@ -1,15 +1,17 @@
 {
   id: 'thanatos',
   answers: [
-    '',
+    'tanatos',
+    'tanato',
+    'thanatos',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'Lleva las almas al río **Aquerón**',
+    'Hijo de **Nix**',
+    'Se dice que tenía **alas negras**',
+    'Fue apresado por **Sísifo**',
+    'Es el dios y encarnación de la **muerte**',
   ],
-  description: '',
+  description: '**Tánatos** o **Tánato** (del griego *Θάνατος*) es la personificación de la muerte en la mitología griega. Según la cosmogonía de Hesíodo es hijo de **Nix** y el hermano gemelo de **Hipno**. Se lo considera uno de los principales *psicopompos*, seres que conducen las almas de los muertos, dentro de la mitología. Generalmente se lo retrata como una figura despiadada que odia tanto a los mortales como a los dioses; pero en representaciones posteriores se lo ha asociado frecuentemente a una muerte pacífica.',
   difficulty: 3,
 }

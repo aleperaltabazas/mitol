@@ -1,15 +1,17 @@
 {
   id: 'hypnos',
   answers: [
-    '',
+    'hipnos',
+    'hipno',
+    'hypnos',
   ],
   hints: [
-    '',
-    '',
+    'Uno de los tantos dioses ctónicos asociados con **la oscuridad y la noche**',
+    'En dos ocasiones distintas ayudó a **Hera** a incapacitar a **Zeus**',
+    'Reside en el **Tártaro**',
     'Padre del dios **Morfeo**',
-    '',
-    '',
+    'Es el dios del **sueño** y del **letargo**',
   ],
-  description: '',
-  difficulty: 3,
+  description: '**Hipno** o **Hipnos** (del griego *Ὕπνος*), hijo de la noche y hermano de la muerte, es el dios y personificación del sueño. Se diferencia de su hijo, **Morfeo**, en que este representa el letargo, el acto de dormir. Según Homero, Hera habría solicitado a Hipnos que la ayudara a incapacitar a Zeus durante la guerra de Troya poniendo a dormir a su esposo. A cambio, Hera le prometió la mano de **Pasítea**, una de las Gracias.',
+  difficulty: 4,
 }

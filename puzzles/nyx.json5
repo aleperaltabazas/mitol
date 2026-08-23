@@ -1,15 +1,18 @@
 {
   id: 'nyx',
   answers: [
-    '',
+    'nyx',
+    'nix',
+    'nox',
+    'nicte',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'Lleva un **vestido negro** acompañado de **estrellas**',
+    'Hija del **caos** y hermana de la **oscuridad**',
+    'Se dice que vive en las **tinieblas más profundas del tártaro**',
+    'Madre del **sueño** y de la **muerte**',
+    'Un *distro* de **Linux** lleva su nombre',
   ],
-  description: '',
-  difficulty: 3,
+  description: '**Nix**, **Nyx**, **Nox** o **Nicte** (del griego *Νύξ* y del latín *Nox, -ctis*) es una diosa primordial y la personificación de la noche en la cosmogonía griega. Según Hesíodo, fue engendrada por **Caos** junto a su hermano, **Érebo**. Es considerada la madre de **Hipno** y **Tánato**, y en algunas interpretaciones la madre de **Hémera** y **Éter**. En la *Ilíada*, se recuerda el momento en el que Hipno puso a dormir a Zeus como favor para Hera y como este, tras despertar, furioso se dispone a arrojar al dios del sueño a lo más profundo del océano. Es entonces que Nix intercede y el rey de los dioses desiste por respeto a la noche.',
+  difficulty: 2,
 }

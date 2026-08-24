@@ -1,0 +1,15 @@
+{
+  id: 'thor',
+  answers: [
+    'thor',
+  ],
+  hints: [
+    'De su nombre deriva directamente la palabra inglesa para **trueno**',
+    'Es hijo de el **rey de los dioses**',
+    'Dios de la **fuerza** y las **tormentas**',
+    'Empuña un **martillo**',
+    'Forma parte de **los Vengadores** de *Marvel Comics*',
+  ],
+  description: 'En la mitología nórdica, **Thor** (del antiguo islandés *Þórr*) es el dios de la fuerza, el trueno y las tormentas; pero también se asocia frecuentemente con el clima, la cosecha y los granjeros. Su rasgo más distintivo es su martillo, **Mjölnir**, que representa su faceta de dios guerrero. No bostante, a diferencia de su padre, **Odín**, quien era el dios de la guerra, el aspecto bélico de Thor se asocia más al de un protector.',
+  difficulty: 2,
+}

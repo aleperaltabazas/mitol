@@ -1,0 +1,18 @@
+{
+  id: 'morgana',
+  answers: [
+    'morgana',
+    'morgan le fay',
+    'morgane',
+    'morgan',
+  ],
+  hints: [
+    '',
+    '',
+    '',
+    '',
+    '',
+  ],
+  description: '',
+  difficulty: 3,
+}

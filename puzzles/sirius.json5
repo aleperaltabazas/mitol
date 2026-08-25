@@ -1,0 +1,16 @@
+{
+  id: 'sirius',
+  answers: [
+    'sirius',
+    'sirio',
+  ],
+  hints: [
+    'Acompaña a su **dueño** en el **cielo nocturno** tras su **muerte**',
+    '',
+    'La estrella más brillante de **Canis Maior** lleva su nombre',
+    '',
+    'Un pariente de **Harry Potter** lleva su nombre',
+  ],
+  description: '',
+  difficulty: 5,
+}

@@ -1,0 +1,15 @@
+{
+  id: 'orion',
+  answers: [
+    'orion',
+  ],
+  hints: [
+    'Probablemente el más famoso **cazador** mitológico',
+    'Solía cazar junto a **Artemisa**',
+    'Su muerte fue provocada por un enorme **escorpión**',
+    'Uno de los **Nuevos Dioses** de *DC Comics* lleva su nombre',
+    'Tras su muerte fue elevado a **las estrellas**',
+  ],
+  description: 'Un gigante reconocido por su belleza, **Orión** (del griego *Ὠρίων*) es uno de los cazadores más importantes de la mitología. Su nacimiento y su muerte varían según las interpretaciones, pero todas coinciden en un aspecto clave: tras su muerte, **Artemisa** (o en algunas versiones, **Zeus**), lo inmortaliza en las estrellas en la constelación del cazador. Según algunas versiones, Orión se jacta de su capacidad de cazar a cualquier animal y Gea entonces envía un enorme escorpión que lo pica y produce su muerte. Por lo tanto, ambas figuras fueron elevadas a la bóveda nocturna de manera que cuando el escorpión sale, Orión se esconde.',
+  difficulty: 4,
+}

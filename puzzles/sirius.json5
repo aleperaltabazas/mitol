@@ -11,6 +11,6 @@
     'La estrella más brillante de **Canis Maior** lleva su nombre',
     'Comparte su nombre con un personaje de **Harry Potter**',
   ],
-  description: '',
+  description: '**Sirius** o **Sirio** (del griego *Σείριος*) es el perro del cazador **Orión** y fue elevado a las estrellas por Artemisa para acompañar a su amo tras su muerte. Conforma la constelación de **Canis Maior**, por lo que también se conoce a dicha estrella como **Alfa Canis Majoris**; es además la estrella más brillante de todo el cielo nocturno desde la Tierra. Se especula que su nombre deriva del griego antiguo *σείω* (seíō) que se traduce a "brillar", y de allí el hecho de que es la estrella más brillante; o de *τίριος* (tírios), la palabra cretense para "verano" y de ahí su rol en la mitología como el que anuncia el verano.',
   difficulty: 5,
 }

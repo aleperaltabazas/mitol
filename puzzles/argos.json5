@@ -1,15 +1,15 @@
 {
   id: 'argos',
   answers: [
-    '',
+    'argos',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'El **perro** más **leal** de la mitología griega',
+    'Espero a su dueño por **20 años**',
+    'Una ciudad **Peloponeso** llevaba su nombre en la antigüedad',
+    'Su nombre significa «brillante» o «luminoso» y de donde deriva la palabra «plata»',
+    'Comparte su nombre con la nave de **Jasón**',
   ],
-  description: '',
-  difficulty: 3,
+  description: '**Argos** (del griego *Ἄργος*) era el perro de **Odiseo** en la mitología griega. Tras 10 años en Troya y 10 años más intentando en su periplo de regreso a Ítaca, Odiseo finalmente regresa a su ciudad natal. Para poder dar un ataque sorpresa a los pretendientes de su reina, Odiseo se hace pasar por un mendigo, engañando a todos; salvo a Argos, quien, cuando Odiseo llega al palacio, y a pesar de estar viejo y enfermo reconoce de inemdiato a su amo y lo saluda moviendo la cola. Odiseo, incapaz de saludar a su perro ya que delataría su identidad, pasa por su lado y entra a su casa derramando una lágrima y Argos, satisfecho, muere.\n\n*Nota del autor*: cómo me vas a matar al perro homero 💔',
+  difficulty: 4,
 }

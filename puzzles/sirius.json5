@@ -5,9 +5,9 @@
     'sirio',
   ],
   hints: [
-    'Es un **perro** de la mitología **griega**',
-    'Acompaña a su dueño en una **constelación**',
-    'Se dice que su aparición en el cielo **trae el verano**',
+    'Acompaña al **cazador** en una **constelación**',
+    'Se dice que su aparición **trae el verano**',
+    'Es un **perro**',
     'La estrella más brillante de **Canis Maior** lleva su nombre',
     'Comparte su nombre con un personaje de **Harry Potter**',
   ],

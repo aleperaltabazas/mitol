@@ -1,15 +1,15 @@
 {
   id: 'kaguya',
   answers: [
-    '',
+    'Kaguya',
   ],
   hints: [
+    'Probablemente la **princesa** más famosa del folclore **japonés**',
+    'Tuvo **cinco pretendientes**, ninguno con los cuales se casó',
+    '*Studio Ghibli* publicó una película animada de su historia en 2013',
     '',
-    '',
-    '',
-    '',
-    '',
+    'Una reimaginación moderna es una comedia romántica donde **dos genios enamorados** compiten por hacer que **el otro confiese sus sentimientos**',
   ],
-  description: '',
+  description: '**Kaguya-hime** (かぐや姫, "la princesa que brilla") es la protagonista de *Taketori Monogatari* (竹取物語, *El cuento del cortador de bambú*), considerado el *monogatari* más antiguo de la literatura japonesa. Un anciano cortador de bambú la encuentra dentro de un tallo luminoso y la cría como su hija. Al crecer se convierte en la mujer más bella del país; los nobles más poderosos —incluso el propio Emperador— la cortejan, y a cada uno les impone una tarea imposible para rechazarlos. Eventualmente revela que es originaria de la Luna y que debe regresar. Antes de partir, le entrega al Emperador un elixir de inmortalidad que este, desconsolado, quema en la cima de la montaña más alta del país —asociada en la tradición popular con el **Monte Fuji**.',
   difficulty: 3,
 }

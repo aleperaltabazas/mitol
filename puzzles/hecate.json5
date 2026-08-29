@@ -8,11 +8,11 @@
   ],
   hints: [
     'Diosa de la **magia** y las **encrucijadas**',
-    '',
+    'En *Macbeth* de Shakespeare, comanda a las **tres brujas**',
     'Se dice que tiene **tres caras**',
-    '',
+    'En el universo de *Percy Jackson* es la diosa de **la niebla**',
     'Se considera que su nombre viene de la palabra griega para **centenar** (*ἑκατόν*)',
   ],
-  description: '',
+  description: '**Hécate** (del griego *Ἑκάτη*) es la diosa de la magia, las brujas y las encrucijadas. Se la suele representar con tres caras, portando antorchas, serpientes y llaves. Es una diosa ctónica con vínculos profundos al inframundo: según el *Himno homérico a Deméter*, fue ella quien, antorcha en mano, ayudó a Deméter a rastrear a Perséfone tras su rapto. En la Antigüedad se depositaban ofrendas en los cruces de caminos para apaciguarla. Su equivalente romana es *Trivia*, nombre que deriva del latín *tri-vium* ("tres caminos").',
   difficulty: 5,
 }

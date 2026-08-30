@@ -1,0 +1,19 @@
+{
+  id: 'joan-of-arc',
+  answers: [
+    'juana de arco',
+    'juana de arc',
+    'jeanne d\'arc',
+    'jeanne darc',
+    'juana',
+  ],
+  hints: [
+    'Una guerrera capaz de **oir a los santos y a los ángeles**',
+    'La campaña de los **francos** en el vídeojuego *Age of Empires II* la tiene como protagonista',
+    'Fue **quemada en la hoguera** a los 19 años, acusada de **herejía** y de vestirse con ropas de hombre',
+    'La cantante Chappel Roan vistió **su armadura** en 2024 en un show de MTV',
+    'También conocida como **la Doncella de Orleáns**',
+  ],
+  description: '**Juana de Arco** fue una campesina francesa que, convencida de haber recibido una misión divina, lideró las fuerzas del reino de Francia durante la **Guerra de los Cien Años** contra Inglaterra. Afirmaba escuchar las voces de los santos Miguel, Catalina y Margarita, quienes le ordenaron coronar al delfín Carlos VII y expulsar a los ingleses. A los 17 años convenció al rey de darle el mando de un ejército y en 1429 logró levantar el **sitio de Orleáns** en apenas nueve días, un punto de inflexión en la guerra. Fue capturada por los borgoñones, aliados de los ingleses, y sometida a un juicio eclesiástico que la condenó por herejía y por usar ropas de hombre. Murió quemada en la hoguera en Ruán en 1431, a los 19 años. Décadas después fue rehabilitada y declarada **mártir**; en 1920 fue canonizada como santa por la Iglesia Católica. Hoy es símbolo nacional de Francia y una de las figuras históricas más retratadas en la cultura popular.',
+  difficulty: 3,
+}

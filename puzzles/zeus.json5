@@ -1,15 +1,15 @@
 {
   id: 'zeus',
   answers: [
-    '',
+    'zeus',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'Dios de la **hospitalidad**, el **orden** y **la justicia**',
+    'Simbolizado por **un águila**',
+    'Reside en lo alto de **un monte**',
+    'Se convirtió en el **dios principal** de su panteón tras destronar a su padre con la ayuda de **sus hermanos**',
+    'Armado para la guerra con el **rayo** y el **relámpago**',
   ],
-  description: '',
-  difficulty: 3,
+  description: 'En la mitología griega **Zeus** (del griego *Ζεύς*) era el dios supremo. Desempañaba su rol de rey de los dioses gobernando desde el Olimpo. Es una deidad celestial típica de la cultura indoeuropea y como tal se le asociaban fenómenos meteorológicos. Sin embargo, este es solo un acotado aspecto de Zeus, era por sobre todo un dios social: garantiza el orden del juramento (*horkios*), la hospitalidad (*xenios*) y la justicia (*dikaosyne*). Es una figura muy frecuente en la mitología, siendo su origen el más conocido: último hijo de Crono y Rea, esta última quien salva a su hijo de ser devorado por su padre y lo esconde en Creta al cuidado de Gea. La madre tierra cria al dios hasta adulto para que se enfrente a su padre. Libera a sus hermanos y hermanas y, con la ayuda de los Cíclopes y los Hecatónquiros que rescatan del Tartaro, los dioses ponen fin a la era de los titanes y toman el Olimpo.',
+  difficulty: 2,
 }

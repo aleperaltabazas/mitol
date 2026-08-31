@@ -1,0 +1,16 @@
+{
+  id: 'virgil',
+  answers: [
+    'virgilio',
+    'virgil',
+  ],
+  hints: [
+    '',
+    '',
+    '',
+    '',
+    '',
+  ],
+  description: '',
+  difficulty: 3,
+}

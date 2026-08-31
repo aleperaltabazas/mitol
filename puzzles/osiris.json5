@@ -4,12 +4,12 @@
     'osiris',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'Su muerte y resurrección estaban ligadas al **ciclo agrícola** del Nilo',
+    'Fue asesinado y desmembrado por su hermano **Set**; su esposa *Isis* reunió sus partes y lo resucitó',
+    'Preside el **juicio de los muertos** junto a cuarenta y dos jueces divinos',
+    'Aparece como personaje central en *Las crónicas de Kane* de **Rick Riordan**',
+    'Dios del inframundo del panteón **egipcio**, representado con piel **verde** y vendas de momia',
   ],
-  description: '**Osiris** (del egipcio *𓊨𓁹*) era el dios de la la agricultura, la muerte y el inframundo. Asesinado por su hermano menor, *Seth*, fue devuelto a la vida por magia de su esposa, *Isis*.',
+  description: '**Osiris** era uno de los dioses más importantes del panteón **egipcio**: señor del inframundo, dios de la muerte y la resurrección, y patrono de la vegetación y la fertilidad del Nilo. Su mito más famoso narra cómo fue asesinado por su hermano *Set*, quien además desmembró su cuerpo y esparció los pedazos por toda la tierra. Su esposa *Isis* los reunió y, con la ayuda de *Anubis*, lo momificó y resucitó —aunque solo temporalmente— para concebir a su hijo *Horus*.\n\nTras su muerte, Osiris se convirtió en el rey del inframundo y juez de los muertos. En el **juicio del alma**, presidía la ceremonia del **pesado del corazón**: el corazón del difunto se colocaba en una balanza frente a la pluma de *Maat* (diosa de la verdad), y solo quienes superaban la prueba accedían a la vida eterna. Se lo representaba envuelto en **vendas de momia**, con la piel de color **verde** —símbolo de renacimiento y vegetación— y portando el **cetro y el mayal**, insignias del poder faraónico.',
   difficulty: 3,
 }

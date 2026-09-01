@@ -1,15 +1,15 @@
 {
   id: 'hermes',
   answers: [
-    '',
+    'hermes',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'Dios del **comercio**, la **comunicación** y del **engaño**',
+    'Se robó el ganado de **Apolo** el mismo día de su **nacimiento**',
+    '**Psicopompo** del **Olimpo**',
+    'Sus rasgos más distintivos son una **vara** mágica con dos **serpientes entrelazadas** y un **casco alado**',
+    'Cumple el rol de **mensajero** de los dioses',
   ],
-  description: '',
+  description: 'En la mitología griega **Hermes** (del griego *Ἑρμῆς*) es el dios del comercio, los caminos, los viajeros, la comunicación, las mediaciones, el engaño, las fronteras y unas cuántas más. En síntesis, es el dios que preside todo aquello que involucre alguna frontera, sea física o social. Es un dios polifacético, también se lo considera un **psicopompo** ya que guía a las almas al inframundo a Caronte, y es un ejemplo del dios picarón. Según la leyenda, el mismo día en que nació escapó de su cuna y robó el rebaño sagrado de su hermano, Apolo, e inventó la **lira** con el caparazón de una tortuga como ofrenda de paz. En ese momento, Zeus lo nombró mensajero oficial del Olimpo.',
   difficulty: 3,
 }

@@ -1,16 +1,17 @@
 {
-  id: "athena",
+  id: 'athena',
   answers: [
     'atenea',
     'atena',
     'azina',
   ],
   hints: [
-    "Su símbolo es la **lechuza**",
-    "Nació de la cabeza de su padre",
-    "Diosa de la guerra y la sabiduría",
-    "La capital griega lleva su nombre",
+    'Diosa de la **artesanía**, la **tejeduría** y la **ciudad**',
+    'Simbolizada con la **lechuza** y el **árbol de oliva**',
+    'Nació de la **cabeza** de su padre',
+    'Se la suele representar con **casco**, **lanza** y **escudo**',
+    'La **capital helena** lleva su nombre',
   ],
-  description: "Luego de haberse tragado a Metis, Zeus necesitó que Hefesto le abriera la cabeza con su martillo por el dolor de cabeza que sufría. De allí nació **Atenea** (del griego *Αθήνα*), ya adulta. Diosa de ",
+  description: 'En la mitología griega, **Atenea** (del griego *Ἀθηνᾶ*) es la diosa de la **guerra**, la **sabiduría**, la **artesanía** y el **orden político**. Pero su sabiduría no refiere a la cualidad de inteligencia, sino al hecho de poder actuar correctamente en situaciones difíciles. Por eso en su faceta de diosa de la guerra se le atribuye la cualidad de **estratega**, a diferencia de Ares que representa la brutalidad y violencia bélica. Según la leyenda, luego de haberse tragado a Metis, Zeus experimentó un dolor de cabeza tan grande que le tuvo que pedir a Hefesto le pegara con su martillo. Tras abrirle la cabeza del golpe nació Atenea, ya adulta y armada. \n\n*Nota del autor*: es mi deidad favorita <3.',
   difficulty: 2,
 }

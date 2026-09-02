@@ -1,0 +1,15 @@
+{
+  id: 'io',
+  answers: [
+    'io',
+  ],
+  hints: [
+    'Una **ninfa del agua**, amante de **Zeus**',
+    '',
+    '',
+    '',
+    'Su nombre coincide con la palabra italiana para el **pronominal singular de la primera persona**',
+  ],
+  description: '',
+  difficulty: 3,
+}

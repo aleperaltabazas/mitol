@@ -1,15 +1,15 @@
 {
   id: 'medusa',
   answers: [
-    '',
+    'medusa',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'Una ex-sacerdotisa de **Atenea** castigada por la diosa',
+    'Hija de **Tifón** y madre del **Pegaso**',
+    'Probablemente la más conocida de las **górgonas**',
+    'Fue decapitada y puesta en la **Égida**',
+    'Su mirada era **petrificante**',
   ],
-  description: '',
+  description: '**Medusa** (del griego *Μέδουσα*) era un monstruo femenino de la mitología griega. La menor de las hermanas górgonas (junto con **Esteno y Euríale**), Medusa era una sacerdotisa de Atenea con quien Poseidón estableció relaciones sexuales en un templo de la diosa de la sabiduría. Según la versión fue seducida por el dios del mar, o directamente violada y en consecuencia Atenea la desfigura y la castiga por haber profanado su templo con el poder de petrificar a quién la mire a los ojos. Algunas interpretaciones modernas no interpretan esto como un castigo, si no como una bendición para que su sacerdotisa no pueda volver a ser violada nunca más.\n\n*Nota del autor*: elijo creer esta última versión porque mi GOAT nunca se equivoca.',
   difficulty: 3,
 }

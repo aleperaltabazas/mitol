@@ -1,0 +1,17 @@
+{
+  id: 'arsene',
+  answers: [
+    'arsene',
+    'lupin',
+    'arsene lupin',
+  ],
+  hints: [
+    '',
+    '',
+    'El más grande **ladrón** de la ficción moderna',
+    '',
+    '',
+  ],
+  description: '',
+  difficulty: 3,
+}

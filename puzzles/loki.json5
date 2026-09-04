@@ -1,15 +1,15 @@
 {
   id: 'loki',
   answers: [
-    'ñloki',
+    'loki',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'Se lo describe como **«el origen de todo fraude»**',
+    'Un **pícaro** del panteón nórdico',
+    'Está destinado a traer el **ragnarök**',
+    'Un gigante de **hielo**, considerado como un hermano por **Odín**',
+    'Protagoniza una serie del universo cinematográfico de **Marvel**',
   ],
-  description: '',
-  difficulty: 3,
+  description: '**Loki** es una figura oscura de la mitología nórdica de la cual poco se sabe. No se la considera una deidad pues no tiene culto. Lo que se sabe es que era hijo de los *jotun* («*jǫtunn*» o «*jǫtunn*», gigantes de hielo) y un maestro del engaño y la maldad, un estafador entre los dioses. No obstante, Loki también se mezcló entre los dioses: proveyó a Thor con su legendario martillo y consiguió que los enanos fabricasen la *Güngnir* para Odín. Llegó a ser considerado como un hermano por el padre de todos, hasta que Loki asesinó a Baldr, su segundo hijo, terrible acción por la que fue capturado y atado a tres rocas. Según la leyenda, un día se liberará para traer el fin de los tiempos al mundo.',
+  difficulty: 4,
 }

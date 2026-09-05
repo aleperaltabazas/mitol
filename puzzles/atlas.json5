@@ -1,0 +1,16 @@
+{
+  id: 'atlas',
+  answers: [
+    'atlas',
+    'atlante',
+  ],
+  hints: [
+    'Una de las lunas de **Saturno** lleva su nombre',
+    'Consiguió unas **manzanas de oro** del jardín de las Hespérides ante el pedido de **Héracles**',
+    'Según Ayn Rand se **rebeló** (o, en su título original, se **encogió de brazos**)',
+    'Su nombre se usa en **cartografía** para referirse a una **colección de mapas**',
+    'En sus hombros **descansa la Tierra**',
+  ],
+  description: 'En la mitología griega **Atlas** (del griego *Ἄτλᾱς*, "el portador") era un titán, hijo de Jápeto y Clímene. Tras su caída contra los olímpicos en la titanomaquia fue castigado por Zeus con la labor de cargar el cielo en sus hombros. Según la leyenda, Euristeo encargó a Héracles con recuperar algunas manzanas del jardín de las Hespérides como una de sus doce labores. Para eso, Héracles ofreció a Atlas sostener el cielo mientras el titán las buscaba. Pero al regresar con las manzanas Atlas, finalmente libre de su castigo, se ofreció con llevar las manzanas al rey. Héracles aceptó, pero muy astuto fue al pedirle al atlante que sostuviera un momento la bóveda celeste para acomodarse la capa, momento en el que aprovechó y escapó con las manzanas.',
+  difficulty: 3,
+}

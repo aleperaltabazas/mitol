@@ -1,17 +1,18 @@
 {
   id: 'arsene',
   answers: [
+    'arsene lupin',
+    'arsène lupin',
     'arsene',
     'lupin',
-    'arsene lupin',
   ],
   hints: [
-    '',
-    '',
-    'El más grande **ladrón** de la ficción moderna',
-    '',
-    '',
+    'Su eterno rival es el inspector **Ganimard**, de la policía francesa, quien nunca logra atraparlo',
+    'Es un maestro del **disfraz**: adopta innumerables identidades y nadie puede reconocer su verdadero rostro',
+    'Roba a los ricos y corruptos, pero jamás daña a los inocentes — su código de honor lo distingue de los criminales comunes',
+    'Protagonizó la aclamada serie de *Netflix* **Lupin** (2021), donde sirve de inspiración para el personaje de Assane Diop',
+    'Maurice Leblanc lo creó en 1905 y lo llamó "el **caballero ladrón**" — *gentleman cambrioleur* en francés',
   ],
-  description: '',
+  description: '**Arsène Lupin** es el personaje ficticio creado por el escritor francés *Maurice Leblanc*, que debutó en 1905 en la revista *Je sais tout*. Conocido como el *"gentleman cambrioleur"* (el caballero ladrón), Lupin es un maestro del disfraz y la astucia que roba exclusivamente a los poderosos y corruptos, siguiendo un estricto código de honor. Su archienemigo es el inspector Ganimard, a quien burla repetidamente, y también se ha enfrentado (o aliado) con un tal *Herlock Sholmès* — guiño velado a Sherlock Holmes que Leblanc no pudo nombrar directamente por cuestiones legales.\n\nLupin trascendió la literatura francesa para convertirse en un icono global: inspiró el manga y anime japonés *Lupin III* (1967, de *Monkey Punch*), donde su nieto sigue sus pasos, y en 2021 la serie de *Netflix* **Lupin** con Omar Sy llevó el personaje a una nueva generación de audiencias en todo el mundo.',
   difficulty: 3,
 }

@@ -4,12 +4,12 @@
     'io',
   ],
   hints: [
-    'Una **ninfa del agua**, amante de **Zeus**',
-    '',
-    '',
-    '',
+    'Una sacerdotisa de **Hera**, amante de **Zeus**',
+    'Una luna de **Júpiter** lleva su nombre',
+    'Recorrió todo el **mediterráneo**, concluyendo su viaje en el **Nilo**',
+    '**Zeus** la transforma en una **vaca**',
     'Su nombre coincide con la palabra italiana para el **pronominal singular de la primera persona**',
   ],
-  description: '',
-  difficulty: 3,
+  description: 'En la mitología griega **Io** (*Ἰώ*) era una ninfa de agua, hija del dios fluvial **Ínaco**. Se dice que fue la primera sacerdotisa de **Hera**. Zeus la sedujo y tomó como amante, pero al ser descubierta por la diosa, el rey del Olimpo la transformó en una vaca blanca y la entrega a su esposa como regalo. Hera la pone bajo el cuidado de un gigante de cien ojos, hasta que Hermes lo mata (por pedido de Zeus). Entonces Hera envía un tábano para perseguir a la vaca por toda Asia y Europa, hasta que termina llegando a Egipto y, recuperando su forma original, da a luz a orillas del Nilo.',
+  difficulty: 4,
 }

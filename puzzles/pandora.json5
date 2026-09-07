@@ -1,0 +1,15 @@
+{
+  id: 'pandora',
+  answers: [
+    'pandora',
+  ],
+  hints: [
+    'En la mitología griega es la **madre de Pírrha**, quien junto a **Deucalión** sobrevivió el gran diluvio y repobló la Tierra.',
+    'Fue creada por **Hefesto** con arcilla y agua por orden de **Zeus**, como venganza a la humanidad tras el robo del fuego por parte de **Prometeo**.',
+    'Su nombre griego significa **"todos los dones"** — *pan* (todo) + *doron* (regalo) — pues cada dios olímpico le otorgó una cualidad en su creación.',
+    'Aparece en *Percy Jackson y los dioses del Olimpo* de **Rick Riordan**, donde su legado y el objeto que cargaba son centrales al arco de la saga.',
+    'Abrió una **vasija** (*pithos*) sellada liberando todos los males del mundo — enfermedad, envidia, guerra, muerte — y dejando dentro solo la **Esperanza** (*Elpis*).',
+  ],
+  description: "**Pandora** fue la primera mujer mortal de la mitología griega, creada por **Hefesto** con arcilla y agua por orden de **Zeus**. Su nombre — del griego *πᾶν* (todo) y *δῶρον* (don) — refleja que cada divinidad del Olimpo le otorgó una cualidad al momento de su creación: belleza, gracia, habilidad manual, persuasión y, fatalmente, la curiosidad.\n\nFue enviada como esposa a **Epimeteo**, hermano de **Prometeo**, como parte del plan de Zeus para vengarse del titán que había robado el fuego para dárselo a los mortales. Con ella llegó una vasija (*pithos*) sellada, con instrucciones estrictas de no abrirla jamás.\n\nLa curiosidad pudo más. Al levantar la tapa, Pandora liberó todos los males que hoy afligen a la humanidad: enfermedad, envidia, guerra, vejez y muerte. Solo quedó en el fondo **Elpis** — la Esperanza — antes de que Pandora cerrara la vasija apresuradamente.\n\nSu hija **Pírrha** y el esposo de esta, **Deucalión**, serían los únicos sobrevivientes del gran diluvio enviado por Zeus, repoblando la tierra con humanos nacidos de las piedras que arrojaron por encima del hombro.\n\n*Nota del autor:* La famosa \"caja de Pandora\" es en realidad una traducción errónea del siglo XVI. En *Los trabajos y los días* de Hesíodo se habla de una *ánfora* o *tinaja* (*pithos*). El error se atribuye a **Erasmo de Róterdam**, quien confundió la palabra griega con el latín *pyxis* (caja). El malentendido lleva cinco siglos circulando.",
+  difficulty: 3,
+}

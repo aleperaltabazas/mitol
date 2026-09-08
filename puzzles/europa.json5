@@ -1,0 +1,15 @@
+{
+  id: 'europa',
+  answers: [
+    'europa',
+  ],
+  hints: [
+    'Princesa fenicia, víctima las infatuaciones de Zeus',
+    'Otra luna de **Júpiter** lleva su nombre',
+    'Zeus se enamoró de ella y se transformó en un manso **toro blanco** para acercarse a ella en la playa',
+    'Cruzó el mar a nado sobre su lomo hasta la isla de **Creta**, donde tuvo tres hijos con el dios, entre ellos el futuro rey **Minos**',
+    'El continente **Europa** debe su nombre a ella',
+  ],
+  description: 'Según el mito, **Europa** era una princesa fenicia que jugaba con sus doncellas en la playa cuando Zeus, cautivado por su belleza, se transformó en un toro blanco de aspecto manso para ganarse su confianza. Cuando la joven se animó a subirse a su lomo, el dios se echó al mar y la llevó nadando hasta Creta, donde se unió a ella y tuvo tres hijos, entre ellos Minos, el futuro rey de la isla y dueño del laberinto del Minotauro. Su hermano *Cadmo*, enviado a buscarla por su padre, nunca la encontró y terminó fundando la ciudad de Tebas. El nombre del continente europeo deriva, según una de las teorías más difundidas, del de esta princesa raptada.',
+  difficulty: 3,
+}

@@ -1,0 +1,21 @@
+{
+  id: 'quixote',
+  answers: [
+    'quijote',
+    'don quijote',
+    'don quijote de la macha',
+    'alonso quijano',
+    'quixote',
+    'don quixote',
+    'don quixote de la mancha',
+  ],
+  hints: [
+    'Si **ladran**, es señal de que **cabalga**',
+    'En sus aventuras se encontró unos **gigantes molinos**',
+    'Protagonista de la **obra cumbre** de la literatura **española**',
+    'Lo acompañan su fiel escudero **Sancho** y su indomable corcel **Rocinante**',
+    'Un ingenioso hidalgo de **la Mancha**',
+  ],
+  description: '**Alonso Quijano**, más conocido como **Don Quijote de la Mancha**, es el protagonista de la novela homónima escrita por **Miguel de Cervantes**. Un hidalgo pobre enloquecido por las novelas de caballería que emprende su travesía en búsqueda de aventuras junto a su fiel escudero, Sancho Panza, quien en realidad es solo un vecino de la Mancha.',
+  difficulty: 2,
+}

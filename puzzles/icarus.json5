@@ -1,0 +1,17 @@
+{
+  id: 'icarus',
+  answers: [
+    'ícaro',
+    'icaro',
+    'icarus',
+  ],
+  hints: [
+    'Su padre diseñó la prisión de la que ambos escaparon volando',
+    'Huyó de la isla de **Creta** junto a su padre, el ingeniero *Dédalo*',
+    'Sus alas estaban hechas de **plumas** pegadas con **cera**',
+    'Un videojuego de Nintendo, **Kid Icarus**, tomó su nombre prestado',
+    'Ignoró las advertencias de su padre, voló demasiado cerca del sol y cayó al mar cuando sus alas se derritieron',
+  ],
+  description: 'En la mitología griega **Ícaro** es el hijo de *Dédalo*, el arquitecto del laberinto de Creta para el rey Minos. Cuando padre e hijo quedaron atrapados en la isla, Dédalo fabricó dos pares de alas de plumas y cera para escapar volando. Advirtió a Ícaro que no volara ni demasiado bajo, por la humedad del mar, ni demasiado alto, por el calor del sol. Envalentonado por el vuelo, Ícaro ignoró el consejo y ascendió tanto que la cera se derritió, precipitándolo al mar que hoy lleva su nombre: el *mar Icario*.\n\n*Nota del autor*: el videojuego *Kid Icarus* de Nintendo no tiene relación narrativa con el mito, más allá del nombre y las alas.',
+  difficulty: 2,
+}

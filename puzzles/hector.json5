@@ -1,0 +1,15 @@
+{
+  id: 'hector',
+  answers: [
+    'hector',
+  ],
+  hints: [
+    'Muerto en la **guerra de Troya**, famosa la profanación de su **cadáver**',
+    'Héroe del lado **troyano** del conflicto',
+    'Su padre negocia el regreso de su **hijo muerto** por la noche',
+    'Última víctima de la **cólera** del pélida',
+    'Asesino de **Patroclo**, a quien robó su armadura',
+  ],
+  description: 'En la mitología griega **Héctor** (del griego *Εκτωρ*) era uno de los príncipes y comandantes de las tropas troyanas. Hijo del rey Príamo y hermano de Paris, Héctor se une al conflicto a pesar de desaprobar las acciones de su hermano menor. En la *Ilíada* de Homero es presentado como un antagonista para Aquiles. Según el poema, Patroclo sale al campo de batalla vestido con la armadura del pélida con el fin de asustar a los troyanos a retroceder. Pero pronto el aqueo cae ante un Héctor apoyado por Apolo. Es entonces que Aquiles retorno al campo de batalla y le pone fin al troyano, profanando su cadáver en el proceso: lo ata a su carro y lo desfila alrededor de Troya y le niega el entierro por días, expuesto al sol y los animales.',
+  difficulty: 3,
+}

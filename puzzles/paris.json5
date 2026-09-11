@@ -1,15 +1,15 @@
 {
   id: 'paris',
   answers: [
-    '',
+    'paris',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'Conocido como **«el de la hermosa figura»**',
+    'Causante de gran **discordia** en el mediterráneo',
+    '**Arquero** troyano, favorecido por el mismísimo **Apolo**',
+    'Con una flecha encontró el **talón** de Aquiles, con una flecha del arco de **Heracles** murió',
+    'Su nombre coincide con una ciudad **Francesa**',
   ],
-  description: '',
+  description: 'En la mitología griega **Paris** (del griego *Πάρις*) era uno de los príncipes troyanos, hijo de Príamo y Hécuba. Durante el embarazo su madre tuvo una visión de que daría a luz a una roca incendiada que destruiría a la ciudad, por lo que al nacer el joven troyano fue abandonado en el monte Ida; pero a último momento Agelao, el encargado de deshacerse del niño, se apiada de él y lo cría como su propio hijo.\n\nDurante la boda de Tetis y Peleo, Eris promete la manzana de la discordia a la más bella de las diosas y para resolver la disputa es Paris encargado con la decisión. Con la promesa de la mujer más bella del mundo, Paris elige a **Afrodita**. Como recompensa, la diosa ayuda al troyano a raptar a la esposa de Menelao, quien al enterarse convoca a sus aliados aqueos y desencadenando en la **guerra de Troya**.',
   difficulty: 3,
 }

@@ -1,15 +1,17 @@
 {
   id: 'heracles',
   answers: [
-    '',
+    'heracles',
+    'hercules',
+    'alcides',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    '**El** héroe griego por antonomasia',
+    'Su **nombre de pila** coincide con el cantante de *Violeta*',
+    'Generalmente representado con un **garrote** y abrigado con una **piel de león**',
+    'El nombre por el que mejor se lo conoce fue otorgado por el oráculo de delfos y se traduce como **«la gloria de Hera»**',
+    'Una película animada de 1997 de **Disney** narra su historia',
   ],
-  description: '',
-  difficulty: 3,
+  description: '**Álcides** (del griego *Ἀλκείδης*) y mejor conocido como **Heracles** (*Ἡρακλῆς*) o **Hércules** para los romanos era uno de los héroes más celebrados de la mitología griega, probablemente el más conocido. Hijo de Zeus y Alcmene, y por lo tanto bisnieto de Perseo, desde su nacimiento el pequeño Álcides estaba destinado a la gloria. De todas las hazañas que conquistó se destacan por sobre todo las **doce labores**: trabajos designados por el rey Euristeo. Según la leyenda, Hera volvió loco al héroe tras enterarse de las andadas a su esposo y lo volvió loco a Héracles, locura durante la cual mató a su esposa Megara y sus hijos. Para expiar su culpa, Heracles se dirigó al oráculo de Delfos y se le indicó que debía ponerse al servicio de Euristeo.',
+  difficulty: 1,
 }

@@ -1,0 +1,17 @@
+{
+  id: 'great-architect',
+  answers: [
+    'el gran arquitecto',
+    'gran arquitecto del universo',
+    'gran arquitecto',
+  ],
+  hints: [
+    '',
+    '',
+    '',
+    '',
+    '',
+  ],
+  description: 'El **Gran Arquitecto del Universo** es el nombre que la **masonería** le da al principio creador supremo, formulado deliberadamente en términos neutrales —de ahí la metáfora del arquitecto y no la de un dios de una religión específica— para que pudiera ser aceptado por logias con miembros de credos distintos. La imagen del compás y la escuadra, tomada de la simbología de los gremios de constructores medievales, se convirtió en su emblema.',
+  difficulty: 5,
+}

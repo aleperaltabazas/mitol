@@ -1,0 +1,16 @@
+{
+  id: 'socrates',
+  answers: [
+    'sócrates',
+    'socrates',
+  ],
+  hints: [
+    'De joven trabajó la piedra como su padre, pero abandonó el oficio para dedicarse a **cuestionar** todo lo que la gente daba por cierto',
+    'Fue condenado a muerte por la asamblea de **Atenas**, acusado de corromper a la juventud, y bebió **cicuta** en su celda',
+    'Su método consistía en hacer **preguntas** hasta desarmar las certezas de su interlocutor, técnica conocida como **mayéutica**',
+    'Aparece como personaje en videojuegos como *Assassin\'s Creed Odyssey*, y es parodiado en la comedia *Bill & Ted\'s Excellent Adventure*',
+    'Afirmaba no saber nada',
+  ],
+  description: '**Sócrates** fue un filósofo de la **Atenas** clásica considerado uno de los fundadores de la filosofía occidental. No dejó nada escrito: todo lo que sabemos de él llega a través de sus discípulos, especialmente **Platón**. Su método, la **mayéutica**, consistía en interrogar a sus interlocutores hasta hacerles notar sus propias contradicciones. Fue juzgado y condenado a muerte por la asamblea ateniense, acusado de impiedad y de corromper a la juventud, y aceptó su sentencia bebiendo **cicuta** en lugar de huir al exilio.\n\n*Nota del autor*: no es un dios ni un héroe, pero pocas figuras de la Antigüedad son tan citadas —y tan mal citadas— como él.',
+  difficulty: 3,
+}

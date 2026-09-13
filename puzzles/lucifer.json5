@@ -1,0 +1,16 @@
+{
+  id: 'lucifer',
+  answers: [
+    'lucifer',
+    'helel',
+  ],
+  hints: [
+    'Su **soberbia** lo llevó de **lo más alto** de los cielos a **lo más profundo** de la tierra',
+    'Protagonista de *Paradise Lost* de *John Milton*',
+    'Su nombre significa **portador de luz**',
+    'Se **rebeló** contra **su creador**',
+    'Un **ángel caído** según la tradición **cristiana**',
+  ],
+  description: '**Lucifer** (del latín *lux* y *ferre*) es un ángel caído en el cristianismo. Un bello e inteligente ángel, pero pecar de soberbia le hizo perder su puesto en el cielo y transformándose en Satanás, aunque en algunas interpretaciones son dos figuras distintas. A veces conocido como **Helel**, este nombre deriva de **Helel ben Shachar* ("astro brillante, hijo del alba" en hebreo) originado en libro de *Isaías*, donde originalmente se refería al **lucero del alba** (el planeta Venus) y a un rey babilónico caído en soberbia.',
+  difficulty: 2,
+}

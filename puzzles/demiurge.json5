@@ -1,0 +1,16 @@
+{
+  id: 'demiurge',
+  answers: [
+    'demiurgo',
+    'el demiurgo',
+  ],
+  hints: [
+    'En varios sistemas filosóficos, no es la máxima divinidad, sino un artesano subordinado a algo superior',
+    'Según **Platón**, moldeó el cosmos material tomando como modelo un mundo eterno y perfecto de formas',
+    'Las corrientes *gnósticas* lo reimaginaron como un creador ciego y arrogante, a veces con cabeza de león y cuerpo de serpiente',
+    'Le da nombre a un poderoso demonio de la serie de anime *Overlord*, y aparece como enemigo en varios juegos de *Shin Megami Tensei*',
+    'Su nombre proviene del griego *dēmiourgós*, "artesano" o "el que trabaja para el pueblo", y designa al formador del universo material',
+  ],
+  description: 'El **Demiurgo** (del griego *dēmiourgós*, "artesano") es la figura que da forma al universo material en distintos sistemas filosóficos y religiosos. Platón lo introduce en el *Timeo* como un artesano divino que ordena el caos primigenio a imagen de un mundo eterno de formas perfectas, sin llegar a ser un creador *ex nihilo*. Las corrientes gnósticas invirtieron esta idea: para ellas el Demiurgo (a menudo identificado con *Yaldabaoth*) es un dios menor, ignorante o directamente malicioso, responsable de encerrar a las almas humanas en la materia. *Nota del autor*: esta es una de las pocas entradas que no corresponde a un personaje narrativo puntual, sino a un concepto que se repite —con variaciones muy distintas— a lo largo de la filosofía y las religiones antiguas.',
+  difficulty: 5,
+}

@@ -1,15 +1,17 @@
 {
   id: 'gemini',
   answers: [
-    'gemini',
     'geminis',
+    'gemini',
+    'géminis',
   ],
   hints: [
-    'Representa a los gemelos **Cástor** y **Polux**',
-    'Dos hermanos **inseparables**',
-    'Zeus inmortalizó su amor fraterno en una constelación nocturno',
-    'Su constelación corresponde al tercer singo del zodíaco',
+    'Soy uno de los doce signos del **zodíaco** occidental, ubicado entre Tauro y Cáncer.',
+    'Represento a un par de hermanos gemelos que nunca quisieron separarse, ni siquiera después de la muerte.',
+    'Mi símbolo son dos líneas paralelas, y mis dos estrellas más brillantes llevan los nombres de esos hermanos.',
+    'En *Saint Seiya*, el Caballero de Oro que lleva mi nombre tiene una máscara con dos rostros: uno bondadoso y otro maligno.',
+    'Zeus convirtió a **Cástor** y **Pólux** en mi constelación para que estuvieran juntos por siempre.',
   ],
-  description: '',
+  description: '**Géminis** es el tercer signo del zodíaco occidental, representado por el símbolo de dos líneas paralelas (♊) y asociado a la constelación homónima. Sus dos estrellas más brillantes, **Cástor** y **Pólux**, llevan el nombre de los gemelos de la mitología griega —los ***Dioscuros***— a quienes Zeus transformó en constelación para que permanecieran juntos por toda la eternidad tras la muerte de Cástor en batalla.\n\nEn astrología, a quienes nacen bajo este signo (entre el 21 de mayo y el 20 de junio, aproximadamente) suele asociárseles con la dualidad, la comunicación y la versatilidad.',
   difficulty: 2,
 }

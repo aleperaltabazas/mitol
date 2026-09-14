@@ -1,0 +1,19 @@
+{
+  id: 'dioscuros',
+  answers: [
+    'castor y polux',
+    'castor polux',
+    'dioscuros',
+    'geminis',
+    'gemini',
+  ],
+  hints: [
+    'Un par de hermanos **inseparables** hasta en la muerte',
+    'Son **medio hermanos** por el lado **materno**, uno es mortal y el otro inmortal',
+    'Tras la muerte del mayor, **Zeus** los elevó a las estrellas',
+    'Se los conoce literalmente como **hijos de zeus**',
+    'El mayor se llama como un **roedor** dientudo que construye **diques**',
+  ],
+  description: '**Cástor** y **Pólux**, también llamados los ***Dioscuros*** (del griego *Dioskouroi*, "hijos de Zeus"), son los gemelos hijos de **Leda**, reina de Esparta. Según el mito, la misma noche en que Zeus sedujo a Leda bajo la forma de un cisne (engendrando a Pólux, inmortal), su esposo Tindáreo yacía también con ella (engendrando a Cástor, mortal). Los hermanos, célebres jinetes y guerreros, formaron parte de la tripulación del *Argo* junto a Jasón, y se convirtieron en patrones de los marineros, a quienes protegían de las tormentas mediante el fenómeno luminoso conocido como *fuego de San Telmo*.\n\nCuando Cástor murió en combate, Pólux, desconsolado por no poder acompañar a su hermano mortal al inframundo, le rogó a Zeus compartir su propia inmortalidad. Conmovido, Zeus decidió que ambos pasarían la eternidad juntos, alternando entre el Olimpo y el Hades, y los inmortalizó como la constelación de **Géminis**, el tercer signo del zodíaco.\n\n*Nota del autor*: la coincidencia con "castor" el animal no es casualidad de traducción: ambas palabras vienen del griego *kastor*, que ya se usaba para nombrar al roedor mucho antes de que existiera el mito. Una pista demasiado buena para no usarla.',
+  difficulty: 5,
+}

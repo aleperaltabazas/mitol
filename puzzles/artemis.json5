@@ -1,15 +1,17 @@
 {
   id: 'artemis',
   answers: [
-    '',
+    'artemisa',
+    'artemis',
+    'diana',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'Diosa de **los partos**, **los bosques** y **lo salvaje**',
+    'Simbolizada con los **ciervos** y los **perros**',
+    'A veces se la considera la **encarnación de la luna**',
+    'Tiene un **hermano gemelo**',
+    'Una canción del disco *Midnight Memories* de *One Direction* comparte el nombre con su equivalente romano',
   ],
-  description: '',
-  difficulty: 3,
+  description: 'En la mitología griega **Artemisa** o **Artemis** (del griego *Ἄρτεμις*) era la diosa de la juventud, los partos y los niños, la caza, y lo salvaje en general. Hija de Zeus y Leto y hermana gemela de **Apolo**, Artemisa es una diosa protectora de las mujeres y la autonomía femenina. Se la suele encontrar por fuera de la *polis*: templos, estatuas y sitios de culto se suelen hallar en los bosques, montes y montañas.',
+  difficulty: 2,
 }

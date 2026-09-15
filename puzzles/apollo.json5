@@ -1,15 +1,16 @@
 {
   id: 'apollo',
   answers: [
-    '',
+    'apolo',
+    'febo',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'Dios de la **profecía** y de **las artes**',
+    'Simbolizado con el **laurel** y la **lira**',
+    'A veces se lo considera la **encarnación del sol**',
+    'Tiene una **hermana gemela**',
+    'Es nombrado en el primer verso de la **marcha de San Lorenzo**',
   ],
-  description: '',
+  description: 'En la mitología griega **Apolo** (del griego *Ἀπόλλων*) es el dios de la profecía, el sol, la música y las artes. Hijo de Zeus y Leto y hermano gemelo de **Artemisa**, Apolo es el patrono del oráculo de Delfos y las pitonisas. En su faceta más belicosa se le asocia con el arco y la flecha, como a su hermana.\n\n*Nota del autor*: el 99% de los mitos de Apolo no son kid-friendly',
   difficulty: 3,
 }

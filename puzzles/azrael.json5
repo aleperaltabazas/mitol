@@ -4,12 +4,12 @@
     'azrael',
   ],
   hints: [
-    'En algunas tradiciones sufíes, una **hoja** cae del árbol que crece bajo el trono de Dios cada vez que alguien está por morir; este ángel tiene cuarenta días para separar el alma de ese cuerpo.',
+    'En algunas tradiciones musulmanas, una **hoja** cae del árbol que crece bajo el trono de Dios cada vez que alguien está por morir; este ángel tiene cuarenta días para separar el alma de ese cuerpo.',
     'Se lo describe como un ser **colosal** de cuatro alas, cubierto de miles de **ojos** y bocas por todo el cuerpo — tantos como seres vivos existen sobre la Tierra.',
     'Su función es la de **ángel de la muerte** en las tradiciones del **judaísmo** y el **islam**: recorre el mundo separando las almas de los cuerpos en el último momento de cada vida.',
     'El gato del malvado brujo **Gargamel** en *Los Pitufos* lleva su nombre, convirtiéndolo en uno de los personajes más inesperados de la animación infantil.',
     'En los cómics de **DC**, el vigilante *Jean-Paul Valley* adoptó su nombre para reemplazar temporalmente a **Batman** con métodos brutales, en el arco conocido como *KnightFall*.',
   ],
   description: '**Azrael** (del árabe *عزرائيل*, *Izrail*) es el **ángel de la muerte** en las tradiciones islámica y judía. Su misión es separar el alma del cuerpo en el momento del fin de cada vida, cumpliendo así el mandato divino. Se lo describe como un ser descomunal de cuatro alas, con el cuerpo cubierto de ojos y bocas en número igual al de todos los seres vivos de la Tierra. En la tradición sufí, cada muerte inminente se anuncia con una hoja que cae del árbol bajo el trono de Dios, y Azrael tiene cuarenta días para llevar a cabo su tarea.\n\nSu nombre, de raíces hebreas y árabes, se traduce aproximadamente como *"a quien Dios ayuda"*. En la cultura popular, el nombre fue adoptado por el gato de Gargamel en *Los Pitufos* y por el personaje de *Jean-Paul Valley* en los cómics de **DC**, quien reemplazó temporalmente a Batman con una armadura mecánica y métodos mucho más violentos durante el arco *KnightFall*.',
-  difficulty: 3,
+  difficulty: 5,
 }

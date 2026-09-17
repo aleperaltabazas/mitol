@@ -1,17 +1,20 @@
 {
   id: 'icarus',
   answers: [
-    'ícaro',
+    'icaro',
+    'ikaro',
+    'icaros',
+    'ikaros',
     'icaro',
     'icarus',
   ],
   hints: [
-    'Su padre diseñó la prisión de la que ambos escaparon volando',
-    'Huyó de la isla de **Creta** junto a su padre, el ingeniero *Dédalo*',
-    'Sus alas estaban hechas de **plumas** pegadas con **cera**',
-    'Un videojuego de Nintendo, **Kid Icarus**, tomó su nombre prestado',
-    'Ignoró las advertencias de su padre, voló demasiado cerca del sol y cayó al mar cuando sus alas se derritieron',
+    'Un verso de *En la ciudad de la furia* hace una referencia al final de este prsonaje',
+    'Hijo del arquitecto del **laberinto del minotauro**',
+    'Es un hombre **alado**',
+    'Un videojuego de *Nintendo* toma su nombre prestado',
+    'Cayó **desde los cielos** al fondo del **mar**',
   ],
-  description: 'En la mitología griega **Ícaro** es el hijo de *Dédalo*, el arquitecto del laberinto de Creta para el rey Minos. Cuando padre e hijo quedaron atrapados en la isla, Dédalo fabricó dos pares de alas de plumas y cera para escapar volando. Advirtió a Ícaro que no volara ni demasiado bajo, por la humedad del mar, ni demasiado alto, por el calor del sol. Envalentonado por el vuelo, Ícaro ignoró el consejo y ascendió tanto que la cera se derritió, precipitándolo al mar que hoy lleva su nombre: el *mar Icario*.\n\n*Nota del autor*: el videojuego *Kid Icarus* de Nintendo no tiene relación narrativa con el mito, más allá del nombre y las alas.',
+  description: 'En la mitología griega **Ícaro** (del griego *Ἴκαρος*) es el hijo de *Dédalo*, el arquitecto del laberinto de Creta para el rey Minos. Finalizada la construcción del laberinto, el rey de Creta los metió presos a los dos. Para escapar, Dédalo fabricó dos pares de alas hechas con plumas y cera para fugarse por el cielo. Advirtió a Ícaro que no volara ni demasiado bajo, por la humedad del mar, ni demasiado alto, por el calor del sol. Envalentonado por el vuelo, Ícaro ignoró el consejo y ascendió tanto que la cera se derritió, precipitándolo al mar que hoy lleva su nombre: el *mar Icario*.\n\nSu historia se suele interpretar como un ejemplo de *hubris*, la arrogancia o insolencia a los límites impuestos por los dioses sobre los hombres. Ícaro, ignorando su naturaleza huamana, continúa ascendiendo hasta que inevitablemente lo termina llevando a su propio fin.',
   difficulty: 2,
 }

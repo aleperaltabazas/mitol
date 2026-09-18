@@ -1,0 +1,15 @@
+{
+  id: 'sif',
+  answers: [
+    'sif',
+  ],
+  hints: [
+    'Diosa de la **agricultura**',
+    'Del panteón **nórdico**',
+    'Se dice que su cabello estaba literalmente **hecho de oro**',
+    'Fonéticamente, su nombre es igual al de una marca de **productos de limpieza**',
+    'Aparece en el universo de *Marvel* como una compañera de **Thor**',
+  ],
+  description: 'En la mitología nórdica **Sif** es una diosa asociada a la tierra: se la considera la deidad de la agricultura, la fertilidad y la cosecha. Esposa de Thor y madre de Thrud y Ullr, su característica más destacable es su cabello rubio. Según la leyenda, Loki, por envidia de su poder, le cortó las trenzas mientras dormía. Atrapado por Thor, Loki prometió que los enanos harían para Sif unas trenzas de **oro puro** que crecerían como cabello natural.',
+  difficulty: 4,
+}

@@ -1,0 +1,17 @@
+{
+  id: 'batman',
+  answers: [
+    'batman',
+    'bruce',
+    'bruce wayne',
+  ],
+  hints: [
+    'En su universo se lo considera el **mejor detective del mundo**',
+    'La noche, la venganza, un caballero **oscuro**',
+    'Su alter ego es un **joven millonario**',
+    'Lo acompaña un **joven maravilla**',
+    'Por la noche se disfraza de **murciélago** para combatir el crimen',
+  ],
+  description: '**Bruce Wayne** es un joven billonario, un hombre mujeriego, fiestero y despilfarrador que puede comprar una mansión o una pieza de arte por mero capricho. Pero por la noche, reemplaza esta máscara por otra, una oscura y con orejas puntiagudas: se convierte en **Batman**, el caballero de la noche. Acompañado por **Alfred**, su fiel mayordomo, y **Robin**, el chico maravilla, combate el crimen en **ciudad Gótica** (*Gotham City*). De niño, el joven Bruce vio a sus padres ser por un arma de fuego y desde ese día su emprendió su cruzada para erradicar el crimen de su ciudad y traer un mundo mejor.\n\n*Nota del autor*: feliz *Batman Day* 🥳',
+  difficulty: 2,
+}

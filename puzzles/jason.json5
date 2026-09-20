@@ -1,14 +1,14 @@
 {
   id: 'jason',
   answers: [
-    '',
+    'jason',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'Héroe de la mitología griega, su característica más destacada es que **dirigía una barca**',
+    'Su objetivo es el **vellocino de oro**',
+    'Durante el viaje se casa con la hechicera **Medea**',
+    'La nave que comanda fue construida por **Argos**',
+    'Un **formato de texto** muy popular para **servicios web** se pronuncia igual que su nombre',
   ],
   description: '',
   difficulty: 3,

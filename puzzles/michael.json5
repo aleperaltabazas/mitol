@@ -1,0 +1,15 @@
+{
+  id: 'michael',
+  answers: [
+    '',
+  ],
+  hints: [
+    '',
+    '',
+    '',
+    '',
+    '',
+  ],
+  description: '',
+  difficulty: 3,
+}

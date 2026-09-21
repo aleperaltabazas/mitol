@@ -1,0 +1,16 @@
+{
+  id: 'demeter',
+  answers: [
+    'demeter',
+    'demetra',
+  ],
+  hints: [
+    'Creadora del **grano** y los **cereales**',
+    'De la mitología **griega**',
+    'Su **tristeza** congeló la tierra',
+    'Diosa la **cosecha** y el **orden sagrado**',
+    'El regocijo de **reencontrarse con su hija** trajo al mundo **la primavera**',
+  ],
+  description: 'En la mitología griega **Deméter** (del griego *Δημήτηρ*, literlamente "diosa madre"), o a veces **Demetra**, es la diosa de la **agricultura**, la **cosecha**, la **tierra fértil** y el **orden sagrado**. Hija de los titanes **Crono** y **Rea**, es una de los doce diosas del olimpo. Según la leyenda, tras el rapto de su hija Perséfone por parte de Hades, Deméter recorrió durante nueve días la tierra, sin comer nio beber, en busca de su hija. Guiada por Hécate y Helios se reencuentra con su hija y con su alegría vuelve a dar vida a los campos, dando origen al ciclo de las cuatro estaciones.\n\n*Nota del autor*: feliz día de la primavera',
+  difficulty: 3,
+}

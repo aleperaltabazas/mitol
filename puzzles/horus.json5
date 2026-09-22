@@ -1,0 +1,15 @@
+{
+  id: 'horus',
+  answers: [
+    'horus',
+  ],
+  hints: [
+    'Dios del **cielo** y la **realeza**',
+    'Hijo del **rey de los muertos** y la **diosa de la magia**',
+    'De la mitología **egipcia**',
+    'Su **ojo** es un antiguo símbolo egipcio',
+    'Tiene la cabeza de un **halcón**',
+  ],
+  description: 'En la mitología egipcia **Horus** era eñ dops de los cielos, la realeza, la caza y la guerra. Hijo de Osiris, dios de los muertos, e Isis, diosa de la magia, es una de las pocas deidades que conoce el verdadero nombre de **Ra**, secreto que legitima su poder como gobernante de todo Egipto. Según las leyendas, su adversario más frecuente es **Seth**, dios del desierto y asesino de su padre, con quien se disputa el control de Egipto.',
+  difficulty: 5,
+}

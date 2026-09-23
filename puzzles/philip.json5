@@ -1,0 +1,17 @@
+{
+  id: 'philip',
+  answers: [
+    'felipe',
+    'san felipe',
+    'filipo',
+  ],
+  hints: [
+    'El **quinto apóstol**',
+    'Predicó en **Grecia**, **Siria** y **Frigia**',
+    'Su nombre es de origen griego y se traduce a **amante de los caballos**',
+    'Algunos combinan su figura con la de un **diácono** del mismo nombre',
+    'El actual **rey de España** lleva su nombre',
+  ],
+  description: '**Felipe el apóstol** fue uno de los doce apóstoles de Jesús. Originario de la ciudad de Betsaida, fue uno de los primeros discípulos de Jesús presentes cuando Juan el Bautista señaló a Cristo como el cordero de Dios. Según la leyenda, Jesús le preguntó a Felipe dónde adquirir pan para 5000 personas, a lo que le respondión: "doscientos denarios de pan no bastan para que cada uno tome un poco". Poco después, Cristo multiplicó los panes.',
+  difficulty: 5,
+}

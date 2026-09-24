@@ -1,0 +1,16 @@
+{
+  id: 'ishtar',
+  answers: [
+    'ishtar',
+    'istar',
+  ],
+  hints: [
+    'Diosa del **amor** y la **guerra**',
+    'Descendió al **inframundo**, donde encontró su fin',
+    'Tras morir, la vida y la fertilidad **se detienen** en la Tierra',
+    'Del panteón **babilonio** y **asirio**',
+    'Su primer esposo fue **Tammuz**',
+  ],
+  description: '**Ishtar** o **Istar** era la diosa del amor y la guerra en la cultura babilónica, asiria y acadia. Se la asocia principalmente con la sexualidad, y su aspecto belicoso se asocia con la pasión amorosa. Según la leyenda, tras la muerte de su esposo, **Tamuz**, la diosa desciende al inframundo, gobernado por su hermana **Ereshkigal**, para rescatar a su amante. Para pasar por las siete puertas del inframundo debe despojarse de sus ropas en cada nivel, pero por cada prenda también pierde parte de su poder divino. Cuando llega finalmente al último nivel está completamente desnuda e indefensa ante su hermana, quien la mata. Al detenrese la vida en la tierra, el resto de los dioses le devuelven la vida, pero con la salvedad que debe pasar tiempo del año en el inframundo.',
+  difficulty: 4,
+}

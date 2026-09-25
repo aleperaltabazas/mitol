@@ -1,0 +1,16 @@
+{
+  id: 'hephaestus',
+  answers: [
+    'hefesto',
+    'vulcano',
+  ],
+  hints: [
+    'Dios del **fuego** y el **trabajo**',
+    'Cuando nació su madre **lo arrojó del Olimpo**',
+    'Con su **hacha** dio nacimiento a la **diosa de la sabiduría**',
+    'Es un **herrero**',
+    'De su nombre **romano** deriva la palabra **volcán**',
+  ],
+  description: 'En la mitología griega **Hefesto** (del griego *Ἥφαιστος*), y **Vulcano** para los romanos, es el dios del **fuego**, la **metalurgia**, la **artesanía** y el **trabajo manual**. Se diferencia de Hestia en que su fuego representa el fuego práctico, usado en los hornos y metalurgia para la ingeniería y progreso de la humanidad. Generalmente se lo representa cojo y deforme, muy distinto de la perfección del resto de su familia Olímpica. Según la leyenda, su madre Hera lo arrojó desde el Olimpo cuando nació al ver lo feo que era, lo cual solo empeoró su deformidad y dio origen a su cojera.',
+  difficulty: 1,
+}

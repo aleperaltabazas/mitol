@@ -1,0 +1,17 @@
+{
+  id: 'cadmus',
+  answers: [
+    'cadmo',
+    'cadmus',
+    'cadmos',
+  ],
+  hints: [
+    'Cronológicamente, el **primer héroe** de la mitología griega',
+    'Es un príncipe **fenicio**',
+    'Su hazaña más destacada consiste en la **matanza de un dragón**',
+    'Fundador de la ciudad de **Tebas**, la cual originalmente llevaba su nombre',
+    'El **cadmio** deriva su nombre de él',
+  ],
+  description: 'En la mitología griega **Cadmo** (en griego, *Κάδμος*) es el héroe fundador de la ciudad de **Tebas**. De origen fenicio, por orden su padre se vio forzado a dejar su hogar en busca de su hermana **Europa** (quien había sido raptada por Zeus) y no podría regresar hasta encontrarla. Según la leyenda, el oráculo de Delfos le indicó que dejase de lado la búsqueda de su hermana y que en su lugar siguiese a una vaca hasta que caiga de agotamiento, lugar donde fundaría una ciudad. La vaca cayó en la región de Beocia, en la actual Tebas, donde Cadmo decidió sacrificarla a Atenea mientras sus compañeros buscaban agua en una fuente cercana. Desafortunadamente, dicha fuente estaba custodiada por un dragón que fácilmente los mató a todos. Ante la imagen de sus compañeros muertos y con espada en mano, Cadmo puso fin a la bestia para fundar su ciudad.',
+  difficulty: 5,
+}

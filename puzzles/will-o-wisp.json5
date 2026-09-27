@@ -1,0 +1,22 @@
+{
+  id: 'will-o-wisp',
+  answers: [
+    'fuego fatuo',
+    'luz mala',
+    'luz de muerto',
+    'will-o-wisp',
+    'will o wisp',
+    'will o\' wisp',
+    'will of the wisp',
+    'hinkypunk',
+  ],
+  hints: [
+    'Un tipo de **fantasma** encontrados por las noches en pantanos',
+    'Manifestaciones de **almas en pena**, sin sepultura**',
+    'Se presenta como **un fuego fantasmagórico** que se suele ver a lo lejos',
+    'Harry Potter y sus amigos se enfrentan con uno en un examen de **defensa contra las artes oscuras**',
+    'Es una **luz**',
+  ],
+  description: 'Los **fuegos fatuos** son luces que se producen por la combustión de sustancias orgánicas en putrefacción y forman pequeñas llamas que arden en el aire. No ayuda con su naturaleza siniestra y fantasmagórica que se los suele hallar en pantanos, ciénagas y hasta **cementerios**. Muchas leyendas han surgido de estos fuegos fantasmales, entre ellos el más destacado en nuestro país la **luz mala** pero también se los puede encontrar en el resto de los continentes. En el Reino Unido se los conoce como *will-o-wisp* (*will of the wisp*) y en el este asiático son un tipo de *yokai*. Según la creencia popular, la luz mala son las almas de aquellos que no han recibido una sepultura cristiana, o que debido a sus pecados permanecen en el purgatorio.',
+  difficulty: 5,
+}

@@ -1,15 +1,15 @@
 {
   id: 'hyppolita',
   answers: [
-    '',
+    'hipolita',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'La dueña de un **cinturón mágico**',
+    'Hermana de **Antíope** y **Pentesilea**',
+    'Combatió con **Héracles** y con **Teseo**',
+    'Es la madre de la **Mujer Maravilla**',
+    'Reina de las **amazonas**',
   ],
-  description: '',
+  description: '**Hipólita** (en griego, *Ἱππολύτη*) era una reina de las amazonas en la mitología griega. Hija de Ares y la reina **Otrera**, su rol más prominente es en la mitología de Héracles. Su nóvena labor fue obtener el **zóster**, un cinturón mágico en posesión de Hipólita. Según la versión, Hipólita se enamora de Héracles y lo entrega voluntariamente, o en otras se enfrentan en combate por el cinturón.',
   difficulty: 3,
 }

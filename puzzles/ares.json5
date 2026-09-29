@@ -1,15 +1,16 @@
 {
   id: 'ares',
   answers: [
-    '',
+    'ares',
+    'marte',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'Estuvo encerrado en **una urna de bronce** por trece meses',
+    'Un programa de transferencia de archivos *P2P* lleva su nombre',
+    'Padre de las **amazonas**',
+    'Sus hijos son el **terror**, el **temor** y la **harmonía**',
+    'Dios de la **fuerza bruta** y el **conflicto**',
   ],
-  description: '',
+  description: 'En la mitología griega **Ares** (en griego, *Ἄρης*) es el dios de **la guerra**. Mientras que Atenea representa la inteligencia y estrategia para la guerra, Ares representa los aspectos más violentos: el frenesí del combate, el derramamiento de sangre y el caos en el conflicto. Hijo de Zeus y Hera, es probablemente el dios olímpico más desdichado por sus pares data su naturaleza belicosa; a excepción **Afrodita** con quien tuvo amoríos frecuentes.',
   difficulty: 3,
 }

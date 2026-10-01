@@ -1,15 +1,15 @@
 {
   id: 'theseus',
   answers: [
-    '',
+    'teseo',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'Héroe fundador de **Atenas**',
+    'Tuvo un hijo con la **reina de las amazonas**',
+    'En algunas versiones **navegó con los Argonautas** junto a su amigo **Piritoo**',
+    'Su padre se **arrojó al mar** cuando volvió de su aventura',
+    'Su hazaña más destacada es la **matanza del minotauro**',
   ],
-  description: '',
-  difficulty: 3,
+  description: 'En la mitología griega **Teseo** (en griego, *Θησεύς*; "el que funda") es un héroe ateniense. Hijo del rey Egeo, su historia es narrada en **la vida de Teseo** de Plutarco. Su más notable hazaña es su expecidicón a la isla de Creta donde mata al minotauro y, con la ayuda de Ariadna, hija del rey Minos, escapa del laberinto. En el regreso a casa abandona a Ariadna en la isla de Naxos, algunas versiones dicen que por orden de los dioses y otras por voluntad propia, pero olvida de cambiar las velas de su barco. Al ver las velas negras, creyendo que su hijo había muerto, el rey Egeo se arroja al mar desde lo más alto de la Acrópolis, mar que a partir de ese momento lleva su nombre.',
+  difficulty: 2,
 }

@@ -1,15 +1,16 @@
 {
   id: 'charon',
   answers: [
-    '',
+    'caron',
+    'caronte',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'Conocido con el epíteto de **"el barquero"**',
+    'Es un **psicopompo**',
+    'Navega desde el **Aqueronte** hasta el final del **Estigia**',
+    'Cobraba **un óbolo** por su viaje',
+    'Lleva las **almas de los difuntos** al inframundo',
   ],
-  description: '',
-  difficulty: 3,
+  description: 'En la mitología griega, **Caronte** o **Carón** (en griego, *Χάρων*) es el barquero del inframundo que navega por el río Estigia para llevar las almas de los muertos al Hades. Según la leyenda, se colocaba un óbolo (una moneda de la antigüedad) bajo la lengua de los difuntos antes de ser enterrados para pagar el viaje del psicopompo. Aquellas sombras que no pudieran pagar el pasaje se veían condenados a vagar por las orillas del Estigia por cien años.\n\n*Nota del autor*: resulta que la supuesta tradición de dos monedas en los ojos es una reinterpretación moderna, sin fundamento en las fuentes originales.',
+  difficulty: 5,
 }

@@ -1,0 +1,15 @@
+{
+  id: 'moses',
+  answers: [
+    'moises',
+  ],
+  hints: [
+    'Autor del **pentateuco**',
+    'Sobrevivió **diez plagas**',
+    'Del Monte Sinaí descendió con **los diez mandamientos**',
+    'Partió **las aguas** del Mar Rojo',
+    'Su nombre es usado como título de la segunda canción de *La Biblia* de **Vox Dei**',
+  ],
+  description: '**Moises** (en hebreo, *מֹשֶׁה‎*) es uno de los profetas más importantes para el judaísmo. Según la leyenda, Dios (Yayvéh) se le apareció en forma de una zarza ardiente en la cima del monte Horeb y le ordenó que regresara a Egipto para sacar a su pueblo del yugo egipcio y que lo lleve a la tierra prometida de Canaán. Entre las fuerzas egipcias y el Mar Rojo Moisés invocó la gracia divina para partir las aguas y que su pueblo cruzase con seguridad.\n\n*Nota del autor*: [temazo](https://www.youtube.com/watch?v=A3NYrWSrymo), descansá en paz rey',
+  difficulty: 3,
+}

@@ -1,0 +1,15 @@
+{
+  id: 'nemesis',
+  answers: [
+    'nemesis',
+  ],
+  hints: [
+    'Una diosa alada encargada de la **retribución divina**',
+    'Se dice que de ella **no se puede huir**',
+    'Encarnación de la **venganza**',
+    'Maldijo a **Narciso** y lo llevó a su muerte',
+    'Su nombre se usa para designar a un **enemigo mortal**',
+  ],
+  description: 'En la mitología griega **Nemesis** (en griego, *Νέμεσις*) es la personificación del **castigo divino**, la **venganza justa** y la **retribución**. Según la leyenda, Zeus se enamoró de Némesis y la persiguió por todos lados. La diosa cambió su forma a la de una oca para escapar, pero Zeus se transformó en un cisne para tomarla y de esta unión nació **Helena de Troya**, lo que resultó un castigo para la humanidad.',
+  difficulty: 3,
+}

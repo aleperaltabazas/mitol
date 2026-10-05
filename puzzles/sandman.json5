@@ -1,0 +1,16 @@
+{
+  id: 'sandman',
+  answers: [
+    'sandman',
+    'arenero',
+  ],
+  hints: [
+    'Un personaje del folclore europeo asociado **los sueños**',
+    '**Wesley Dodds** de *DC Comics* usa el nombre de este personaje para su alter-ego',
+    'Una canción del grupo *The Chordettes* lleva su nombre',
+    'Rocía **arena mágica** en los ojos de los durmientes para que tengan dulces sueños',
+    'La canción más popular de **Metallica** hace referencia al personaje',
+  ],
+  description: 'El **Arenero** (*Sandman*) es un personaje del folclore europeo, con raíces en la mitología celta y sajona, que visita todas las noches a la gente mientras que duermen y los rocía con arena mágica para que tengan dulces sueños. En el universo de *DC Comics* dos personajes se asocian a esta criatura: **Wesley Dodds**, un superhéroe de la Sociedad de la Justicia; y **Morfeo**, el dios de los sueños.\n\n*Nota del autor*: me gusta más la [versión de Chet Atkins](https://www.youtube.com/watch?v=dfsG1ukihl4)',
+  difficulty: 5,
+}

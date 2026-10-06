@@ -1,0 +1,18 @@
+{
+  id: 'janus',
+  answers: [
+    'jano',
+    'janus',
+    'iano',
+    'ianus',
+  ],
+  hints: [
+    'Dios de **los comienzos**',
+    'Existía desde el origen junto al **caos**',
+    'Se dice que tiene **dos caras**',
+    'Es la **deidad principal** de su panteón',
+    'El mes de **enero** deriva su nombre de él',
+  ],
+  description: 'En la mitología romana **Jano** (del latín *Janus*) era el dios de los comienzos, las puertas, las transiciones y el tiempo. Es el dios primordial de la mitología romana conocido como "dios de dioses". Se dice que tiene dos caras, una que mira hacia atrás y otra hacia adelante, pues así no pierde el tiempo torciendo el cuello para mirar dos cosas a la vez.',
+  difficulty: 5,
+}

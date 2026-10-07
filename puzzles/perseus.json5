@@ -1,15 +1,16 @@
 {
   id: 'perseus',
   answers: [
-    '',
+    'perseo',
+    'perseus',
   ],
   hints: [
     'Fundador de **Micenas**',
-    '',
-    '',
-    '',
-    '',
+    'En sus viajes liberó a una princesa **encadenada a una roca**',
+    'Liberador de **Pegaso**',
+    'Atenea le otorgó su **égida**, Hades su **caso de invisibilidad**',
+    'Asesino de **Medusa**',
   ],
-  description: '',
+  description: '**Perseo** (en griego, *Περσεύς*) es un héroe en la mitología griega. Hijo de Zeus y la mortal Dánae, es un semidiós y uno de los primeros héroes de la historia griega en su cronología. Su hazaña más destacada es su enfrentamiento con **Medusa**, la más joven de las gorgonas, capaz de petrificar a todo hombre que encontrase con su mirada. Según la leyenda, los mismos dioses del Olimpo lo prepararon para el enfrentamiento: **Atenea** le entregó su égida (o, según unas versiones, un mero espejo), **Hades** su casco de invisbilidad y **Hermes** sus botas aladas. Con estos artefactos a su disposición y gran astucia, Perseo se hizo camino a Medusa usando el escudo como espejo y cercenó su cabeza mientras dormía.',
   difficulty: 3,
 }

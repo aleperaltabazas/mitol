@@ -1,0 +1,15 @@
+{
+  id: 'andromeda',
+  answers: [
+    'andromeda',
+  ],
+  hints: [
+    'Princesa de **Etiopía**, sus padres se ganaron la ira del dios de los mares',
+    'Una **constelación** lleva su nombre',
+    'Para calmar la ira de Poseidón sus padres la **encadenaron a una roca** como tributo',
+    'Una **galaxia** lleva su nombre',
+    'Fue liberada por **Perseo** con quien luego se cazó.',
+  ],
+  description: 'En la mitología griega **Andrómeda** era una princesa etíope, hija **Cefes** y **Casiopea**. Según la leyenda, su madre se jactó de ser más hermosa que cualquiera de las Nereidas. Poseidón, su protector, inundó sus tierras y envió al monstruo marino **Ceto**. Para apaciguar la ira del dios de los mares fue encadenada a una roca para que el monstruo la devore. Tras asesinar a Medusa, Perseo se enamoró a primera vista al pasar por la roca, la liberó y la tomó como esposa.',
+  difficulty: 4,
+}

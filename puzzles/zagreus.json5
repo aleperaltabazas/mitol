@@ -1,15 +1,16 @@
 {
   id: 'zagreus',
   answers: [
-    '',
+    'zagreo',
+    'zagreus',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    '**Príncipe** del inframundo',
+    'Fue **devorado por los titanes** cuando era apenas un **bebé**',
+    'Es una figura central en los **cultos órficos**',
+    'Se dice que **nació dos veces**',
+    'Protagonista de la saga de **Hades** de *Supergiant Games*',
   ],
-  description: '',
-  difficulty: 3,
+  description: '**Zagreo** (en griego, *Ζαγρεύς*) es un personaje de la mitología griega, particularmente el culto **órfico**. Es un hijo de **Hades*, lo que lo convierte en el **príncipe** del inframundo. Según la leyenda, al nacer Zagreo fue descuartizado por los titanes cuando era apenas un bebé, devorando salvo su corazón rescatado por Apolo (o Atenea, en algunas versiones). Zeus tragó el corazón del niño y lo trajo de vuelta a la vida.\n\nPara la religión órfica, Zagreo es un aspecto de **Dioniso, el dos veces nacido**.',
+  difficulty: 5,
 }

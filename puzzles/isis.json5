@@ -1,0 +1,15 @@
+{
+  id: 'isis',
+  answers: [
+    'isis',
+  ],
+  hints: [
+    'Diosa de la **magia** y la **maternidad**',
+    '',
+    '',
+    '',
+    '',
+  ],
+  description: '',
+  difficulty: 3,
+}

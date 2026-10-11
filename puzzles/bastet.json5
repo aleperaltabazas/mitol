@@ -1,0 +1,16 @@
+{
+  id: 'bastet',
+  answers: [
+    'bastet',
+    'bast',
+  ],
+  hints: [
+    'Diosa del **hogar** y la **fertilidad**',
+    'Del panteón **egipcio**',
+    'La ciudad de **Bubastis** estaba consagrada a su culto',
+    'A veces una faceta de **Sejmet**',
+    'Se la representa con la cabeza de un **gato**',
+  ],
+  description: 'En la mitología egipcia **Bastet** era la diosa del hogar, la fertilidad y la protección. Se la representaba como una mujer con cabeza de **gato**, pero en etapas más tempranas se la representaba con la cabeza de una **leona**. Este aspecto más salvaje y peligroso muestran su relación con **Sejmet**: una diosa de la fuerza con cabeza de leona. A veces se considera que ambas representan a una misma deidad pero en dos aspectos opuestos: Bastet encarna los aspectos maś pacíficos mientras que Sejmet los más peligrosos.',
+  difficulty: 5,
+}

@@ -1,0 +1,17 @@
+{
+  id: 'erebus',
+  answers: [
+    'erebo',
+    'erebus',
+    'erebos',
+  ],
+  hints: [
+    'La **oscuridad** encarnada',
+    'Del panteón **griego**',
+    'Hijo del **caos** y hermano de la **noche**',
+    'Su nombre a veces se usa para referirse **al inframundo**',
+    'Un **volcan activo** en la **Antártida** lleva su nombre',
+  ],
+  description: 'En la mitología griega **Érebo** (en griego, *Ἔρεβος*) es la fuerza primordial de la oscuridad personificada. Según la *Teogonía* «del Caos surgieron la oscuridad y la noche» (Érebo y Nix, respectivamente).',
+  difficulty: 5,
+}

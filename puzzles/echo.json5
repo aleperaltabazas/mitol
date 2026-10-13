@@ -1,0 +1,15 @@
+{
+  id: 'echo',
+  answers: [
+    'eco',
+  ],
+  hints: [
+    'Una **ninfa** del monte Citerón',
+    'Se dice que **amaba su propia voz**',
+    '**Narciso** rechazó su amor',
+    'Fue castiagada por **Hera** y condenada a repetir las últimas palabras escuchadas',
+    'Su nombre se usa para referirse a un **fenómeno acústico**',
+  ],
+  description: 'En la mitología griega **Eco** (en griego, *Ἠχώ*) era una ninfa que habitaba en el monte Citerón. Castigada por Hera por distraerla mientras su marido se encontraba con otras ninfas, le quitó la capacidad de hablar voluntariamente y a repetir las últimas palabras que escuchara de otras personas. Un día, mientras Narciso pasaba, Eco lo vio y se enamoró. Incapaz de expresar su amor por el hombre, Narciso la rechazó. Consumida por el sufrimiento del rechazo, poco a poco fue perdiendo su vitalidad hasta que solo quedaron su voz y sus huesos. A pesar de que ya no se la vea, se dice que su voz aún se oye en los bosques y montañas.',
+  difficulty: 4,
+}

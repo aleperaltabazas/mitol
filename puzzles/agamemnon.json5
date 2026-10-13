@@ -1,7 +1,8 @@
 {
   id: 'agamemnon',
   answers: [
-    '',
+    'ayax',
+    'ajax',
   ],
   hints: [
     '',

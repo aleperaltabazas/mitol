@@ -5,11 +5,11 @@
   ],
   hints: [
     'Diosa de la **magia** y la **maternidad**',
-    '',
-    '',
-    '',
-    '',
+    'Del panteón **egipcio**',
+    'Devolvió a su **esposo** a la **vida**',
+    'Conoce el **nombre secreto** de **Ra**',
+    'Un **grupo terrorista** casualmente lleva su nombre (no hay relación)',
   ],
-  description: '',
+  description: '**Isis** (*𓊨𓏏𓆇*) es una de las figuras centrales de la mitología egipcia. Diosa de la maternidad, la magia, la resurrección y la realeza, su nombre está siempre presente. Por un lado, juega un papel central en la resurrección de su esposo, **Osiris**, convirtiéndolo en el dios de los muertos. A su vez, esto le permitió concebir a **Horus**, otro díos importantísimo de la religión quien retomó su lugar como legítimo rey de Egipto. Por otro lado, es el único ser que conoce el **verdadero nombre de Ra**, lo que le da poder absoluto sobre el dios supremo.',
   difficulty: 3,
 }

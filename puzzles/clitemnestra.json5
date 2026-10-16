@@ -1,15 +1,15 @@
 {
   id: 'clitemnestra',
   answers: [
-    '',
+    'clitemnestra',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'Reina de **Micenas**',
+    'Murió a manos de **su propio hijo**',
+    'Su hija fue **sacrificada** a los dioses',
+    'Mencionada en el *Catálogo de mujeres* de **la Ilíada**',
+    'Diez años esperó el regreso de su marido para **asesinarlo**',
   ],
-  description: '',
-  difficulty: 3,
+  description: 'En la mitología griega **Clitemnestra** (en griego, *Κλυταιμνήστρα*) es la esposa de **Agamenón** y por tanto reina de Micenas. En el marco de la guerra de Troya, los dioses ordenan a Agamenón sacrificar a su hija mayor, **Ifigenia**. La reina ruega que no lo haga, pero sus súplicas son en vano. Ese día juró vengarse de su marido, promesa que concretó diez años más tardes cuando lo ejecutó junto a su concubina, la pitonisa **Casandra**. Más adelante su hija **Electra** y su hijo **Orestes** idearon un plan para a su vez vengar la muerte de su padre, dando fin a la reina.',
+  difficulty: 5,
 }

@@ -1,0 +1,17 @@
+{
+  id: 'fortuna',
+  answers: [
+    'fortuna',
+    'tique',
+    'tyche',
+  ],
+  hints: [
+    'Encarnación de la **suerte** y la **casualidad**',
+    'Simbolizada con **una rueda**',
+    'En el tarot es la décima carta del **Arcano Mayor**',
+    'Se dice que **favorece** a los **audaces**',
+    'Patrona de los casinos y **casas de apuestas**',
+  ],
+  description: 'En la mitología romana **Fortuna** o **Tique** para los griegos (en griego, *Τύχη*) era la encarnación de la suerte o casualidad, en el sentido del destino que le depara a uno o más individuos. Puede ser una diosa de la buena o de la mala suerte, sus acciones son impredecibles. La frase *«la fortuna favorece a los valientes/audaces»* tiene origen en la *Eneida* de **Virgilio**, en el décimo libro.',
+  difficulty: 4,
+}

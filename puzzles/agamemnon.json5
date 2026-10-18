@@ -1,16 +1,17 @@
 {
   id: 'agamemnon',
   answers: [
-    'ayax',
-    'ajax',
+    'agamenón',
+    'agamemnon',
+    'agamemnón',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'Rey de **Micenas**',
+    'Traicionado dos veces por su **primo**',
+    'Su hija fue **sacrificada** a los dioses',
+    'Padre de **Orestes** y **Electra**, vengadores de su muerte',
+    'Comandante del bando aqueo en la **guerra de Troya**',
   ],
-  description: '',
-  difficulty: 3,
+  description: 'En la mitología griega **Agamenón** (en griego, *Ἀγαμέμνων*) fue el rey de **Micenas** y jefe de la expedición aquea contra Troya para recuperar a **Helena**, la esposa de su hermano **Menelao**. Antes de zarpar, Agamenón mató a un ciervo consagrado a Artemisa. Para apaciguar la cólera de la diosa, Agamenón sacrificó a su hija *Ifigenia*, una decisión que su esposa **Clitemnestra** nunca le perdonó. En su regreso de la guerra de Troya fue asesinado por Clitemnestra y su amante **Egisto**, su primo. En el futuro, sus hijos **Orestes** y **Electra** vengarían su muerte.',
+  difficulty: 5,
 }

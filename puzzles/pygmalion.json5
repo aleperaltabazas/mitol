@@ -1,0 +1,15 @@
+{
+  id: 'pygmalion',
+  answers: [
+    'pigmalion',
+  ],
+  hints: [
+    'Un gran **escultor** chipriota',
+    'El doctor **Victor Frankenstein** está inspirado en este personaje',
+    'Se casó con una mujer **no nacida** de otra persona',
+    'Su material de preferencia era el **blanco marfil**',
+    'Afrodita otorgó vida a su **más hermosa escultura**',
+  ],
+  description: 'En la mitología griega **Pigmalión** era un rey de la isla de **Chipre**. Por mucho tiempo buscó una mujer digna para desposar. Sin encontrar jamás una a la altura de sus estándares, dedicó su tiempo a la escultura de la figura femenina, la más hermosa de todas sus creaciones bautizada **Galatea**. Según la leyenda, **Afrodita**, conmovida por el deseo de amor del rey, otorgó vida a Galatea y convirtió en humana.',
+  difficulty: 4,
+}

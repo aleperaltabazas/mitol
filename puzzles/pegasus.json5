@@ -1,0 +1,15 @@
+{
+  id: 'pegasus',
+  answers: [
+    'pegaso',
+  ],
+  hints: [
+    'Hijo de **Medusa**',
+    '**Belerofonte** mató a la Quimera **montado en su lomo**',
+    'En *Hercules* de *Disney* (1997) es otorgado al **bebé Hercules**',
+    'El **protagonista** de *Los Caballeros del Zodíaco* emplea su poder',
+    'Es un caballo **alado**',
+  ],
+  description: 'En la mitología griega **Pegaso** (en griego, *Πήγασος*) era un caballo alado. Habitaba en el Olimpo y llevaba el trueno y el rayo para Zeus. Se considera que Pegaso fue concebido de la unión de Poseidón y Medusa, pero su nacimiento ya adulto se dio cuando Perseo cercenó la cabeza de la górgona.',
+  difficulty: 2,
+}

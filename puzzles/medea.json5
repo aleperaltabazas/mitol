@@ -1,15 +1,15 @@
 {
   id: 'medea',
   answers: [
-    '',
+    'medea',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'Curiosamente, no es la única madre griega en cometer **infanticidio**',
+    'Una temible **hechicera** de la Cólquida',
+    'Eurípides narra su **tragedia** en una de sus obras',
+    'La única **argonauta mujer** presente en todas sus versiones',
+    'Estableció su reino en la región de **Medía** (actual Irán)',
   ],
-  description: '',
+  description: 'En la mitología griega **Medea* (en griego, *Μήδεια*) era una bruja perteneciente al grupo de los argonatuas. Una princesa de Cólquida, se enamoró d Jasón durante su búsqueda por el vellocino de oro. Huyó con él a bordo del Argos, tarde se casaron y tuvieron dos hijos.\n\nLamentablemente, la ambición de Jasón lo traicionó: abandonó a Medea para desposar a la hija del rey Creonte y así suceder la corona corintia. Furiosa, la bruja Medea envió como a la nueva reina un hermoso manto embrujado que incendiaría a quien se lo pusiera. Mientras esto ocurría, Medea asesinó a los dos hijos que tuvo con Jasón.',
   difficulty: 3,
 }

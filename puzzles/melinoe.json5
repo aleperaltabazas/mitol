@@ -1,0 +1,15 @@
+{
+  id: 'melinoe',
+  answers: [
+    'melinoe',
+  ],
+  hints: [
+    'Princesa del **inframundo**',
+    'A veces considerada un aspecto de **Hécate**, particularmente el **orfismo**',
+    'Diosa de las **pesadillas** y la **locura**',
+    'El nombre **Melania** comparte raíz etimológica',
+    'El vídeojuego *Hades II* la tiene como protagonista',
+  ],
+  description: 'En la mitología griega **Melinoe** (del griego *μέλας*, «negro»; y *νόος*, «mente») una diosa ctónica asociada con las **pesadillas** y la **locura**. Hija de **Perséfone** y **Zeus** (quien se disfrazó de **Hades**), la mitad de su cuerpo era luz y la otra mitad era oscuridad, reflejando ambas partes de su linaje.',
+  difficulty: 5,
+}

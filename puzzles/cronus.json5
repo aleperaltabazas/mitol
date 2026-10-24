@@ -1,0 +1,18 @@
+{
+  id: 'cronus',
+  answers: [
+    'crono',
+    'cronos',
+    'chronos',
+    'chrono',
+  ],
+  hints: [
+    'El máximo gobernante durante la **edad dorada**, según Hesíodo',
+    'Es en lo más esencial de su ser un **granjero**, empuña siempre una **hoz** o una **guadaña**',
+    'Tras ser derrocado fue encerrado en las profundidades del **Tártaro** junto a sus hermanos',
+    'Hijo de la **Tierra** y de el **Cielo**',
+    'Alguna vez probó la **sopa de bebé**, pero termino **vomitándola**',
+  ],
+  description: 'En la mitología griega **Crono** o **Cronos** (en griego, *Κρόνος*) es el más joven de los titanes nacidos de **Gea** y **Urano**. Lo más probable es que originalmente haya sido una deidad asociada a la **cosecha**, por eso siempre se le representa con una hoz que denota su naturaleza agrícola. El origen de su nombre resulta un misterio, pues es distinto de *Χρόνος* (pronunciado «jronos») que representa el tiempo.\n\nEn la tradicion más común, Crono en unión con Rea engendraron a seis dioses que luego reinarían desde el Olimpo. Según la leyenda, así como Cronos derrocó a su padre, este le advirtió que su descendencia haría lo mismo. Para evitarlo se comía a cada uno de sus bebés, pero el más joven, Zeus, fue ocultado por su madre y eventualmente logró destronarlo.',
+  difficulty: 4,
+}

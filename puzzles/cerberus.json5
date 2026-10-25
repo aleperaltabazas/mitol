@@ -1,0 +1,18 @@
+{
+  id: 'cerberus',
+  answers: [
+    'cerbero',
+    'cancerbero',
+    'can cerbero',
+    'cerberus',
+  ],
+  hints: [
+    'El **mejor amigo** del hombre, y de un **dios**',
+    'Tiene **tres** cabezas',
+    'Guarda la entrada al **inframundo**',
+    'La última tarea de **Heracles** fue capturarlo',
+    'Es un **can**',
+  ],
+  description: 'En la mitología griega **Cerbero** (en griego, *Κέρβερος*), a veces llamado **Cancerbero**, era el perro guardián de las puertas del inframundo. Hijo de Tifón y Equidna, este perro monstruoso tenía **tres cabezas**.',
+  difficulty: 2,
+}

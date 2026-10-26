@@ -1,0 +1,15 @@
+{
+  id: 'diomedes',
+  answers: [
+    'diomedes',
+  ],
+  hints: [
+    'Guerrero rey de **Argos**',
+    'Luchó en la **guerra de Troya**',
+    'Un mortal que logró **herir a una diosa**',
+    'El favorito de **Atenea**',
+    'No solo hirió a la **diosa del amor**, también al **dios de la guerra**',
+  ],
+  description: 'En la mitología griega **Diomedes** (en griego, *Διομήδης*) fue un héroe de la guerra de Troya del bando aqueo. Nativo rey de Argos, es considerado uno de los más valientes guerreros a la par del mismísimo Aquiles. Según la leyenda, Atenea le infunde una gran **fuerza** (*μένος*, «menos») y la capacidad de herir tanto guerreros como dioses. Es así como con su lanza corta la mano de Afrodita y más tarde, protegido por la diosa, se enfrenta con el mismísimo **Ares**.',
+  difficulty: 5,
+}

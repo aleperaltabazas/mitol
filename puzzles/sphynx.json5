@@ -1,15 +1,15 @@
 {
   id: 'sphynx',
   answers: [
-    '',
+    'esfinge',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    '«Por la mañana camina en cuatro patas...»',
+    'Custodia la entrada a **Tebas**',
+    '«..., al mediodía en dos...»',
+    'Es un león **alado** con **rostro de mujer**',
+    '«... y por la noche en 3.»',
   ],
-  description: '',
+  description: 'En la mitología griega la **Esfinge** (en griego, *Σφίγξ*) era un monstruo maligno, un león alado con rostro de mujer. Custodiaba la entrada a Tebas. A cualquiera que se acercase le presentaba un acertijo y a quien no pudiera resolverlo lo **devoraba**. Según la leyenda, **Edipo** se cruzó con la Esfinge en su camino y resolvió todos sus acertijos correctamente',
   difficulty: 3,
 }

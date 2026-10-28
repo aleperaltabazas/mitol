@@ -1,0 +1,15 @@
+{
+  id: 'aphrodite',
+  answers: [
+    'afrodita',
+  ],
+  hints: [
+    'Nacida en las **aguas** de Chipre',
+    'La causante de la **guerra de Troya**',
+    'Casi siempre se la representa **desnuda**',
+    'Mantuvo un amorío con **el dios de la guerra**',
+    'Diosa griega del **amor** y la **belleza femenina**',
+  ],
+  description: 'En la mitología griega **Afrodita** (en griego, *Ἀφροδίτη*) era la diosa del **amor**, la **atracción**, la **belleza femenina** y la **atracción sexual**. La más hermosa de todas las diosas, su dominio abarca todo tipo de amor, y en todas sus formas. Según la leyenda, nació ya adulta de la espuma formada de los genitales de **Urano**, cercenados por su hijo **Cronos**.',
+  difficulty: 2,
+}

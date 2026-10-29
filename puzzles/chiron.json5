@@ -1,0 +1,18 @@
+{
+  id: 'chiron',
+  answers: [
+    'quiron',
+    'quironte',
+    'chiron',
+    'queiron',
+  ],
+  hints: [
+    'El maestro de **Aquiles**',
+    'Elevado a los cielos en la constelación de **el arquero**',
+    'Un **centauro** que practicaba la **medicina**',
+    'Murió por error con una flecha de **Heracles**',
+    'El primero en aplicar la medicina **quirúrgica**, la cual deriva su nombre de él',
+  ],
+  description: 'En la mitología griega **Quirón** o **Quironte** (en griego, *Χείρων*) era un centauro medio hermano de Zeus. Se dice que fue el primero en aplicar la medicina quirúrgica, la cual tiene origen en la palabra griega *χειρουργός* («cirujano», "que trabaja con las manos"). La constelación de **Sagitario** lleva su figura pues fue elevado a las estrellas tras su muerte. Su principal fama viene como el maestro de el mismísimo **Aquiles**, según la leyenda su padre lo habría dejado al cuidado del centauro cuando era apenas un bebé. Quirón crió al pequeño y lo formó para convertirse en el feroz guerrero que resultó ser.',
+  difficulty: 5,
+}

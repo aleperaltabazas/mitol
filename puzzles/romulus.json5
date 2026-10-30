@@ -1,0 +1,16 @@
+{
+  id: 'romulus',
+  answers: [
+    'romulo',
+    'romulus',
+  ],
+  hints: [
+    'Fundador del **imperio** más conocido en la historia occidental',
+    'Descendiente directo de **Eneas**',
+    'Todos los caminos conducen a **su ciudad**',
+    'Fue amamantado por una **loba**',
+    'Si fuera por su hermano, la ciudad se llamaría **Remoria**',
+  ],
+  description: 'En la mitología romana **Rómulo** es el héroe fundador de la ciudad de **Roma**. Junto a su hermano, **Remo**, partieron de Alba Longa para fundar su propia ciudad. Según la leyenda, Rómulo vio más buitres que su hermano y ganó el juego para determinar quien sería el gobernante de la nueva ciudad. Remo no respetó los límites establecidos por su hermano y una discusión terminó con un hermano muerto.',
+  difficulty: 4,
+}

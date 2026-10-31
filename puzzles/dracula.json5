@@ -4,12 +4,12 @@
     'dracula',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'Desprecia el **pan de ajo**',
+    'Muy posiblemente sea **deficiente en vitamina D**',
+    'No es **Batman**, pero se le parece bastante',
+    'Un aterrador **conde** de **Transilvania**',
+    'Su bebida favorita es **la sangre**',
   ],
-  description: '',
+  description: 'El **conde Drácula** es un personaje de **Bram Stoker** y el prototipo de **vampiro** que inspiró diversas adaptaciones y nuevos personajes. Inspirado en la figura de **Vlad, el empalador**, quien dicen los rumores guardaba en un cuenco la sangre de sus víctimas para luego mojar el pan en ella mientras comía.',
   difficulty: 3,
 }

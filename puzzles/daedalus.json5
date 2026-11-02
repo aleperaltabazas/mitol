@@ -1,0 +1,15 @@
+{
+  id: 'daedalus',
+  answers: [
+    'dedalo',
+  ],
+  hints: [
+    'Expulsado de Atenas por un **asesinato** cometido por **envidia**',
+    'El segundo más grande **arquitecto** después de Fidias',
+    'Diseñador del **laberinto del minotauro**',
+    'Con un **par de alas** escapó de su prisión en Creta',
+    'Le dio nombre a la tierra de **Icaria** en honor a su difunto hijo',
+  ],
+  description: 'En la mitología griega **Dédalo** (en griego, *Δαίδαλος) es un arquitecto y artesano famoso por haber construido el laberinto del minotauro en Creta. Envidioso de las increíbles habilidades de su sobrino, **Pérdix**, lo empujó de lo más alto del tempo de Atenea en la Acrópolis. Desterrado, se dirigió a Creta y se puso al servicio del rey Minos, donde fue encargado con diseñar el **laberinto del minotauro**.',
+  difficulty: 3,
+}

@@ -1,0 +1,15 @@
+{
+  id: 'typhon',
+  answers: [
+    'tifon',
+  ],
+  hints: [
+    'Probablemente sería hincha de **huracán**',
+    'Alado, con rasgos de **serpiente**, escupía **fuego**',
+    'Padre de todos los **monstruos**',
+    'Es una deidad asociada con **los vientos cálidos**',
+    'Su nombre influenció el árabe «tufán» para describir un **fenómeno meteorológico**',
+  ],
+  description: 'En la mitología griega **Tifón** (en griego, *Τυφών*) es una deidad primordial, pero no es un dios, ni titán, ni gigante u otro tipo de criatura típico de la cosmogonía. Es un enorme monstruo y se considera que junto con **Edquina** dieron a luz a una gran cantidad de monstruos. Hijo de Gea y Tártaro, se considera que Tifón controla los vientos y las tempestades: de allí que la palabra **tifón** se use para describir un tipo de ciclón.',
+  difficulty: 4,
+}

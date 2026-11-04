@@ -1,0 +1,15 @@
+{
+  id: 'prometheus',
+  answers: [
+    'prometeo',
+  ],
+  hints: [
+    'Sus transgresiones contra los dioses llevaron a la creación de **Pandora y su caja**',
+    'El más grande **benefactor** de la **humanidad**',
+    'Durante mucho tiempo vivió (en gran miseria) **en el Cáucaso**',
+    'Portador de una **luminosa antorcha**',
+    'Esquilo cuenta la tragedia de cómo terminó **encadenado**',
+  ],
+  description: 'En la mitología griega **Prometeo** (en griego, *Προμηθεύς*; «prospección») era un titán amigo de la humanidad. Su más destacada hazaña fue la de robar el **fuego sagrado** de Hefesto y dárselo a la humanidad. Desde ese momento el ser humano pudo mantenerse caliente, cocinar la comida e iluminar su camino. No obstante, dicha acción no pasó desapercibida por los olímpicos. Como castigo, Prometeo fue encadenado en el Cáucaso y todos los días un águila comía su hígado mientras que por la noche se regeneraba. No fue hasta la llegada del mismísimo **Heracles** que lo liberó de su eterna tortura.',
+  difficulty: 3,
+}

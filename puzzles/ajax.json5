@@ -1,15 +1,17 @@
 {
   id: 'ayax',
   answers: [
-    '',
+    'ayax',
+    'ayante',
+    'ajax',
   ],
   hints: [
-    '',
-    '',
-    '',
-    '',
-    '',
+    'El segundo más grande guerrero aqueo después **Aquiles**',
+    'Un compañero suyo durante la guerra de Troya **comparte su nombre**, pero es un personaje **menor**',
+    'Odiseo se lo encuentra en su **viaje al inframundo**',
+    'Se lo describe como un guerrero de **gran** estatura y **gran** fuerza',
+    'Un equipo de **fútbol** de **Ámsterdam** lleva su nombre',
   ],
-  description: '',
-  difficulty: 3,
+  description: 'En la mitología griega **Áyax el Grande** es un héroe de la guerra de Troya. Hijo del rey Telamón de la isla de Salamina, se dice que fue el guerrero más fuerte del bando aqueo después de su primo, Aquiles. Tras su muerte, Odiseo recibió su armadura. Áyax, cegado por la ira, asesinó un rebaño de ovejas pensando que eran sus comandantes. Al calmarse y reconocer a los animales domésticos, decidió quitarse la vida con una espada que le habría otorgado **Héctor** en uno de sus combates.',
+  difficulty: 5,
 }

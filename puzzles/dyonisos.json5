@@ -1,0 +1,17 @@
+{
+  id: 'dyonisos',
+  answers: [
+    'dioniso',
+    'dionisio',
+    'baco',
+  ],
+  hints: [
+    'Encaja perfectamente en la definición de **un cordobés** para *El Potro Bueno*',
+    'Uno de los **dioses del Olimpo**',
+    'Según algunas fuentes, su nombre significa **el nacido dos veces**',
+    'Simbolizado con **la copa**',
+    'Dios del **vino** y el **éxtasis**',
+  ],
+  description: 'En la mitología griega **Dioniso** (en griego, *Διόνυσος*; frecuentemente confundido con **Dionisio** que en realidad significa «de Dioniso») o **Baco** (*Βάκχος*) es el dios del **vino**, el **éxtasis**, el **trance** y la **liberación**. En la mayoría de las versiones es hijo de Zeus y la mortal Sémele, y su epíteto de «el dos veces nacido» hace referencia a que en ciertas interpretaciones Sémele muere antes de dar a luz a Dioniso. En ese momento, Zeus rescata al feto del vientre de la madre y colocó al bebé en su muslo hasta que estuviera listo para nacer.',
+  difficulty: 2,
+}

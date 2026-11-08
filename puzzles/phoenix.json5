@@ -1,0 +1,15 @@
+{
+  id: 'phoenix',
+  answers: [
+    'fenix',
+  ],
+  hints: [
+    'Probablemente el **pájaro** más reconocido de toda la mitología',
+    'Es color **carmesí**',
+    'Renace de las **cenizas** que deja al **morir**',
+    'Una **ciudad de Arizona, Estados Unidos** lleva su nombre',
+    'Originario de la antigua **Fenicia**',
+  ],
+  description: 'El **Fénix** (en griego, *φοῖνιξ*) es un ave presente en diversas mitologías cuya principal característica es la capacidad de **volver a la vida**. Hay diversas tradiciones: algunos creen que el fénix muere **en llamas**, mientras que otras consideran que simplemente se **descompone en cenizas** antes de volver a nacer.',
+  difficulty: 2,
+}

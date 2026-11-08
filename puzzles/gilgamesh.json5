@@ -1,0 +1,15 @@
+{
+  id: 'gilgamesh',
+  answers: [
+    'gilgamesh',
+  ],
+  hints: [
+    'Divino gobernante de **Sumeria**',
+    '',
+    '',
+    '',
+    '',
+  ],
+  description: '',
+  difficulty: 3,
+}

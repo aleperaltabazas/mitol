@@ -1,0 +1,17 @@
+{
+  id: 'calliope',
+  answers: [
+    'calíope',
+    'caliope',
+    'calliope',
+  ],
+  hints: [
+    'La mayor de las **musas**',
+    'Se dice que inventó **la canción**',
+    'Preside por sobre la **poesía**',
+    'Es la madre de **Orfeo**',
+    'En *Sandman* de Neil Gaiman es la **ex-esposa** de Morfeo',
+  ],
+  description: 'En la mitología griega **Calíope** (en griego, *Καλλιόπη*; «de bella voz») era la musa de la **poesía**. Hija de Zeus y Mnemósine, es la mayor de las musas. Fue la madre del célebre Orfeo, y algunos creen que el mismísimo Homero es descendiente de ella.',
+  difficulty: 3,
+}

@@ -1,0 +1,20 @@
+{
+  id: 'jekyll',
+  answers: [
+    'jekyll',
+    'henry jekyll',
+    'dr jekyll',
+    'hyde',
+    'mr hyde',
+    'edward hyde',
+  ],
+  hints: [
+    'Durante el día es un exitoso **doctor**...',
+    'Sirvió como inspiración para **el increíble Hulk**',
+    '...y por la noche se convierte en un **criminal atroz**',
+    'El motor de **Github Pages** lleva su nombre',
+    'R.L. Stevenson narra su **extraño caso**',
+  ],
+  description: '**Henry Jekyll** es un celebrado doctor y científico inglés que este doctor alberga un oscuro secreto. Durante toda su vida ha luchado contra una maldad en su interior. Para deshacerse de esta creó una pócima experimental, pero su invento le falló: en lugar de destilar la maldad de su cuerpo lo transformó en el malvado **Edward Hyde**, un hombre sin inhibiciones y capaz de cualquier atrocidad.',
+  difficulty: 5,
+}

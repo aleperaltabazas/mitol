@@ -1,0 +1,17 @@
+{
+  id: 'bellerophon',
+  answers: [
+    'belerofonte',
+    'belerofon',
+    'belerofontes',
+  ],
+  hints: [
+    'El primer jinete del **Pegaso**',
+    'Descendiente de **Sísifo**',
+    'Asesino de la **Quimera**',
+    'Los dioses castigaron su *hubris* al intentar **ascender al Olimpo**',
+    'Su nombre se traduce como «el asesino de **Belero**»',
+  ],
+  description: 'En la mitología griega **Belerofón** o **Belerofonte** (en griego, *Βελλεροφῶν*) es un héroe de Corinto reconocido por ser el primero en domar y jinetear al **Pegaso**. Acusado falsamente por la **reina Estenebea** de haberla violado, el rey **Preto** lo envía a la corte de su suegro el **rey Ióbates** con una carta sellada. Tras haberlo acogido el rey abre la carta: su yerno le solicitaba que **asesinase** al mensajero. Para deshacerse de él le encarga con asesinar a la **Quimera**, un monstruo con cabeza de cabra, cuerpo de león y cola de serpiente, con la esperanza de que la bestia lo matara. Desafortunadamente para Ióbates, Belerofonte bendecido por Atenea doma al Pegaso y derrota a la Quimera.',
+  difficulty: 3,
+}

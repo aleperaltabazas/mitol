@@ -1,0 +1,17 @@
+{
+  id: 'eros',
+  answers: [
+    'eros',
+    'cupido',
+    'amor',
+  ],
+  hints: [
+    'Encarnación del **amor** y del **deseo**',
+    'Su espsoa es **el alma**',
+    'A veces es hijo de **Afrodita**',
+    'Es un excelente **arquero**',
+    'Su equivalente romano se lo suele ver mucho en **el día de San Valentín**',
+  ],
+  description: 'En la mitología griega **Eros** (en griego, *Ἔρως*) y **Cupido** para los romanos era la personificación del **amor**, el **deseo**, la **amistad** y la **libertad**. Según la fuente puede se lo considera hijo de Afrodita y uno de los dioses más jovenes, o uno de los más antiguos y primordiales. Generalmente se lo representa con un arco y flecha que usa para enamorar perdidamente a su objetivo.',
+  difficulty: 3,
+}

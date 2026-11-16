@@ -1,0 +1,15 @@
+{
+  id: 'midas',
+  answers: [
+    'midas',
+  ],
+  hints: [
+    'Buen amigo del **padre de Dioniso**',
+    'Rey de Frigia, razón por la cual sus ríos solían encontrarse **llenos de oro**',
+    'Una bendición que resultó **maldición**',
+    'Se dice que su **toque** lo convierte todo en **oro**',
+    'Un **equipo de automovilismo** argentino usa su nombre',
+  ],
+  description: 'En la mitología griega el **rey Midas** (en griego, *Μίδας*) de Frigia era un hombre con la capacidad de convertir cualquier cosa en oro con solo tocarla. Según la leyenda, **Dioniso** le concedió este don por recibir con hospitalidad a su padre durante diez días. Pero al sentarse a comer y darse cuenta de las consecuencias imprevistas de dicha habilidad, le suplicó al dios que le quitara el don.',
+  difficulty: 4,
+}

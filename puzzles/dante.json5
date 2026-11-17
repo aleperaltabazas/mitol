@@ -1,0 +1,15 @@
+{
+  id: 'dante',
+  answers: [
+    'dante',
+  ],
+  hints: [
+    'Apodado **«el poeta supremo»**',
+    'Su obra maestra está compuesta por **tres partes** de **treinta y tres cantos**',
+    'Escribió durante el **período renacentista**',
+    'Descendió al **infierno** guiado por un **poeta latino**',
+    'Se lo considera el **padre** de la lengua **italiana**',
+  ],
+  description: '**Dante di Alighiero degli Alighieri**, conocido simplemente como **Dante**, fue un poeta italiano conocido por escribir la **Divina Comedia**, una de las obras más destacadas de la literatura. En ella, el mismo Dante es acompañado por **Virgilio** a través del infierno, el purgatorio y finalmente el paraíso. En el camino encuentran figuras históricas y mitológicas y otros personajes de la Florencia del renacimiento.',
+  difficulty: 2,
+}

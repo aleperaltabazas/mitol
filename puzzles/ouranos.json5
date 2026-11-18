@@ -1,0 +1,17 @@
+{
+  id: 'ouranos',
+  answers: [
+    'urano',
+    'uranos',
+    'ouranos',
+  ],
+  hints: [
+    'Si uno mira **para arriba** incluso hoy puede vislumbrarlo',
+    'En matrimonio con **la tierra**',
+    'Padre de los **titanes**',
+    'De sus genitales y la espuma del mar nació **la diosa del amor**',
+    'El **séptimo planeta** lleva su nombre',
+  ],
+  description: 'En la mitología griega **Urano** (en griego, *Οὐρανός*) es la encarnación prmiordial del **cielo**. Era hijo de Gea, la tierra, y a la vez su esposo, con quien tuvo a la primera generación de titanes. Según la leyenda, su hijo **Cronos** castró a su padre con su hoz y tomó su lugar como regente del universo.',
+  difficulty: 2,
+}

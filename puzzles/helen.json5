@@ -1,0 +1,16 @@
+{
+  id: 'helen',
+  answers: [
+    'helena',
+    'helena de troya',
+  ],
+  hints: [
+    'La mujer más **bella del mundo**',
+    'Fue **raptada** dos veces, la primera cuando era una niña por parte de **Teseo y Piritoo**',
+    'Se disputó una **guerra** por ella',
+    'Es la **reina** de Esparta',
+    'Una canción de **My Chemical Romance** del disco *Three_Cheers_For_Sweet_Revenge* tiene su nombre',
+  ],
+  description: 'En la mitología griega **Helena de Troya** (en griego, *Ἑλένη*) es una figura central del ciclo troyano. La mujer más bella del mundo, **Afrodita** le promete su mano a **Paris** si la declara la ganadora de la **manzana de la discordia**.',
+  difficulty: 1,
+}

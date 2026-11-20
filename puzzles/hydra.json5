@@ -12,5 +12,5 @@
     'Una **organización secreta nazi** lleva su nombre en el universo *Marvel*',
   ],
   description: 'En la mitología griega la **Hidra de Lerna** era una monstruosa serpiente venenosa con múltiples cabezas: cada vez que una es cortada dos crecen en su lugar. Acechaba el pantano de Lerna hasta que **Heracles** la asesinó como una de sus doce tareas. Para evitar el problema regenerativo, cada vez que le cortaba una cabeza cauterizaba la herida en el cuello hasta que le quedó una sola cabeza.',
-  difficulty: 3,
+  difficulty: 2,
 }

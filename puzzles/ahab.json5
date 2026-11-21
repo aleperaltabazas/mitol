@@ -1,0 +1,16 @@
+{
+  id: 'ahab',
+  answers: [
+    'ahab',
+    'ajab',
+  ],
+  hints: [
+    'Un marinero al que le falta **una pierna**',
+    'Sirvió de inspiración para el **capitán garfio**',
+    'Apodado *old thunder*',
+    'Capitán del **Pequod**',
+    'Obsesivamente en búsqueda de una **ballena blanca**',
+  ],
+  description: 'El capitán **Ahab** del *Pequod* es un personaje de la novela **Moby Dick** de Herman Melville. Tiene un único objetivo en su mente: tomar venganza por la ballena blanca que da el título a la novela y quien le arrancó la pierna.',
+  difficulty: 3,
+}
